@@ -1,0 +1,9 @@
+[
+  {
+    "model": "GPT-4",
+    "benchmark": "Full",
+    "pass_rate": 0.32,
+    "date": "2024-03-01",
+    "paper": "https://arxiv.org/abs/xxxx"
+  }
+]
