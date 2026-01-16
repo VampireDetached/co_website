@@ -2,41 +2,41 @@
   {
     "rank": 1,
     "model": "GPT-4o",
-    "overall_alignment": 88.5,
-    "false_consensus": 92.1,
-    "anchoring": 85.3,
-    "framing_effect": 88.1
+    "overall_alignment": 0,
+    "false_consensus": 0,
+    "anchoring": 0,
+    "framing_effect": 0
   },
   {
     "rank": 2,
     "model": "Claude 3.5 Sonnet",
-    "overall_alignment": 86.2,
-    "false_consensus": 89.5,
-    "anchoring": 84.0,
-    "framing_effect": 85.1
+    "overall_alignment": 0,
+    "false_consensus": 0,
+    "anchoring": 0,
+    "framing_effect": 0
   },
   {
     "rank": 3,
     "model": "Llama-3-70b",
-    "overall_alignment": 75.4,
-    "false_consensus": 78.2,
-    "anchoring": 72.5,
-    "framing_effect": 75.5
+    "overall_alignment": 0,
+    "false_consensus": 0,
+    "anchoring": 0,
+    "framing_effect": 0
   },
   {
     "rank": 4,
     "model": "GPT-3.5 Turbo",
-    "overall_alignment": 62.8,
-    "false_consensus": 65.0,
-    "anchoring": 60.1,
-    "framing_effect": 63.3
+    "overall_alignment": 0,
+    "false_consensus": 0,
+    "anchoring": 0,
+    "framing_effect": 0
   },
   {
     "rank": 5,
     "model": "Mixtral 8x7B",
-    "overall_alignment": 58.9,
-    "false_consensus": 55.4,
-    "anchoring": 62.3,
-    "framing_effect": 59.0
+    "overall_alignment": 0,
+    "false_consensus": 0,
+    "anchoring": 0,
+    "framing_effect": 0
   }
 ]
