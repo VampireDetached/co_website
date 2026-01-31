@@ -167,9 +167,6 @@ export default function LeaderboardList({ rawData }: { rawData: RawLeaderboardEn
                         {formatScore(row.overall_alignment)}
                     </span>
                 </td>
-                <td className="whitespace-nowrap px-3 py-4 text-sm text-center font-mono text-gray-600">
-                    {row.overall_ecs}
-                </td>
                 <td className="whitespace-nowrap px-3 py-4 text-sm hidden md:table-cell">
                     <div className="flex gap-1">
                         {/* Only showing first 12 studies to save space if dataset grows */}
@@ -208,17 +205,12 @@ export default function LeaderboardList({ rawData }: { rawData: RawLeaderboardEn
                                 <div key={studyData.study_id} className="bg-white p-3 rounded shadow-sm border border-gray-200">
                                     <h4 className="font-semibold text-xs uppercase text-gray-500 mb-2 border-b pb-1 flex justify-between">
                                         {studyData.study_id}
-                                        <div className="flex gap-3">
-                                            {studyData.ecs !== undefined && (
-                                                <span className="text-gray-900">ECS: {studyData.ecs}</span>
-                                            )}
-                                            <span className={studyData.average_bas > 0.7 ? "text-green-600" : "text-gray-900"}>
-                                                PAS: {(studyData.average_bas * 100).toFixed(1)}%
-                                            </span>
-                                        </div>
+                                        <span className={studyData.average_bas > 0.7 ? "text-green-600" : "text-gray-900"}>
+                                            Avg: {(studyData.average_bas * 100).toFixed(1)}%
+                                        </span>
                                     </h4>
                                     <div className="space-y-1">
-                                        {studyData.findings_breakdown && Object.entries(studyData.findings_breakdown).map(([finding, val]) => (
+                                        {Object.entries(studyData.findings_breakdown).map(([finding, val]) => (
                                             <div key={finding} className="flex items-center text-xs">
                                                 <span className="w-8 text-gray-400">{finding}</span>
                                                 <div className="flex-1 h-1.5 bg-gray-100 rounded-full mx-2">

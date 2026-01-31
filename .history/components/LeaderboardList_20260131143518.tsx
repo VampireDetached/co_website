@@ -48,20 +48,14 @@ export default function LeaderboardList({ rawData }: { rawData: RawLeaderboardEn
           model: entry.model,
           variant: entry.variant,
           overall_alignment: 0,
-          overall_ecs: "N/A",
           total_cost: 0,
           total_tokens: 0,
           study_scores: {},
-          study_ecs: {},
           raw_data: []
         };
       }
       
       grouped[key].study_scores[entry.study_id] = entry.average_bas;
-      if (entry.ecs !== undefined) {
-          grouped[key].study_ecs[entry.study_id] = entry.ecs;
-      }
-
       grouped[key].total_cost += entry.total_cost;
       grouped[key].total_tokens += entry.total_output_tokens;
       grouped[key].raw_data.push(entry);
@@ -71,19 +65,9 @@ export default function LeaderboardList({ rawData }: { rawData: RawLeaderboardEn
     return Object.values(grouped).map(group => {
       const studies = Object.values(group.study_scores);
       const avg = studies.reduce((a, b) => a + b, 0) / studies.length;
-      
-      // Calculate ECS average
-      const ecsValues = Object.values(group.study_ecs).filter(v => typeof v === 'number') as number[];
-      let avgEcsStr = "N/A";
-      if (ecsValues.length > 0) {
-          const avgEcs = ecsValues.reduce((a, b) => a + b, 0) / ecsValues.length;
-          avgEcsStr = avgEcs.toFixed(4);
-      }
-
       return {
         ...group,
-        overall_alignment: avg * 100, // Convert to percentage
-        overall_ecs: avgEcsStr
+        overall_alignment: avg * 100 // Convert to percentage
       };
     }).sort((a, b) => b.overall_alignment - a.overall_alignment); // Sort by score desc
 
@@ -138,8 +122,7 @@ export default function LeaderboardList({ rawData }: { rawData: RawLeaderboardEn
               <th scope="col" className="py-3.5 pl-4 pr-3 text-center text-sm font-semibold text-gray-900 sm:pl-6 w-12">Rank</th>
               <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Model</th>
               <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Variant</th>
-              <th scope="col" className="px-3 py-3.5 text-center text-sm font-semibold text-gray-900">PAS (Alignment)</th>
-              <th scope="col" className="px-3 py-3.5 text-center text-sm font-semibold text-gray-900">ECS</th>
+              <th scope="col" className="px-3 py-3.5 text-center text-sm font-semibold text-gray-900">Overall Alignment</th>
               <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900 hidden md:table-cell">Study Scores</th>
               <th scope="col" className="px-3 py-3.5 text-right text-sm font-semibold text-gray-900">Cost</th>
               <th scope="col" className="px-3 py-3.5 text-right text-sm font-semibold text-gray-900">Tokens</th>
@@ -166,9 +149,6 @@ export default function LeaderboardList({ rawData }: { rawData: RawLeaderboardEn
                     }`}>
                         {formatScore(row.overall_alignment)}
                     </span>
-                </td>
-                <td className="whitespace-nowrap px-3 py-4 text-sm text-center font-mono text-gray-600">
-                    {row.overall_ecs}
                 </td>
                 <td className="whitespace-nowrap px-3 py-4 text-sm hidden md:table-cell">
                     <div className="flex gap-1">
@@ -208,17 +188,12 @@ export default function LeaderboardList({ rawData }: { rawData: RawLeaderboardEn
                                 <div key={studyData.study_id} className="bg-white p-3 rounded shadow-sm border border-gray-200">
                                     <h4 className="font-semibold text-xs uppercase text-gray-500 mb-2 border-b pb-1 flex justify-between">
                                         {studyData.study_id}
-                                        <div className="flex gap-3">
-                                            {studyData.ecs !== undefined && (
-                                                <span className="text-gray-900">ECS: {studyData.ecs}</span>
-                                            )}
-                                            <span className={studyData.average_bas > 0.7 ? "text-green-600" : "text-gray-900"}>
-                                                PAS: {(studyData.average_bas * 100).toFixed(1)}%
-                                            </span>
-                                        </div>
+                                        <span className={studyData.average_bas > 0.7 ? "text-green-600" : "text-gray-900"}>
+                                            Avg: {(studyData.average_bas * 100).toFixed(1)}%
+                                        </span>
                                     </h4>
                                     <div className="space-y-1">
-                                        {studyData.findings_breakdown && Object.entries(studyData.findings_breakdown).map(([finding, val]) => (
+                                        {Object.entries(studyData.findings_breakdown).map(([finding, val]) => (
                                             <div key={finding} className="flex items-center text-xs">
                                                 <span className="w-8 text-gray-400">{finding}</span>
                                                 <div className="flex-1 h-1.5 bg-gray-100 rounded-full mx-2">

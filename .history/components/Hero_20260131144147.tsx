@@ -7,7 +7,7 @@ export default function Hero() {
         <div className="mx-auto max-w-2xl lg:mx-0 lg:flex-auto">
           <div className="mb-8 flex justify-start">
             <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-              <span className="font-semibold text-blue-600">Latest Validation:</span> Evaluating anthropomorphic alignment in next-gen models. New data for Anthropic Claude Haiku 4.5 included. <a href="#leaderboard" className="font-semibold text-blue-600"><span className="absolute inset-0" aria-hidden="true"></span>View Results <span aria-hidden="true">&rarr;</span></a>
+              <span className="font-semibold text-blue-600">New Update:</span> Full evaluation of Anthropic Claude Haiku 4.5 is now live. <a href="#leaderboard" className="font-semibold text-blue-600"><span className="absolute inset-0" aria-hidden="true"></span>View Results <span aria-hidden="true">&rarr;</span></a>
             </div>
           </div>
           <h1 className="max-w-lg text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl font-serif">
