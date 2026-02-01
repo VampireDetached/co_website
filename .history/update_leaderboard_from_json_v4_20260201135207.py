@@ -10,15 +10,13 @@ def parse_model_variant(key):
     # The variant part matches _v\d+.*$
     match = re.search(r'(_v\d+.*$)', key)
     if not match:
-        # Special handling for cases that fail regex but might be known
         if key == "mistralai_mistral_nemo_example-v4":
              return "mistralai_mistral_nemo_example-v4", "unknown"
-        
         print(f"Warning: Could not parse key {key}")
         return key, "unknown"
     
-    variant_suffix = match.group(1) # e.g. _v1-empty
-    model_part = key[:-len(variant_suffix)] # e.g. anthropic_claude_haiku_4.5
+    variant_suffix = match.group(1) # e.g. _v1-empty or _v3.2_v1-empty
+    model_part = key[:-len(variant_suffix)] # e.g. anthropic_claude_haiku_4.5 or deepseek_deepseek
     
     # Process model name
     parts = model_part.split('_', 1)
@@ -27,12 +25,17 @@ def parse_model_variant(key):
         rest = parts[1].replace('_', '-')
         model_name = f"{provider}/{rest}"
     else:
-        model_name = model_part.replace('_', '-') # Fallback
+        model_name = model_part.replace('_', '-')
 
     # Process variant
-    # _v1-empty -> v1_empty
     variant_name = variant_suffix.lstrip('_').replace('-', '_')
     
+    # Correction for DeepSeek v3.2 being stuck in variant
+    # If variant starts with "v3.2_", move it to model name
+    if variant_name.startswith("v3.2_"):
+        model_name = model_name + "-v3.2"
+        variant_name = variant_name[len("v3.2_"):]
+
     return model_name, variant_name
 
 def main():
@@ -55,25 +58,29 @@ def main():
         
         # --- Filtering Logic ---
         
-        # 1. Previous Filters
+        # 1. Previous Filters (cleaned up)
+        
+        # deepseek-chat v4_background
         if model_name == "deepseek/deepseek-chat" and variant_name == "v4_background":
             excluded_count += 1
             continue
+            
+        # x/ai-grok-4.1-fast v1_empty
         if model_name == "x/ai-grok-4.1-fast" and variant_name == "v1_empty":
             excluded_count += 1
             continue
-            
-        # 2. User Filter: mistral-small-creative-temp... (Contains 'temp')
+
+        # mistral 'temp'
         if 'temp' in model_name:
             excluded_count += 1
             continue
-
-        # 3. User Filter: mistralai_mistral_nemo_example-v4 unknown
+            
+        # mistralai_mistral_nemo_example-v4 unknown
         if model_name == "mistralai_mistral_nemo_example-v4" and variant_name == "unknown":
             excluded_count += 1
             continue
             
-        # 4. User Filter: models vx (mixed/models)
+        # models vx (mixed/models)
         if model_name == "mixed/models":
             excluded_count += 1
             continue

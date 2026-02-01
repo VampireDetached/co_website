@@ -480,8 +480,8 @@
     "total_cost": 0.0
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v1_empty",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v1_empty",
     "study_id": "study_001",
     "title": "The \u201cFalse Consensus Effect\u201d: An Egocentric Bias in Social Perception and Attribution Processes",
     "average_bas": 0.05454708191106983,
@@ -490,8 +490,8 @@
     "total_cost": 0.10208384009999956
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v1_empty",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v1_empty",
     "study_id": "study_002",
     "title": "Measures of Anchoring in Estimation Tasks",
     "average_bas": 0.34581814453567117,
@@ -500,8 +500,8 @@
     "total_cost": 0.16778054501999976
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v1_empty",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v1_empty",
     "study_id": "study_003",
     "title": "The Framing of Decisions and the Psychology of Choice",
     "average_bas": 0.9909421741820138,
@@ -510,8 +510,8 @@
     "total_cost": 0.0482424980399996
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v1_empty",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v1_empty",
     "study_id": "study_004",
     "title": "Subjective Probability: A Judgment of Representativeness",
     "average_bas": 0.0034935652478463863,
@@ -520,8 +520,8 @@
     "total_cost": 0.20386519658999777
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v1_empty",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v1_empty",
     "study_id": "study_005",
     "title": "Intentional Action and Side-Effects in Ordinary Language",
     "average_bas": 0.9995341038262673,
@@ -530,8 +530,8 @@
     "total_cost": 0.011958361470000024
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v1_empty",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v1_empty",
     "study_id": "study_006",
     "title": "FORMING IMPRESSIONS OF PERSONALITY",
     "average_bas": 0.09140483431369245,
@@ -540,8 +540,8 @@
     "total_cost": 0.0773787841199996
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v1_empty",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v1_empty",
     "study_id": "study_007",
     "title": "Social categorization and similarity in intergroup behaviour",
     "average_bas": 0.0033353060113456845,
@@ -550,8 +550,8 @@
     "total_cost": 0.024275254410000006
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v1_empty",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v1_empty",
     "study_id": "study_008",
     "title": "Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm",
     "average_bas": 0.004798318840473492,
@@ -560,8 +560,8 @@
     "total_cost": 0.02746021905000012
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v1_empty",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v1_empty",
     "study_id": "study_009",
     "title": "Unraveling in Guessing Games: An Experimental Study",
     "average_bas": 0.9492946889270742,
@@ -570,8 +570,8 @@
     "total_cost": 0.08026196805
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v1_empty",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v1_empty",
     "study_id": "study_010",
     "title": "Thinking through Uncertainty: Nonconsequential Reasoning and Choice",
     "average_bas": 0.0009495134764853641,
@@ -580,8 +580,8 @@
     "total_cost": 0.022712815619999972
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v1_empty",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v1_empty",
     "study_id": "study_011",
     "title": "Fairness in Simple Bargaining Experiments",
     "average_bas": 0.0018088778123900862,
@@ -590,8 +590,8 @@
     "total_cost": 0.018672150419999985
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v1_empty",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v1_empty",
     "study_id": "study_012",
     "title": "Trust, Reciprocity, and Social History",
     "average_bas": 0.07312223053377176,
@@ -600,8 +600,8 @@
     "total_cost": 0.015308828369999987
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v2_human",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v2_human",
     "study_id": "study_001",
     "title": "The \u201cFalse Consensus Effect\u201d: An Egocentric Bias in Social Perception and Attribution Processes",
     "average_bas": 0.08180382940542019,
@@ -610,8 +610,8 @@
     "total_cost": 0.09493299783000007
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v2_human",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v2_human",
     "study_id": "study_002",
     "title": "Measures of Anchoring in Estimation Tasks",
     "average_bas": 0.8674729142919195,
@@ -620,8 +620,8 @@
     "total_cost": 0.16939361835000016
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v2_human",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v2_human",
     "study_id": "study_003",
     "title": "The Framing of Decisions and the Psychology of Choice",
     "average_bas": 0.9913145925053826,
@@ -630,8 +630,8 @@
     "total_cost": 0.05012904897000038
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v2_human",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v2_human",
     "study_id": "study_004",
     "title": "Subjective Probability: A Judgment of Representativeness",
     "average_bas": 0.006232432491810991,
@@ -640,8 +640,8 @@
     "total_cost": 0.2078863459199992
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v2_human",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v2_human",
     "study_id": "study_005",
     "title": "Intentional Action and Side-Effects in Ordinary Language",
     "average_bas": 0.9995341038262673,
@@ -650,8 +650,8 @@
     "total_cost": 0.01240931340000003
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v2_human",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v2_human",
     "study_id": "study_006",
     "title": "FORMING IMPRESSIONS OF PERSONALITY",
     "average_bas": 0.0631531216831358,
@@ -660,8 +660,8 @@
     "total_cost": 0.07744159268999976
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v2_human",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v2_human",
     "study_id": "study_007",
     "title": "Social categorization and similarity in intergroup behaviour",
     "average_bas": 0.009122554682062689,
@@ -670,8 +670,8 @@
     "total_cost": 0.024363518849999998
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v2_human",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v2_human",
     "study_id": "study_008",
     "title": "Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm",
     "average_bas": 0.00746848942886158,
@@ -680,8 +680,8 @@
     "total_cost": 0.02534654726999993
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v2_human",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v2_human",
     "study_id": "study_009",
     "title": "Unraveling in Guessing Games: An Experimental Study",
     "average_bas": 0.9409112302083901,
@@ -690,8 +690,8 @@
     "total_cost": 0.09092358891000003
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v2_human",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v2_human",
     "study_id": "study_010",
     "title": "Thinking through Uncertainty: Nonconsequential Reasoning and Choice",
     "average_bas": 0.0023242742761633295,
@@ -700,8 +700,8 @@
     "total_cost": 0.016340456879999982
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v2_human",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v2_human",
     "study_id": "study_011",
     "title": "Fairness in Simple Bargaining Experiments",
     "average_bas": 0.031212869012668454,
@@ -710,8 +710,8 @@
     "total_cost": 0.018525780899999948
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v2_human",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v2_human",
     "study_id": "study_012",
     "title": "Trust, Reciprocity, and Social History",
     "average_bas": 0.03933328208534265,
@@ -720,8 +720,8 @@
     "total_cost": 0.014058110879999983
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v3_human_plus_demo",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v3_human_plus_demo",
     "study_id": "study_001",
     "title": "The \u201cFalse Consensus Effect\u201d: An Egocentric Bias in Social Perception and Attribution Processes",
     "average_bas": 0.17607556579265338,
@@ -730,8 +730,8 @@
     "total_cost": 0.1735827013799996
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v3_human_plus_demo",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v3_human_plus_demo",
     "study_id": "study_002",
     "title": "Measures of Anchoring in Estimation Tasks",
     "average_bas": 0.03319808131207469,
@@ -740,8 +740,8 @@
     "total_cost": 0.19086106742999953
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v3_human_plus_demo",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v3_human_plus_demo",
     "study_id": "study_003",
     "title": "The Framing of Decisions and the Psychology of Choice",
     "average_bas": 0.9884541013026307,
@@ -750,8 +750,8 @@
     "total_cost": 0.07016538275999967
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v3_human_plus_demo",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v3_human_plus_demo",
     "study_id": "study_004",
     "title": "Subjective Probability: A Judgment of Representativeness",
     "average_bas": 0.018875516978684892,
@@ -760,8 +760,8 @@
     "total_cost": 0.29432556251999736
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v3_human_plus_demo",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v3_human_plus_demo",
     "study_id": "study_005",
     "title": "Intentional Action and Side-Effects in Ordinary Language",
     "average_bas": 0.9995341038262673,
@@ -770,8 +770,8 @@
     "total_cost": 0.015474739499999998
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v3_human_plus_demo",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v3_human_plus_demo",
     "study_id": "study_006",
     "title": "FORMING IMPRESSIONS OF PERSONALITY",
     "average_bas": 0.0673877440901211,
@@ -780,8 +780,8 @@
     "total_cost": 0.09642362795999945
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v3_human_plus_demo",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v3_human_plus_demo",
     "study_id": "study_007",
     "title": "Social categorization and similarity in intergroup behaviour",
     "average_bas": 0.01363271669997479,
@@ -790,8 +790,8 @@
     "total_cost": 0.025731233549999993
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v3_human_plus_demo",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v3_human_plus_demo",
     "study_id": "study_008",
     "title": "Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm",
     "average_bas": 0.25501903484982374,
@@ -800,8 +800,8 @@
     "total_cost": 0.03269179287000005
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v3_human_plus_demo",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v3_human_plus_demo",
     "study_id": "study_009",
     "title": "Unraveling in Guessing Games: An Experimental Study",
     "average_bas": 0.9557895185623478,
@@ -810,8 +810,8 @@
     "total_cost": 0.09122995034999991
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v3_human_plus_demo",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v3_human_plus_demo",
     "study_id": "study_010",
     "title": "Thinking through Uncertainty: Nonconsequential Reasoning and Choice",
     "average_bas": 0.0023498564530409216,
@@ -820,8 +820,8 @@
     "total_cost": 0.020732455260000022
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v3_human_plus_demo",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v3_human_plus_demo",
     "study_id": "study_011",
     "title": "Fairness in Simple Bargaining Experiments",
     "average_bas": 0.0010492844284198943,
@@ -830,8 +830,8 @@
     "total_cost": 0.022031909460000016
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v3_human_plus_demo",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v3_human_plus_demo",
     "study_id": "study_012",
     "title": "Trust, Reciprocity, and Social History",
     "average_bas": 0.053863465558912804,
@@ -840,8 +840,8 @@
     "total_cost": 0.01890513504
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v4_background",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v4_background",
     "study_id": "study_001",
     "title": "The \u201cFalse Consensus Effect\u201d: An Egocentric Bias in Social Perception and Attribution Processes",
     "average_bas": 0.14059570568067903,
@@ -850,8 +850,8 @@
     "total_cost": 0.39410410248000016
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v4_background",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v4_background",
     "study_id": "study_002",
     "title": "Measures of Anchoring in Estimation Tasks",
     "average_bas": 0.30417418789609096,
@@ -860,8 +860,8 @@
     "total_cost": 0.5570062898399997
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v4_background",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v4_background",
     "study_id": "study_003",
     "title": "The Framing of Decisions and the Psychology of Choice",
     "average_bas": 0.941988562870569,
@@ -870,8 +870,8 @@
     "total_cost": 0.15046281558000002
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v4_background",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v4_background",
     "study_id": "study_004",
     "title": "Subjective Probability: A Judgment of Representativeness",
     "average_bas": 0.03646940067310689,
@@ -880,8 +880,8 @@
     "total_cost": 1.3354978329
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v4_background",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v4_background",
     "study_id": "study_005",
     "title": "Intentional Action and Side-Effects in Ordinary Language",
     "average_bas": 0.9995341038261836,
@@ -890,8 +890,8 @@
     "total_cost": 0.028793027340000017
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v4_background",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v4_background",
     "study_id": "study_006",
     "title": "FORMING IMPRESSIONS OF PERSONALITY",
     "average_bas": 0.044723021244609695,
@@ -900,8 +900,8 @@
     "total_cost": 0.18471062411999978
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v4_background",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v4_background",
     "study_id": "study_007",
     "title": "Social categorization and similarity in intergroup behaviour",
     "average_bas": 0.0037400617265556657,
@@ -910,8 +910,8 @@
     "total_cost": 0.037096961219999995
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v4_background",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v4_background",
     "study_id": "study_008",
     "title": "Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm",
     "average_bas": 0.6623869405043044,
@@ -920,8 +920,8 @@
     "total_cost": 0.07517215332000003
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v4_background",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v4_background",
     "study_id": "study_009",
     "title": "Unraveling in Guessing Games: An Experimental Study",
     "average_bas": 0.9706175168401499,
@@ -930,8 +930,8 @@
     "total_cost": 0.22026957479999984
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v4_background",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v4_background",
     "study_id": "study_010",
     "title": "Thinking through Uncertainty: Nonconsequential Reasoning and Choice",
     "average_bas": 0.0023581987652830927,
@@ -940,8 +940,8 @@
     "total_cost": 0.029064938759999992
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v4_background",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v4_background",
     "study_id": "study_011",
     "title": "Fairness in Simple Bargaining Experiments",
     "average_bas": 0.0008518137052033747,
@@ -950,8 +950,8 @@
     "total_cost": 0.031242482370000005
   },
   {
-    "model": "deepseek/deepseek",
-    "variant": "v3.2_v4_background",
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v4_background",
     "study_id": "study_012",
     "title": "Trust, Reciprocity, and Social History",
     "average_bas": 0.3745741728034652,
