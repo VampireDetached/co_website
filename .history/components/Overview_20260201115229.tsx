@@ -108,17 +108,17 @@ export default function Overview() {
               <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
                  <div className="rounded-lg bg-blue-50 p-6">
                     <h3 className="flex items-center font-bold text-gray-900 text-lg">
-                        <span className="flex h-8 w-8 items-center justify-center rounded-full bg-blue-600 text-white text-sm font-bold mr-3">PAS</span>
-                        Probability Alignment Score
+                        <span className="flex h-8 w-8 items-center justify-center rounded-full bg-blue-600 text-white text-sm font-bold mr-3">G</span>
+                        Generation Pipeline
                     </h3>
-                    <p className="mt-2 text-gray-600 text-sm">Measures whether agents reach the same scientific conclusions as humans at the phenomenon level. It quantifies the probability that agent and human populations exhibit behavior consistent with the same hypothesis.</p>
+                    <p className="mt-2 text-gray-600 text-sm">Utilizes LLMs to parse academic papers and extract experimental designs, identifying independent and dependent variables automatically.</p>
                  </div>
                  <div className="rounded-lg bg-green-50 p-6">
                     <h3 className="flex items-center font-bold text-gray-900 text-lg">
-                        <span className="flex h-8 w-8 items-center justify-center rounded-full bg-green-600 text-white text-sm font-bold mr-3">ECS</span>
-                        Effect Consistency Score
+                        <span className="flex h-8 w-8 items-center justify-center rounded-full bg-green-600 text-white text-sm font-bold mr-3">V</span>
+                        Validation Pipeline
                     </h3>
-                    <p className="mt-2 text-gray-600 text-sm">Measures how closely agents reproduce the magnitude and pattern of human behavioral effects at the data level. It assesses both the precision and accuracy of agent responses compared to human ground truth.</p>
+                    <p className="mt-2 text-gray-600 text-sm">Automated agents verify that the generated benchmarks mathematically align with the original paper's reported statistics, ensuring fidelity.</p>
                  </div>
               </div>
           </div>
