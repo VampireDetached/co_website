@@ -47,15 +47,15 @@ export default function Hero() {
       "gender": "non-binary"
     },
     "backstory": "contextualized"
-  },
+    },
   "execution": {
-    "participants": 100,
+        "participants": 100,
     "conditions": ["control", "treatment"],
     "trials": 10
-  },
-  "evaluation": {
+    },
+    "evaluation": {
     "metrics": ["PAS", "ECS"],
-    "ground_truth": "human_data_v1"
+        "ground_truth": "human_data_v1"
   }
 }`}
             </pre>
