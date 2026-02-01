@@ -3,1105 +3,649 @@
     "model": "mistralai/mistral-nemo",
     "variant": "v1_empty",
     "study_id": "study_001",
-    "average_bas": 0.7832294117647058,
-    "total_cost": 0.1247879358000006,
-    "total_output_tokens": 155329,
-    "findings_breakdown": {
-      "F1": 0.8674999999999999,
-      "F2": 0.41685000000000005,
-      "F3": 0.7323470588235294,
-      "F4": 0.99985,
-      "F5": 0.8996
-    }
+    "average_bas": 0.9803,
+    "ecs": 0.2568,
+    "total_output_tokens": 1297919,
+    "total_cost": 0.1248
   },
   {
     "model": "mistralai/mistral-nemo",
     "variant": "v2_human",
     "study_id": "study_001",
-    "average_bas": 0.6740147058823529,
-    "total_cost": 0.11841207840000016,
-    "total_output_tokens": 155696,
-    "findings_breakdown": {
-      "F1": 0.750225,
-      "F2": 0.298775,
-      "F3": 0.6937235294117647,
-      "F4": 0.99985,
-      "F5": 0.6275
-    }
+    "average_bas": 0.9544,
+    "ecs": 0.1355,
+    "total_output_tokens": 1317857,
+    "total_cost": 0.1184
   },
   {
     "model": "mistralai/mistral-nemo",
     "variant": "v3_human_plus_demo",
     "study_id": "study_001",
-    "average_bas": 0.8049976470588234,
-    "total_cost": 0.12607268850000025,
-    "total_output_tokens": 150338,
-    "findings_breakdown": {
-      "F1": 0.873625,
-      "F2": 0.495525,
-      "F3": 0.7550882352941177,
-      "F4": 0.99985,
-      "F5": 0.9009
-    }
+    "average_bas": 0.9865,
+    "ecs": 0.0733,
+    "total_output_tokens": 1389594,
+    "total_cost": 0.1261
   },
   {
     "model": "openai/gpt-oss-20b",
     "variant": "v1_empty",
     "study_id": "study_001",
-    "average_bas": 0.5785094117647059,
-    "total_cost": 0.06856406370000005,
-    "total_output_tokens": 235393,
-    "findings_breakdown": {
-      "F1": 0.8604,
-      "F2": 0.42245,
-      "F3": 0.5469470588235295,
-      "F4": 0.6704,
-      "F5": 0.39235
-    }
+    "average_bas": 0.5413,
+    "ecs": 0.1784,
+    "total_output_tokens": 657363,
+    "total_cost": 0.0851
   },
   {
     "model": "openai/gpt-oss-20b",
     "variant": "v2_human",
     "study_id": "study_001",
-    "average_bas": 0.5642455882352941,
-    "total_cost": 0.08731090170000007,
-    "total_output_tokens": 258886,
-    "findings_breakdown": {
-      "F1": 0.789725,
-      "F2": 0.37945,
-      "F3": 0.5542529411764706,
-      "F4": 0.67805,
-      "F5": 0.41975
-    }
+    "average_bas": 0.2786,
+    "ecs": 0.1273,
+    "total_output_tokens": 679684,
+    "total_cost": 0.0977
   },
   {
     "model": "openai/gpt-oss-20b",
     "variant": "v3_human_plus_demo",
     "study_id": "study_001",
-    "average_bas": 0.5918458823529411,
-    "total_cost": 0.10434447045000012,
-    "total_output_tokens": 298772,
-    "findings_breakdown": {
-      "F1": 0.6904,
-      "F2": 0.45275,
-      "F3": 0.615929411764706,
-      "F4": 0.7486999999999999,
-      "F5": 0.45145
-    }
+    "average_bas": 0.2077,
+    "ecs": -0.1745,
+    "total_output_tokens": 713880,
+    "total_cost": 0.1043
   },
   {
     "model": "mistralai/mistral-nemo",
     "variant": "v1_empty",
     "study_id": "study_002",
-    "average_bas": 0.5054208333333333,
-    "total_cost": 0.06493539689999993,
-    "total_output_tokens": 128931,
-    "findings_breakdown": {
-      "F1": 0.7841833333333333,
-      "F2": 0.0988,
-      "F3": 0.6473,
-      "F4": 0.49139999999999995
-    }
+    "average_bas": 0.0242,
+    "ecs": 0.0488,
+    "total_output_tokens": 724762,
+    "total_cost": 0.0649
   },
   {
     "model": "mistralai/mistral-nemo",
     "variant": "v2_human",
     "study_id": "study_002",
-    "average_bas": 0.6194625,
-    "total_cost": 0.05767048979999989,
-    "total_output_tokens": 124639,
-    "findings_breakdown": {
-      "F1": 0.94335,
-      "F2": 0.0598,
-      "F3": 0.7301,
-      "F4": 0.7445999999999999
-    }
+    "average_bas": 0.3752,
+    "ecs": -0.1064,
+    "total_output_tokens": 723478,
+    "total_cost": 0.0577
   },
   {
     "model": "mistralai/mistral-nemo",
     "variant": "v3_human_plus_demo",
     "study_id": "study_002",
-    "average_bas": 0.6255666666666667,
-    "total_cost": 0.06390466830000008,
-    "total_output_tokens": 121392,
-    "findings_breakdown": {
-      "F1": 0.9433166666666667,
-      "F2": 0.065,
-      "F3": 0.7765,
-      "F4": 0.71745
-    }
+    "average_bas": 0.0565,
+    "ecs": -0.0972,
+    "total_output_tokens": 734338,
+    "total_cost": 0.0639
   },
   {
     "model": "openai/gpt-oss-20b",
     "variant": "v1_empty",
     "study_id": "study_002",
-    "average_bas": 0.7709062499999999,
-    "total_cost": 0.15308981820000003,
-    "total_output_tokens": 518807,
-    "findings_breakdown": {
-      "F1": 0.8134,
-      "F2": 0.9506,
-      "F3": 0.5916,
-      "F4": 0.7280249999999999
-    }
+    "average_bas": 0.7439,
+    "ecs": 0.2658,
+    "total_output_tokens": 1094321,
+    "total_cost": 0.1531
   },
   {
     "model": "openai/gpt-oss-20b",
     "variant": "v2_human",
     "study_id": "study_002",
-    "average_bas": 0.53014375,
-    "total_cost": 0.16487029845000004,
-    "total_output_tokens": 514262,
-    "findings_breakdown": {
-      "F1": 0.82255,
-      "F2": 0.0565,
-      "F3": 0.5744,
-      "F4": 0.667125
-    }
+    "average_bas": 0.2796,
+    "ecs": 0.0336,
+    "total_output_tokens": 1094263,
+    "total_cost": 0.1649
   },
   {
     "model": "openai/gpt-oss-20b",
     "variant": "v3_human_plus_demo",
     "study_id": "study_002",
-    "average_bas": 0.6006208333333333,
-    "total_cost": 0.16759311524999992,
-    "total_output_tokens": 475019,
-    "findings_breakdown": {
-      "F1": 0.8475833333333332,
-      "F2": 0.0623,
-      "F3": 0.7252,
-      "F4": 0.7674
-    }
+    "average_bas": 0.4344,
+    "ecs": 0.0057,
+    "total_output_tokens": 1067902,
+    "total_cost": 0.1676
   },
   {
     "model": "mistralai/mistral-nemo",
     "variant": "v1_empty",
     "study_id": "study_003",
-    "average_bas": 0.44465999999999994,
-    "total_cost": 0.018249768900000105,
-    "total_output_tokens": 7525,
-    "findings_breakdown": {
-      "F1": 0.0799,
-      "F2": 0.9991,
-      "F3": 0.0751,
-      "F4": 1.0,
-      "F5": 0.0692
-    }
+    "average_bas": 0.4559,
+    "ecs": 0.7695,
+    "total_output_tokens": 186290,
+    "total_cost": 0.0182
   },
   {
     "model": "mistralai/mistral-nemo",
     "variant": "v2_human",
     "study_id": "study_003",
-    "average_bas": 0.45704,
-    "total_cost": 0.020027056500000185,
-    "total_output_tokens": 7407,
-    "findings_breakdown": {
-      "F1": 0.1215,
-      "F2": 1.0,
-      "F3": 0.0899,
-      "F4": 1.0,
-      "F5": 0.0738
-    }
+    "average_bas": 0.8845,
+    "ecs": 0.9225,
+    "total_output_tokens": 202417,
+    "total_cost": 0.02
   },
   {
     "model": "mistralai/mistral-nemo",
     "variant": "v3_human_plus_demo",
     "study_id": "study_003",
-    "average_bas": 0.48710000000000003,
-    "total_cost": 0.037527385500000156,
-    "total_output_tokens": 6544,
-    "findings_breakdown": {
-      "F1": 0.1384,
-      "F2": 0.9999,
-      "F3": 0.1884,
-      "F4": 1.0,
-      "F5": 0.1088
-    }
+    "average_bas": 0.7246,
+    "ecs": 0.6437,
+    "total_output_tokens": 272015,
+    "total_cost": 0.0375
   },
   {
     "model": "openai/gpt-oss-20b",
     "variant": "v1_empty",
     "study_id": "study_003",
-    "average_bas": 0.86936,
-    "total_cost": 0.09707002470000008,
-    "total_output_tokens": 286684,
-    "findings_breakdown": {
-      "F1": 0.968,
-      "F2": 1.0,
-      "F3": 0.3802,
-      "F4": 0.9991,
-      "F5": 0.9995
-    }
+    "average_bas": 0.8865,
+    "ecs": 0.6292,
+    "total_output_tokens": 544068,
+    "total_cost": 0.0971
   },
   {
     "model": "openai/gpt-oss-20b",
     "variant": "v2_human",
     "study_id": "study_003",
-    "average_bas": 0.80044,
-    "total_cost": 0.10521281925000006,
-    "total_output_tokens": 302110,
-    "findings_breakdown": {
-      "F1": 0.4556,
-      "F2": 1.0,
-      "F3": 0.5782,
-      "F4": 0.9961,
-      "F5": 0.9723
-    }
+    "average_bas": 0.6765,
+    "ecs": 0.4405,
+    "total_output_tokens": 579888,
+    "total_cost": 0.1052
   },
   {
     "model": "openai/gpt-oss-20b",
     "variant": "v3_human_plus_demo",
     "study_id": "study_003",
-    "average_bas": 0.8351599999999999,
-    "total_cost": 0.08947398734999999,
-    "total_output_tokens": 233498,
-    "findings_breakdown": {
-      "F1": 0.9988,
-      "F2": 1.0,
-      "F3": 0.947,
-      "F4": 0.5799,
-      "F5": 0.6501
-    }
+    "average_bas": 0.8717,
+    "ecs": 0.5822,
+    "total_output_tokens": 577308,
+    "total_cost": 0.0895
   },
   {
     "model": "mistralai/mistral-nemo",
     "variant": "v1_empty",
     "study_id": "study_004",
-    "average_bas": 0.6711142857142857,
-    "total_cost": 0.1031175783000001,
-    "total_output_tokens": 135180,
-    "findings_breakdown": {
-      "F1": 1.0,
-      "F2": 0.0001,
-      "F3": 0.9999,
-      "F5": 0.8656,
-      "F6": 0.0007,
-      "F7": 1.0,
-      "F8": 0.8315
-    }
+    "average_bas": 0.616,
+    "ecs": 0.2167,
+    "total_output_tokens": 974477,
+    "total_cost": 0.1031
   },
   {
     "model": "mistralai/mistral-nemo",
     "variant": "v2_human",
     "study_id": "study_004",
-    "average_bas": 0.7124285714285714,
-    "total_cost": 0.1074998430000002,
-    "total_output_tokens": 134732,
-    "findings_breakdown": {
-      "F1": 1.0,
-      "F2": 0.5676,
-      "F3": 0.9999,
-      "F5": 0.5873,
-      "F6": 0.0007,
-      "F7": 1.0,
-      "F8": 0.8315
-    }
+    "average_bas": 0.4593,
+    "ecs": 0.2521,
+    "total_output_tokens": 1000266,
+    "total_cost": 0.1075
   },
   {
     "model": "mistralai/mistral-nemo",
     "variant": "v3_human_plus_demo",
     "study_id": "study_004",
-    "average_bas": 0.6708428571428572,
-    "total_cost": 0.12372130980000011,
-    "total_output_tokens": 132281,
-    "findings_breakdown": {
-      "F1": 1.0,
-      "F2": 0.0051,
-      "F3": 0.9999,
-      "F5": 0.8587,
-      "F6": 0.0007,
-      "F7": 1.0,
-      "F8": 0.8315
-    }
+    "average_bas": 0.6006,
+    "ecs": 0.2076,
+    "total_output_tokens": 1124457,
+    "total_cost": 0.1237
   },
   {
     "model": "openai/gpt-oss-20b",
     "variant": "v1_empty",
     "study_id": "study_004",
-    "average_bas": 0.579957142857143,
-    "total_cost": 0.6964290036000003,
-    "total_output_tokens": 2202273,
-    "findings_breakdown": {
-      "F1": 0.0,
-      "F2": 0.9963,
-      "F3": 0.9999,
-      "F5": 0.2313,
-      "F6": 0.0007,
-      "F7": 1.0,
-      "F8": 0.8315
-    }
+    "average_bas": 0.1963,
+    "ecs": 0.1705,
+    "total_output_tokens": 3106432,
+    "total_cost": 0.6964
   },
   {
     "model": "openai/gpt-oss-20b",
     "variant": "v2_human",
     "study_id": "study_004",
-    "average_bas": 0.6566571428571429,
-    "total_cost": 0.603491154750001,
-    "total_output_tokens": 1904476,
-    "findings_breakdown": {
-      "F1": 0.0,
-      "F2": 1.0,
-      "F3": 0.9999,
-      "F5": 0.7645,
-      "F6": 0.0007,
-      "F7": 1.0,
-      "F8": 0.8315
-    }
+    "average_bas": 0.3208,
+    "ecs": 0.1722,
+    "total_output_tokens": 2841381,
+    "total_cost": 0.6035
   },
   {
     "model": "openai/gpt-oss-20b",
     "variant": "v3_human_plus_demo",
     "study_id": "study_004",
-    "average_bas": 0.5810428571428572,
-    "total_cost": 0.4713413908500001,
-    "total_output_tokens": 1587661,
-    "findings_breakdown": {
-      "F1": 0.0,
-      "F2": 0.9997,
-      "F3": 0.9999,
-      "F5": 0.2355,
-      "F6": 0.0007,
-      "F7": 1.0,
-      "F8": 0.8315
-    }
+    "average_bas": 0.3831,
+    "ecs": 0.1766,
+    "total_output_tokens": 2642160,
+    "total_cost": 0.4713
   },
   {
     "model": "mistralai/mistral-nemo",
     "variant": "v1_empty",
     "study_id": "study_005",
-    "average_bas": 0.515325,
-    "total_cost": 0.005103588600000005,
-    "total_output_tokens": 6970,
-    "findings_breakdown": {
-      "F1": 0.5,
-      "F2": 0.5,
-      "F3": 0.5613,
-      "F4": 0.5
-    }
+    "average_bas": 0.997,
+    "ecs": -0.3334,
+    "total_output_tokens": 49751,
+    "total_cost": 0.0051
   },
   {
     "model": "mistralai/mistral-nemo",
     "variant": "v2_human",
     "study_id": "study_005",
-    "average_bas": 0.474175,
-    "total_cost": 0.004789847699999998,
-    "total_output_tokens": 7803,
-    "findings_breakdown": {
-      "F1": 0.5,
-      "F2": 0.5,
-      "F3": 0.3967,
-      "F4": 0.5
-    }
+    "average_bas": 0.9286,
+    "ecs": 0.0056,
+    "total_output_tokens": 53042,
+    "total_cost": 0.0048
   },
   {
     "model": "mistralai/mistral-nemo",
     "variant": "v3_human_plus_demo",
     "study_id": "study_005",
-    "average_bas": 0.5855499999999999,
-    "total_cost": 0.004944228300000002,
-    "total_output_tokens": 1276,
-    "findings_breakdown": {
-      "F1": 0.1416,
-      "F2": 1.0,
-      "F3": 0.9469,
-      "F4": 0.2537
-    }
+    "average_bas": 0.9925,
+    "ecs": 0.0392,
+    "total_output_tokens": 57074,
+    "total_cost": 0.0049
   },
   {
     "model": "openai/gpt-oss-20b",
     "variant": "v1_empty",
     "study_id": "study_005",
-    "average_bas": 0.986725,
-    "total_cost": 0.012884285700000003,
-    "total_output_tokens": 38753,
-    "findings_breakdown": {
-      "F1": 1.0,
-      "F2": 1.0,
-      "F3": 0.9469,
-      "F4": 1.0
-    }
+    "average_bas": 0.9995,
+    "ecs": 0.0693,
+    "total_output_tokens": 94154,
+    "total_cost": 0.0129
   },
   {
     "model": "openai/gpt-oss-20b",
     "variant": "v2_human",
     "study_id": "study_005",
-    "average_bas": 0.986725,
-    "total_cost": 0.011953294649999996,
-    "total_output_tokens": 38830,
-    "findings_breakdown": {
-      "F1": 1.0,
-      "F2": 1.0,
-      "F3": 0.9469,
-      "F4": 1.0
-    }
+    "average_bas": 0.9995,
+    "ecs": 0.0699,
+    "total_output_tokens": 96429,
+    "total_cost": 0.012
   },
   {
     "model": "openai/gpt-oss-20b",
     "variant": "v3_human_plus_demo",
     "study_id": "study_005",
-    "average_bas": 0.986725,
-    "total_cost": 0.013069643400000015,
-    "total_output_tokens": 30594,
-    "findings_breakdown": {
-      "F1": 1.0,
-      "F2": 1.0,
-      "F3": 0.9469,
-      "F4": 1.0
-    }
+    "average_bas": 0.9995,
+    "ecs": 0.0714,
+    "total_output_tokens": 99013,
+    "total_cost": 0.0131
   },
   {
     "model": "mistralai/mistral-nemo",
     "variant": "v1_empty",
     "study_id": "study_006",
-    "average_bas": 0.6040020202020202,
-    "total_cost": 0.02756949029999992,
-    "total_output_tokens": 21737,
-    "findings_breakdown": {
-      "F1": 0.8528722222222221,
-      "F10": 0.9999333333333333,
-      "F11": 0.58085,
-      "F2": 0.246,
-      "F3": 0.6784,
-      "F4": 0.1744,
-      "F5": 0.3978,
-      "F6": 0.43896666666666667,
-      "F7": 0.6398,
-      "F8": 0.6351,
-      "F9": 0.9998999999999999
-    }
+    "average_bas": 0.0549,
+    "ecs": 0.0137,
+    "total_output_tokens": 321210,
+    "total_cost": 0.0276
   },
   {
     "model": "mistralai/mistral-nemo",
     "variant": "v2_human",
     "study_id": "study_006",
-    "average_bas": 0.6396641414141414,
-    "total_cost": 0.024402213000000002,
-    "total_output_tokens": 21932,
-    "findings_breakdown": {
-      "F1": 0.7771222222222222,
-      "F10": 0.9991333333333333,
-      "F11": 0.9726,
-      "F2": 0.246,
-      "F3": 0.65405,
-      "F4": 0.171,
-      "F5": 0.4629,
-      "F6": 0.4834,
-      "F7": 0.6363,
-      "F8": 0.6338,
-      "F9": 1.0
-    }
+    "average_bas": 0.0302,
+    "ecs": 0.0328,
+    "total_output_tokens": 331341,
+    "total_cost": 0.0244
   },
   {
     "model": "mistralai/mistral-nemo",
     "variant": "v3_human_plus_demo",
     "study_id": "study_006",
-    "average_bas": 0.6347848484848484,
-    "total_cost": 0.03557740230000001,
-    "total_output_tokens": 21543,
-    "findings_breakdown": {
-      "F1": 0.8103333333333333,
-      "F10": 1.0,
-      "F11": 1.0,
-      "F2": 0.246,
-      "F3": 0.4955,
-      "F4": 0.1718,
-      "F5": 0.5382,
-      "F6": 0.4518,
-      "F7": 0.64,
-      "F8": 0.629,
-      "F9": 1.0
-    }
+    "average_bas": 0.0936,
+    "ecs": 0.0262,
+    "total_output_tokens": 372059,
+    "total_cost": 0.0356
   },
   {
     "model": "openai/gpt-oss-20b",
     "variant": "v1_empty",
     "study_id": "study_006",
-    "average_bas": 0.6579550505050505,
-    "total_cost": 0.09103802399999994,
-    "total_output_tokens": 294439,
-    "findings_breakdown": {
-      "F1": 0.8548888888888889,
-      "F10": 1.0,
-      "F11": 0.9865999999999999,
-      "F2": 0.246,
-      "F3": 0.7272000000000001,
-      "F4": 0.1714,
-      "F5": 0.54225,
-      "F6": 0.43406666666666666,
-      "F7": 0.64,
-      "F8": 0.6351,
-      "F9": 1.0
-    }
+    "average_bas": 0.1372,
+    "ecs": 0.1065,
+    "total_output_tokens": 632110,
+    "total_cost": 0.091
   },
   {
     "model": "openai/gpt-oss-20b",
     "variant": "v2_human",
     "study_id": "study_006",
-    "average_bas": 0.6534414141414142,
-    "total_cost": 0.09751677209999982,
-    "total_output_tokens": 294875,
-    "findings_breakdown": {
-      "F1": 0.8539888888888889,
-      "F10": 1.0,
-      "F11": 0.99385,
-      "F2": 0.246,
-      "F3": 0.7152499999999999,
-      "F4": 0.171,
-      "F5": 0.547,
-      "F6": 0.43406666666666666,
-      "F7": 0.64,
-      "F8": 0.5867,
-      "F9": 1.0
-    }
+    "average_bas": 0.1456,
+    "ecs": 0.1138,
+    "total_output_tokens": 644859,
+    "total_cost": 0.0975
   },
   {
     "model": "openai/gpt-oss-20b",
     "variant": "v3_human_plus_demo",
     "study_id": "study_006",
-    "average_bas": 0.6594414141414141,
-    "total_cost": 0.09537487245000002,
-    "total_output_tokens": 247446,
-    "findings_breakdown": {
-      "F1": 0.8549055555555555,
-      "F10": 1.0,
-      "F11": 0.99995,
-      "F2": 0.246,
-      "F3": 0.7272000000000001,
-      "F4": 0.1709,
-      "F5": 0.5446,
-      "F6": 0.4354,
-      "F7": 0.6398,
-      "F8": 0.6351,
-      "F9": 1.0
-    }
+    "average_bas": 0.1588,
+    "ecs": 0.1147,
+    "total_output_tokens": 636633,
+    "total_cost": 0.0954
   },
   {
     "model": "mistralai/mistral-nemo",
     "variant": "v1_empty",
     "study_id": "study_007",
-    "average_bas": 0.2612,
-    "total_cost": 0.007455343499999999,
-    "total_output_tokens": 1286,
-    "findings_breakdown": {
-      "F1": 0.1549,
-      "F2": 0.295,
-      "F3": 0.3036,
-      "F4": 0.2913
-    }
+    "average_bas": 0.0294,
+    "ecs": 0.1727,
+    "total_output_tokens": 96932,
+    "total_cost": 0.0075
   },
   {
     "model": "mistralai/mistral-nemo",
     "variant": "v2_human",
     "study_id": "study_007",
-    "average_bas": 0.5957,
-    "total_cost": 0.0072448695,
-    "total_output_tokens": 1110,
-    "findings_breakdown": {
-      "F1": 0.883,
-      "F2": 0.4573,
-      "F3": 0.4207,
-      "F4": 0.6218
-    }
+    "average_bas": 0.0133,
+    "ecs": -0.0937,
+    "total_output_tokens": 97660,
+    "total_cost": 0.0072
   },
   {
     "model": "mistralai/mistral-nemo",
     "variant": "v3_human_plus_demo",
     "study_id": "study_007",
-    "average_bas": 0.38270000000000004,
-    "total_cost": 0.0063994491,
-    "total_output_tokens": 1137,
-    "findings_breakdown": {
-      "F1": 0.1127,
-      "F2": 0.3441,
-      "F3": 0.3829,
-      "F4": 0.6911
-    }
+    "average_bas": 0.0167,
+    "ecs": -0.0762,
+    "total_output_tokens": 101823,
+    "total_cost": 0.0064
   },
   {
     "model": "openai/gpt-oss-20b",
     "variant": "v1_empty",
     "study_id": "study_007",
-    "average_bas": 0.3765,
-    "total_cost": 0.020348796600000003,
-    "total_output_tokens": 49061,
-    "findings_breakdown": {
-      "F1": 0.1144,
-      "F2": 0.8226,
-      "F3": 0.4077,
-      "F4": 0.1613
-    }
+    "average_bas": 0.1307,
+    "ecs": -0.8176,
+    "total_output_tokens": 143177,
+    "total_cost": 0.0203
   },
   {
     "model": "openai/gpt-oss-20b",
     "variant": "v2_human",
     "study_id": "study_007",
-    "average_bas": 0.373025,
-    "total_cost": 0.02104778115,
-    "total_output_tokens": 50086,
-    "findings_breakdown": {
-      "F1": 0.2614,
-      "F2": 0.7743,
-      "F3": 0.2934,
-      "F4": 0.163
-    }
+    "average_bas": 0.0586,
+    "ecs": -0.7472,
+    "total_output_tokens": 145346,
+    "total_cost": 0.021
   },
   {
     "model": "openai/gpt-oss-20b",
     "variant": "v3_human_plus_demo",
     "study_id": "study_007",
-    "average_bas": 0.689475,
-    "total_cost": 0.018589155750000006,
-    "total_output_tokens": 54524,
-    "findings_breakdown": {
-      "F1": 0.9915,
-      "F2": 0.7823,
-      "F3": 0.8232,
-      "F4": 0.1609
-    }
+    "average_bas": 0.661,
+    "ecs": -0.8301,
+    "total_output_tokens": 153265,
+    "total_cost": 0.0186
   },
   {
     "model": "mistralai/mistral-nemo",
     "variant": "v1_empty",
     "study_id": "study_008",
-    "average_bas": 0.4414916666666666,
-    "total_cost": 0.010851677099999983,
-    "total_output_tokens": 23904,
-    "findings_breakdown": {
-      "F1": 0.4643333333333333,
-      "F2": 0.41864999999999997
-    }
+    "average_bas": 0.6917,
+    "ecs": 0.1475,
+    "total_output_tokens": 97936,
+    "total_cost": 0.0065
   },
   {
     "model": "mistralai/mistral-nemo",
     "variant": "v2_human",
     "study_id": "study_008",
-    "average_bas": 0.399275,
-    "total_cost": 0.008585992800000025,
-    "total_output_tokens": 12833,
-    "findings_breakdown": {
-      "F1": 0.3292,
-      "F2": 0.46935
-    }
+    "average_bas": 0.0647,
+    "ecs": -0.0099,
+    "total_output_tokens": 101491,
+    "total_cost": 0.0066
   },
   {
     "model": "mistralai/mistral-nemo",
     "variant": "v3_human_plus_demo",
     "study_id": "study_008",
-    "average_bas": 0.6121833333333333,
-    "total_cost": 0.00896048010000004,
-    "total_output_tokens": 7580,
-    "findings_breakdown": {
-      "F1": 0.5723166666666667,
-      "F2": 0.65205
-    }
+    "average_bas": 0.4911,
+    "ecs": 0.4442,
+    "total_output_tokens": 123973,
+    "total_cost": 0.0078
   },
   {
     "model": "openai/gpt-oss-20b",
     "variant": "v1_empty",
     "study_id": "study_008",
-    "average_bas": 0.41331666666666667,
-    "total_cost": 0.04110922034999997,
-    "total_output_tokens": 125537,
-    "findings_breakdown": {
-      "F1": 0.38053333333333333,
-      "F2": 0.4461
-    }
+    "average_bas": 0.2759,
+    "ecs": 0.0288,
+    "total_output_tokens": 282066,
+    "total_cost": 0.0315
   },
   {
     "model": "openai/gpt-oss-20b",
     "variant": "v2_human",
     "study_id": "study_008",
-    "average_bas": 0.4944666666666667,
-    "total_cost": 0.042601239450000015,
-    "total_output_tokens": 139774,
-    "findings_breakdown": {
-      "F1": 0.32993333333333336,
-      "F2": 0.659
-    }
+    "average_bas": 0.1077,
+    "ecs": 0.0247,
+    "total_output_tokens": 270533,
+    "total_cost": 0.0512
   },
   {
     "model": "openai/gpt-oss-20b",
     "variant": "v3_human_plus_demo",
     "study_id": "study_008",
-    "average_bas": 0.49974999999999997,
-    "total_cost": 0.04632375330000001,
-    "total_output_tokens": 145499,
-    "findings_breakdown": {
-      "F1": 0.599,
-      "F2": 0.40049999999999997
-    }
+    "average_bas": 0.0138,
+    "ecs": 0.1459,
+    "total_output_tokens": 273141,
+    "total_cost": 0.0457
   },
   {
     "model": "mistralai/mistral-nemo",
     "variant": "v1_empty",
     "study_id": "study_009",
-    "average_bas": 0.7627027777777777,
-    "total_cost": 0.020122660800000004,
-    "total_output_tokens": 4520,
-    "findings_breakdown": {
-      "F1": 0.8613500000000001,
-      "F2": 0.8311916666666667,
-      "F3": 1.0,
-      "F4": 0.5071,
-      "F5": 0.652075,
-      "F6": 0.7244999999999999
-    }
+    "average_bas": 0.9624,
+    "ecs": 0.2125,
+    "total_output_tokens": 336644,
+    "total_cost": 0.0201
   },
   {
     "model": "mistralai/mistral-nemo",
     "variant": "v2_human",
     "study_id": "study_009",
-    "average_bas": 0.7164555555555555,
-    "total_cost": 0.027260461800000003,
-    "total_output_tokens": 4775,
-    "findings_breakdown": {
-      "F1": 0.57335,
-      "F2": 0.8076083333333334,
-      "F3": 1.0,
-      "F4": 0.5071,
-      "F5": 0.686175,
-      "F6": 0.7244999999999999
-    }
+    "average_bas": 0.9528,
+    "ecs": 0.1482,
+    "total_output_tokens": 344228,
+    "total_cost": 0.0273
   },
   {
     "model": "mistralai/mistral-nemo",
     "variant": "v3_human_plus_demo",
     "study_id": "study_009",
-    "average_bas": 0.6530513888888888,
-    "total_cost": 0.02344013099999998,
-    "total_output_tokens": 3793,
-    "findings_breakdown": {
-      "F1": 0.2109,
-      "F2": 0.8991083333333334,
-      "F3": 1.0,
-      "F4": 0.5071,
-      "F5": 0.6121,
-      "F6": 0.6891
-    }
+    "average_bas": 0.9436,
+    "ecs": 0.0669,
+    "total_output_tokens": 377837,
+    "total_cost": 0.0234
   },
   {
     "model": "openai/gpt-oss-20b",
     "variant": "v1_empty",
     "study_id": "study_009",
-    "average_bas": 0.5902680555555556,
-    "total_cost": 0.06450964740000001,
-    "total_output_tokens": 125065,
-    "findings_breakdown": {
-      "F1": 0.4647,
-      "F2": 0.6243166666666666,
-      "F3": 0.7565666666666667,
-      "F4": 0.5,
-      "F5": 0.696025,
-      "F6": 0.5
-    }
+    "average_bas": 0.8324,
+    "ecs": 0.3872,
+    "total_output_tokens": 1404556,
+    "total_cost": 0.1498
   },
   {
     "model": "openai/gpt-oss-20b",
     "variant": "v2_human",
     "study_id": "study_009",
-    "average_bas": 0.5396680555555556,
-    "total_cost": 0.0617848902,
-    "total_output_tokens": 119789,
-    "findings_breakdown": {
-      "F1": 0.3399,
-      "F2": 0.7255833333333334,
-      "F3": 0.5062000000000001,
-      "F4": 0.5,
-      "F5": 0.666325,
-      "F6": 0.5
-    }
+    "average_bas": 0.9266,
+    "ecs": 0.5558,
+    "total_output_tokens": 1287097,
+    "total_cost": 0.1406
   },
   {
     "model": "openai/gpt-oss-20b",
     "variant": "v3_human_plus_demo",
     "study_id": "study_009",
-    "average_bas": 0.6208166666666667,
-    "total_cost": 0.06656173920000003,
-    "total_output_tokens": 118244,
-    "findings_breakdown": {
-      "F1": 0.62115,
-      "F2": 0.6663416666666667,
-      "F3": 0.5567333333333333,
-      "F4": 0.5,
-      "F5": 0.691575,
-      "F6": 0.6891
-    }
+    "average_bas": 0.94,
+    "ecs": 0.5921,
+    "total_output_tokens": 956489,
+    "total_cost": 0.1019
   },
   {
     "model": "mistralai/mistral-nemo",
     "variant": "v1_empty",
     "study_id": "study_010",
-    "average_bas": 0.3146333333333333,
-    "total_cost": 0.0046559996999999895,
-    "total_output_tokens": 2393,
-    "findings_breakdown": {
-      "F1": 0.2393,
-      "F2": 0.4889,
-      "F3": 0.2157
-    }
+    "average_bas": 0.0,
+    "ecs": -0.4893,
+    "total_output_tokens": 68850,
+    "total_cost": 0.0047
   },
   {
     "model": "mistralai/mistral-nemo",
     "variant": "v2_human",
     "study_id": "study_010",
-    "average_bas": 0.2904,
-    "total_cost": 0.005215785299999987,
-    "total_output_tokens": 2177,
-    "findings_breakdown": {
-      "F1": 0.2393,
-      "F2": 0.489,
-      "F3": 0.1429
-    }
+    "average_bas": 0.0,
+    "ecs": -0.4812,
+    "total_output_tokens": 71054,
+    "total_cost": 0.0052
   },
   {
     "model": "mistralai/mistral-nemo",
     "variant": "v3_human_plus_demo",
     "study_id": "study_010",
-    "average_bas": 0.3663,
-    "total_cost": 0.004650752699999993,
-    "total_output_tokens": 1977,
-    "findings_breakdown": {
-      "F1": 0.2393,
-      "F2": 0.5032,
-      "F3": 0.3564
-    }
+    "average_bas": 0.0003,
+    "ecs": -0.5314,
+    "total_output_tokens": 81088,
+    "total_cost": 0.0047
   },
   {
     "model": "openai/gpt-oss-20b",
     "variant": "v1_empty",
     "study_id": "study_010",
-    "average_bas": 0.29106666666666664,
-    "total_cost": 0.03115039454999997,
-    "total_output_tokens": 105821,
-    "findings_breakdown": {
-      "F1": 0.2393,
-      "F2": 0.5111,
-      "F3": 0.1228
-    }
+    "average_bas": 0.0012,
+    "ecs": -0.178,
+    "total_output_tokens": 182616,
+    "total_cost": 0.0312
   },
   {
     "model": "openai/gpt-oss-20b",
     "variant": "v2_human",
     "study_id": "study_010",
-    "average_bas": 0.27626666666666666,
-    "total_cost": 0.026978272200000004,
-    "total_output_tokens": 91172,
-    "findings_breakdown": {
-      "F1": 0.2393,
-      "F2": 0.4889,
-      "F3": 0.1006
-    }
+    "average_bas": 0.0011,
+    "ecs": -0.3098,
+    "total_output_tokens": 170812,
+    "total_cost": 0.027
   },
   {
     "model": "openai/gpt-oss-20b",
     "variant": "v3_human_plus_demo",
     "study_id": "study_010",
-    "average_bas": 0.39559999999999995,
-    "total_cost": 0.023301531000000014,
-    "total_output_tokens": 74580,
-    "findings_breakdown": {
-      "F1": 0.2393,
-      "F2": 0.4889,
-      "F3": 0.4586
-    }
+    "average_bas": 0.0368,
+    "ecs": -0.1773,
+    "total_output_tokens": 163828,
+    "total_cost": 0.0233
   },
   {
     "model": "mistralai/mistral-nemo",
     "variant": "v1_empty",
     "study_id": "study_011",
-    "average_bas": 0.3204833333333333,
-    "total_cost": 0.005541485400000003,
-    "total_output_tokens": 1704,
-    "findings_breakdown": {
-      "F10": 0.285,
-      "F2": 0.1847,
-      "F5": 0.2607,
-      "F7": 0.6611,
-      "F8": 0.2424,
-      "F9": 0.289
-    }
+    "average_bas": 0.0009,
+    "ecs": -0.0957,
+    "total_output_tokens": 68770,
+    "total_cost": 0.0055
   },
   {
     "model": "mistralai/mistral-nemo",
     "variant": "v2_human",
     "study_id": "study_011",
-    "average_bas": 0.42993333333333333,
-    "total_cost": 0.004464236700000007,
-    "total_output_tokens": 1666,
-    "findings_breakdown": {
-      "F10": 0.4391,
-      "F2": 0.4289,
-      "F5": 0.2246,
-      "F7": 0.3976,
-      "F8": 0.3334,
-      "F9": 0.756
-    }
+    "average_bas": 0.0094,
+    "ecs": -0.1303,
+    "total_output_tokens": 71567,
+    "total_cost": 0.0045
   },
   {
     "model": "mistralai/mistral-nemo",
     "variant": "v3_human_plus_demo",
     "study_id": "study_011",
-    "average_bas": 0.3222,
-    "total_cost": 0.006250364999999991,
-    "total_output_tokens": 1659,
-    "findings_breakdown": {
-      "F10": 0.2726,
-      "F2": 0.1923,
-      "F5": 0.208,
-      "F7": 0.6483,
-      "F8": 0.4052,
-      "F9": 0.2068
-    }
+    "average_bas": 0.0999,
+    "ecs": 0.0015,
+    "total_output_tokens": 83690,
+    "total_cost": 0.0063
   },
   {
     "model": "openai/gpt-oss-20b",
     "variant": "v1_empty",
     "study_id": "study_011",
-    "average_bas": 0.5804666666666667,
-    "total_cost": 0.01701549629999999,
-    "total_output_tokens": 51601,
-    "findings_breakdown": {
-      "F10": 0.2904,
-      "F2": 0.7903,
-      "F5": 0.5867,
-      "F7": 0.5741,
-      "F8": 0.4377,
-      "F9": 0.8036
-    }
+    "average_bas": 0.0694,
+    "ecs": -0.3107,
+    "total_output_tokens": 132327,
+    "total_cost": 0.017
   },
   {
     "model": "openai/gpt-oss-20b",
     "variant": "v2_human",
     "study_id": "study_011",
-    "average_bas": 0.3731,
-    "total_cost": 0.01747847969999999,
-    "total_output_tokens": 52952,
-    "findings_breakdown": {
-      "F10": 0.2516,
-      "F2": 0.4282,
-      "F5": 0.1833,
-      "F7": 0.5922,
-      "F8": 0.2289,
-      "F9": 0.5544
-    }
+    "average_bas": 0.0136,
+    "ecs": -0.2019,
+    "total_output_tokens": 136860,
+    "total_cost": 0.0175
   },
   {
     "model": "openai/gpt-oss-20b",
     "variant": "v3_human_plus_demo",
     "study_id": "study_011",
-    "average_bas": 0.37653333333333333,
-    "total_cost": 0.014666013450000013,
-    "total_output_tokens": 38512,
-    "findings_breakdown": {
-      "F10": 0.2565,
-      "F2": 0.3417,
-      "F5": 0.1831,
-      "F7": 0.6762,
-      "F8": 0.2818,
-      "F9": 0.5199
-    }
+    "average_bas": 0.0607,
+    "ecs": -0.1593,
+    "total_output_tokens": 133864,
+    "total_cost": 0.0147
   },
   {
     "model": "mistralai/mistral-nemo",
     "variant": "v1_empty",
     "study_id": "study_012",
-    "average_bas": 0.5668214285714285,
-    "total_cost": 0.0034772265000000027,
-    "total_output_tokens": 1576,
-    "findings_breakdown": {
-      "F1": 0.5053,
-      "F2": 0.7381,
-      "F3": 0.3977,
-      "F4": 0.903,
-      "F5": 0.292,
-      "F6": 0.33165,
-      "F7": 0.8
-    }
+    "average_bas": 0.312,
+    "ecs": -0.0793,
+    "total_output_tokens": 53668,
+    "total_cost": 0.0035
   },
   {
     "model": "mistralai/mistral-nemo",
     "variant": "v2_human",
     "study_id": "study_012",
-    "average_bas": 0.5082285714285714,
-    "total_cost": 0.003620232000000001,
-    "total_output_tokens": 1104,
-    "findings_breakdown": {
-      "F1": 0.5049,
-      "F2": 0.3054,
-      "F3": 0.3515,
-      "F4": 0.8971,
-      "F5": 0.3284,
-      "F6": 0.377,
-      "F7": 0.7933
-    }
+    "average_bas": 0.2619,
+    "ecs": -0.2688,
+    "total_output_tokens": 56063,
+    "total_cost": 0.0036
   },
   {
     "model": "mistralai/mistral-nemo",
     "variant": "v3_human_plus_demo",
     "study_id": "study_012",
-    "average_bas": 0.5810500000000001,
-    "total_cost": 0.004739238900000001,
-    "total_output_tokens": 1080,
-    "findings_breakdown": {
-      "F1": 0.5041,
-      "F2": 0.2166,
-      "F3": 0.3873,
-      "F4": 0.8907,
-      "F5": 0.4988,
-      "F6": 0.80985,
-      "F7": 0.76
-    }
+    "average_bas": 0.2719,
+    "ecs": 0.7756,
+    "total_output_tokens": 71777,
+    "total_cost": 0.0047
   },
   {
     "model": "openai/gpt-oss-20b",
     "variant": "v1_empty",
     "study_id": "study_012",
-    "average_bas": 0.4532428571428571,
-    "total_cost": 0.03035135070000001,
-    "total_output_tokens": 123348,
-    "findings_breakdown": {
-      "F1": 0.5052,
-      "F2": 0.1807,
-      "F3": 0.314,
-      "F4": 0.8955,
-      "F5": 0.2866,
-      "F6": 0.4374,
-      "F7": 0.5533
-    }
+    "average_bas": 0.2176,
+    "ecs": -0.188,
+    "total_output_tokens": 177540,
+    "total_cost": 0.0304
   },
   {
     "model": "openai/gpt-oss-20b",
     "variant": "v2_human",
     "study_id": "study_012",
-    "average_bas": 0.5510357142857144,
-    "total_cost": 0.03166276905,
-    "total_output_tokens": 106939,
-    "findings_breakdown": {
-      "F1": 0.5047,
-      "F2": 0.1807,
-      "F3": 0.6959,
-      "F4": 0.9013,
-      "F5": 0.2816,
-      "F6": 0.5366500000000001,
-      "F7": 0.7564
-    }
+    "average_bas": 0.1468,
+    "ecs": -0.2361,
+    "total_output_tokens": 170109,
+    "total_cost": 0.0317
   },
   {
     "model": "openai/gpt-oss-20b",
     "variant": "v3_human_plus_demo",
     "study_id": "study_012",
-    "average_bas": 0.5106499999999999,
-    "total_cost": 0.02238651854999999,
-    "total_output_tokens": 63920,
-    "findings_breakdown": {
-      "F1": 0.504,
-      "F2": 0.1807,
-      "F3": 0.332,
-      "F4": 0.8823,
-      "F5": 0.4684,
-      "F6": 0.37615,
-      "F7": 0.831
-    }
+    "average_bas": 0.2527,
+    "ecs": -0.0797,
+    "total_output_tokens": 143995,
+    "total_cost": 0.0224
   },
   {
     "model": "anthropic/claude-haiku-4.5",
@@ -1210,5 +754,5864 @@
     "ecs": -0.3676,
     "total_output_tokens": 124203,
     "total_cost": 0.4065
+  },
+  {
+    "model": "config",
+    "variant": "unknown",
+    "study_id": "study_id",
+    "average_bas": 0.0,
+    "ecs": "N/A",
+    "total_output_tokens": 0,
+    "total_cost": 0.0
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": "v2_human",
+    "study_id": "study_001",
+    "average_bas": 0.002,
+    "ecs": 0.4976,
+    "total_output_tokens": 439236,
+    "total_cost": 0.602
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": "v2_human",
+    "study_id": "study_002",
+    "average_bas": 0.7928,
+    "ecs": 0.1343,
+    "total_output_tokens": 727305,
+    "total_cost": 1.132
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": "v2_human",
+    "study_id": "study_003",
+    "average_bas": 0.0649,
+    "ecs": 0.6047,
+    "total_output_tokens": 549659,
+    "total_cost": 1.9192
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": "v2_human",
+    "study_id": "study_004",
+    "average_bas": 0.473,
+    "ecs": 0.0561,
+    "total_output_tokens": 1059606,
+    "total_cost": 1.605
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": "v2_human",
+    "study_id": "study_005",
+    "average_bas": 0.9995,
+    "ecs": 0.057,
+    "total_output_tokens": 93857,
+    "total_cost": 0.2713
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": "v2_human",
+    "study_id": "study_006",
+    "average_bas": 0.0834,
+    "ecs": 0.1632,
+    "total_output_tokens": 351989,
+    "total_cost": 0.4489
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": "v2_human",
+    "study_id": "study_007",
+    "average_bas": 0.0634,
+    "ecs": -0.3527,
+    "total_output_tokens": 113156,
+    "total_cost": 0.1814
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": "v2_human",
+    "study_id": "study_008",
+    "average_bas": 0.0086,
+    "ecs": -0.0221,
+    "total_output_tokens": 201824,
+    "total_cost": 0.6147
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": "v2_human",
+    "study_id": "study_009",
+    "average_bas": 0.9599,
+    "ecs": 0.3368,
+    "total_output_tokens": 1040563,
+    "total_cost": 2.1371
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": "v2_human",
+    "study_id": "study_010",
+    "average_bas": 0.0005,
+    "ecs": -0.5468,
+    "total_output_tokens": 143032,
+    "total_cost": 0.4256
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": "v2_human",
+    "study_id": "study_011",
+    "average_bas": 0.0162,
+    "ecs": -0.0694,
+    "total_output_tokens": 138063,
+    "total_cost": 0.3942
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": "v2_human",
+    "study_id": "study_012",
+    "average_bas": 0.0565,
+    "ecs": -0.1556,
+    "total_output_tokens": 130083,
+    "total_cost": 0.4311
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_001",
+    "average_bas": 0.0099,
+    "ecs": -0.2102,
+    "total_output_tokens": 466844,
+    "total_cost": 0.6289
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_002",
+    "average_bas": 0.8829,
+    "ecs": 0.2141,
+    "total_output_tokens": 742487,
+    "total_cost": 1.147
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_003",
+    "average_bas": 0.0273,
+    "ecs": 0.5064,
+    "total_output_tokens": 290698,
+    "total_cost": 0.3327
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_004",
+    "average_bas": 0.6187,
+    "ecs": 0.0564,
+    "total_output_tokens": 1180867,
+    "total_cost": 1.6682
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_005",
+    "average_bas": 0.9995,
+    "ecs": 0.0093,
+    "total_output_tokens": 62100,
+    "total_cost": 0.069
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_006",
+    "average_bas": 0.074,
+    "ecs": 0.1945,
+    "total_output_tokens": 395868,
+    "total_cost": 0.4892
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_007",
+    "average_bas": 0.1759,
+    "ecs": -0.4297,
+    "total_output_tokens": 103260,
+    "total_cost": 0.1149
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_008",
+    "average_bas": 0.0039,
+    "ecs": 0.1282,
+    "total_output_tokens": 144603,
+    "total_cost": 0.2295
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_009",
+    "average_bas": 0.9647,
+    "ecs": 0.1805,
+    "total_output_tokens": 799548,
+    "total_cost": 1.4514
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_010",
+    "average_bas": 0.0024,
+    "ecs": -0.255,
+    "total_output_tokens": 85448,
+    "total_cost": 0.097
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_011",
+    "average_bas": 0.2349,
+    "ecs": 0.1623,
+    "total_output_tokens": 98704,
+    "total_cost": 0.1475
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_012",
+    "average_bas": 0.0917,
+    "ecs": -0.3015,
+    "total_output_tokens": 79595,
+    "total_cost": 0.0945
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": "v4_background",
+    "study_id": "study_001",
+    "average_bas": 0.0229,
+    "ecs": -0.032,
+    "total_output_tokens": 1101234,
+    "total_cost": 1.4237
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": "v4_background",
+    "study_id": "study_002",
+    "average_bas": 0.9192,
+    "ecs": 0.2386,
+    "total_output_tokens": 782730,
+    "total_cost": 1.187
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": "v4_background",
+    "study_id": "study_003",
+    "average_bas": 0.007,
+    "ecs": 0.727,
+    "total_output_tokens": 507638,
+    "total_cost": 0.5806
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": "v4_background",
+    "study_id": "study_004",
+    "average_bas": 0.3224,
+    "ecs": 0.0556,
+    "total_output_tokens": 1512544,
+    "total_cost": 1.9935
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": "v4_background",
+    "study_id": "study_005",
+    "average_bas": 0.9995,
+    "ecs": 0.0086,
+    "total_output_tokens": 94143,
+    "total_cost": 0.1028
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": "v4_background",
+    "study_id": "study_006",
+    "average_bas": 0.0934,
+    "ecs": 0.1951,
+    "total_output_tokens": 527465,
+    "total_cost": 0.6188
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": "v4_background",
+    "study_id": "study_007",
+    "average_bas": 0.0046,
+    "ecs": -0.3865,
+    "total_output_tokens": 125233,
+    "total_cost": 0.1753
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": "v4_background",
+    "study_id": "study_008",
+    "average_bas": 0.9536,
+    "ecs": 0.3772,
+    "total_output_tokens": 236216,
+    "total_cost": 0.3748
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": "v4_background",
+    "study_id": "study_009",
+    "average_bas": 0.9621,
+    "ecs": 0.1985,
+    "total_output_tokens": 829149,
+    "total_cost": 1.5096
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": "v4_background",
+    "study_id": "study_010",
+    "average_bas": 0.0024,
+    "ecs": -0.3033,
+    "total_output_tokens": 119663,
+    "total_cost": 0.1355
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": "v4_background",
+    "study_id": "study_011",
+    "average_bas": 0.0019,
+    "ecs": -0.0556,
+    "total_output_tokens": 134078,
+    "total_cost": 0.1801
+  },
+  {
+    "model": "anthropic/claude-haiku-4.5",
+    "variant": "v4_background",
+    "study_id": "study_012",
+    "average_bas": 0.3746,
+    "ecs": -0.1752,
+    "total_output_tokens": 0,
+    "total_cost": 0.0
+  },
+  {
+    "model": "deepseek/deepseek-chat",
+    "variant": "v4_background",
+    "study_id": "study_001",
+    "average_bas": 0.0,
+    "ecs": "N/A",
+    "total_output_tokens": 0,
+    "total_cost": 0.0
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v1_empty",
+    "study_id": "study_001",
+    "average_bas": 0.0545,
+    "ecs": 0.1733,
+    "total_output_tokens": 413399,
+    "total_cost": 0.1021
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v1_empty",
+    "study_id": "study_002",
+    "average_bas": 0.3458,
+    "ecs": -0.118,
+    "total_output_tokens": 663096,
+    "total_cost": 0.1678
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v1_empty",
+    "study_id": "study_003",
+    "average_bas": 0.9909,
+    "ecs": 0.2188,
+    "total_output_tokens": 184111,
+    "total_cost": 0.0482
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v1_empty",
+    "study_id": "study_004",
+    "average_bas": 0.0035,
+    "ecs": 0.1305,
+    "total_output_tokens": 902790,
+    "total_cost": 0.2039
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v1_empty",
+    "study_id": "study_005",
+    "average_bas": 0.9995,
+    "ecs": 0.0244,
+    "total_output_tokens": 44884,
+    "total_cost": 0.012
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v1_empty",
+    "study_id": "study_006",
+    "average_bas": 0.0914,
+    "ecs": 0.0896,
+    "total_output_tokens": 315983,
+    "total_cost": 0.0774
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v1_empty",
+    "study_id": "study_007",
+    "average_bas": 0.0033,
+    "ecs": 0.084,
+    "total_output_tokens": 91192,
+    "total_cost": 0.0243
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v1_empty",
+    "study_id": "study_008",
+    "average_bas": 0.0048,
+    "ecs": 0.3559,
+    "total_output_tokens": 98929,
+    "total_cost": 0.0275
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v1_empty",
+    "study_id": "study_009",
+    "average_bas": 0.9493,
+    "ecs": 0.4333,
+    "total_output_tokens": 328309,
+    "total_cost": 0.0803
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v1_empty",
+    "study_id": "study_010",
+    "average_bas": 0.0009,
+    "ecs": -0.575,
+    "total_output_tokens": 85881,
+    "total_cost": 0.0227
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v1_empty",
+    "study_id": "study_011",
+    "average_bas": 0.0018,
+    "ecs": -0.2513,
+    "total_output_tokens": 69872,
+    "total_cost": 0.0187
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v1_empty",
+    "study_id": "study_012",
+    "average_bas": 0.0731,
+    "ecs": -0.011,
+    "total_output_tokens": 55478,
+    "total_cost": 0.0153
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v2_human",
+    "study_id": "study_001",
+    "average_bas": 0.0818,
+    "ecs": -0.1305,
+    "total_output_tokens": 406021,
+    "total_cost": 0.0949
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v2_human",
+    "study_id": "study_002",
+    "average_bas": 0.8675,
+    "ecs": -0.0482,
+    "total_output_tokens": 666127,
+    "total_cost": 0.1694
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v2_human",
+    "study_id": "study_003",
+    "average_bas": 0.9913,
+    "ecs": 0.2738,
+    "total_output_tokens": 194747,
+    "total_cost": 0.0501
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v2_human",
+    "study_id": "study_004",
+    "average_bas": 0.0062,
+    "ecs": 0.1308,
+    "total_output_tokens": 922193,
+    "total_cost": 0.2079
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v2_human",
+    "study_id": "study_005",
+    "average_bas": 0.9995,
+    "ecs": 0.017,
+    "total_output_tokens": 47033,
+    "total_cost": 0.0124
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v2_human",
+    "study_id": "study_006",
+    "average_bas": 0.0632,
+    "ecs": 0.0647,
+    "total_output_tokens": 318218,
+    "total_cost": 0.0774
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v2_human",
+    "study_id": "study_007",
+    "average_bas": 0.0091,
+    "ecs": -0.2968,
+    "total_output_tokens": 92097,
+    "total_cost": 0.0244
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v2_human",
+    "study_id": "study_008",
+    "average_bas": 0.0075,
+    "ecs": 0.0111,
+    "total_output_tokens": 97659,
+    "total_cost": 0.0253
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v2_human",
+    "study_id": "study_009",
+    "average_bas": 0.9409,
+    "ecs": 0.4828,
+    "total_output_tokens": 363930,
+    "total_cost": 0.0909
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v2_human",
+    "study_id": "study_010",
+    "average_bas": 0.0023,
+    "ecs": -0.4926,
+    "total_output_tokens": 70306,
+    "total_cost": 0.0163
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v2_human",
+    "study_id": "study_011",
+    "average_bas": 0.0312,
+    "ecs": -0.2496,
+    "total_output_tokens": 70643,
+    "total_cost": 0.0185
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v2_human",
+    "study_id": "study_012",
+    "average_bas": 0.0393,
+    "ecs": 0.3864,
+    "total_output_tokens": 53753,
+    "total_cost": 0.0141
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_001",
+    "average_bas": 0.1761,
+    "ecs": 0.1579,
+    "total_output_tokens": 545746,
+    "total_cost": 0.1736
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_002",
+    "average_bas": 0.0332,
+    "ecs": 0.2043,
+    "total_output_tokens": 673295,
+    "total_cost": 0.1909
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_003",
+    "average_bas": 0.9885,
+    "ecs": 0.1368,
+    "total_output_tokens": 264123,
+    "total_cost": 0.0702
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_004",
+    "average_bas": 0.0189,
+    "ecs": 0.0841,
+    "total_output_tokens": 1048751,
+    "total_cost": 0.2943
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_005",
+    "average_bas": 0.9995,
+    "ecs": 0.0249,
+    "total_output_tokens": 57434,
+    "total_cost": 0.0155
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_006",
+    "average_bas": 0.0674,
+    "ecs": 0.0727,
+    "total_output_tokens": 358175,
+    "total_cost": 0.0964
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_007",
+    "average_bas": 0.0136,
+    "ecs": -0.213,
+    "total_output_tokens": 96124,
+    "total_cost": 0.0257
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_008",
+    "average_bas": 0.255,
+    "ecs": 0.1905,
+    "total_output_tokens": 120564,
+    "total_cost": 0.0327
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_009",
+    "average_bas": 0.9558,
+    "ecs": 0.3276,
+    "total_output_tokens": 357891,
+    "total_cost": 0.0912
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_010",
+    "average_bas": 0.0023,
+    "ecs": -0.4105,
+    "total_output_tokens": 78183,
+    "total_cost": 0.0207
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_011",
+    "average_bas": 0.001,
+    "ecs": -0.2581,
+    "total_output_tokens": 82596,
+    "total_cost": 0.022
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_012",
+    "average_bas": 0.0539,
+    "ecs": 0.3015,
+    "total_output_tokens": 70578,
+    "total_cost": 0.0189
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v4_background",
+    "study_id": "study_001",
+    "average_bas": 0.1406,
+    "ecs": 0.125,
+    "total_output_tokens": 1251824,
+    "total_cost": 0.3941
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v4_background",
+    "study_id": "study_002",
+    "average_bas": 0.3042,
+    "ecs": 0.0227,
+    "total_output_tokens": 1719160,
+    "total_cost": 0.557
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v4_background",
+    "study_id": "study_003",
+    "average_bas": 0.942,
+    "ecs": 0.1557,
+    "total_output_tokens": 521391,
+    "total_cost": 0.1505
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v4_background",
+    "study_id": "study_004",
+    "average_bas": 0.0365,
+    "ecs": 0.0802,
+    "total_output_tokens": 4012366,
+    "total_cost": 1.3355
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v4_background",
+    "study_id": "study_005",
+    "average_bas": 0.9995,
+    "ecs": 0.0283,
+    "total_output_tokens": 99616,
+    "total_cost": 0.0288
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v4_background",
+    "study_id": "study_006",
+    "average_bas": 0.0447,
+    "ecs": 0.0849,
+    "total_output_tokens": 600383,
+    "total_cost": 0.1847
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v4_background",
+    "study_id": "study_007",
+    "average_bas": 0.0037,
+    "ecs": -0.3466,
+    "total_output_tokens": 123714,
+    "total_cost": 0.0371
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v4_background",
+    "study_id": "study_008",
+    "average_bas": 0.6624,
+    "ecs": 0.5898,
+    "total_output_tokens": 244388,
+    "total_cost": 0.0752
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v4_background",
+    "study_id": "study_009",
+    "average_bas": 0.9706,
+    "ecs": 0.3516,
+    "total_output_tokens": 856274,
+    "total_cost": 0.2203
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v4_background",
+    "study_id": "study_010",
+    "average_bas": 0.0024,
+    "ecs": -0.3965,
+    "total_output_tokens": 108372,
+    "total_cost": 0.0291
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v4_background",
+    "study_id": "study_011",
+    "average_bas": 0.0009,
+    "ecs": -0.2218,
+    "total_output_tokens": 116106,
+    "total_cost": 0.0312
+  },
+  {
+    "model": "deepseek/deepseek-v3.2",
+    "variant": "v4_background",
+    "study_id": "study_012",
+    "average_bas": 0.3746,
+    "ecs": -0.1752,
+    "total_output_tokens": 0,
+    "total_cost": 0.0
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v1_empty",
+    "study_id": "study_001",
+    "average_bas": 0.0015,
+    "ecs": "N/A",
+    "total_output_tokens": 431945,
+    "total_cost": 0.3426
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v1_empty",
+    "study_id": "study_002",
+    "average_bas": 0.328,
+    "ecs": -0.0265,
+    "total_output_tokens": 739795,
+    "total_cost": 0.5944
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v1_empty",
+    "study_id": "study_003",
+    "average_bas": 0.9998,
+    "ecs": 0.1281,
+    "total_output_tokens": 186995,
+    "total_cost": 0.1192
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v1_empty",
+    "study_id": "study_004",
+    "average_bas": 0.1247,
+    "ecs": 0.0407,
+    "total_output_tokens": 969830,
+    "total_cost": 0.8094
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v1_empty",
+    "study_id": "study_005",
+    "average_bas": 0.9995,
+    "ecs": 0.0037,
+    "total_output_tokens": 44939,
+    "total_cost": 0.0255
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v1_empty",
+    "study_id": "study_006",
+    "average_bas": 0.0733,
+    "ecs": 0.0317,
+    "total_output_tokens": 316956,
+    "total_cost": 0.2146
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v1_empty",
+    "study_id": "study_007",
+    "average_bas": 0.1243,
+    "ecs": "N/A",
+    "total_output_tokens": 97625,
+    "total_cost": 0.0513
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v1_empty",
+    "study_id": "study_008",
+    "average_bas": 0.034,
+    "ecs": 0.9224,
+    "total_output_tokens": 111034,
+    "total_cost": 0.1196
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v1_empty",
+    "study_id": "study_009",
+    "average_bas": 0.9705,
+    "ecs": 0.4231,
+    "total_output_tokens": 585241,
+    "total_cost": 0.5442
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v1_empty",
+    "study_id": "study_010",
+    "average_bas": 0.4086,
+    "ecs": 0.0868,
+    "total_output_tokens": 70941,
+    "total_cost": 0.0469
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v1_empty",
+    "study_id": "study_011",
+    "average_bas": 0.2837,
+    "ecs": 0.0,
+    "total_output_tokens": 67419,
+    "total_cost": 0.0374
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v1_empty",
+    "study_id": "study_012",
+    "average_bas": 0.072,
+    "ecs": 0.0474,
+    "total_output_tokens": 55570,
+    "total_cost": 0.0305
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v2_human",
+    "study_id": "study_001",
+    "average_bas": 0.0032,
+    "ecs": "N/A",
+    "total_output_tokens": 438054,
+    "total_cost": 0.3452
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v2_human",
+    "study_id": "study_002",
+    "average_bas": 0.0563,
+    "ecs": 0.0102,
+    "total_output_tokens": 742903,
+    "total_cost": 0.5892
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v2_human",
+    "study_id": "study_003",
+    "average_bas": 0.9998,
+    "ecs": 0.0749,
+    "total_output_tokens": 199514,
+    "total_cost": 0.1153
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v2_human",
+    "study_id": "study_004",
+    "average_bas": 0.2205,
+    "ecs": 0.0448,
+    "total_output_tokens": 996661,
+    "total_cost": 0.8214
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v2_human",
+    "study_id": "study_005",
+    "average_bas": 0.9995,
+    "ecs": 0.0052,
+    "total_output_tokens": 47458,
+    "total_cost": 0.0267
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v2_human",
+    "study_id": "study_006",
+    "average_bas": 0.0667,
+    "ecs": 0.0251,
+    "total_output_tokens": 326830,
+    "total_cost": 0.2191
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v2_human",
+    "study_id": "study_007",
+    "average_bas": 0.3635,
+    "ecs": "N/A",
+    "total_output_tokens": 98565,
+    "total_cost": 0.0518
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v2_human",
+    "study_id": "study_008",
+    "average_bas": 0.0378,
+    "ecs": "N/A",
+    "total_output_tokens": 98236,
+    "total_cost": 0.0672
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v2_human",
+    "study_id": "study_009",
+    "average_bas": 0.9637,
+    "ecs": 0.5223,
+    "total_output_tokens": 503483,
+    "total_cost": 0.4176
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v2_human",
+    "study_id": "study_010",
+    "average_bas": 0.4086,
+    "ecs": 0.0868,
+    "total_output_tokens": 70688,
+    "total_cost": 0.0399
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v2_human",
+    "study_id": "study_011",
+    "average_bas": 0.2837,
+    "ecs": 0.0,
+    "total_output_tokens": 70266,
+    "total_cost": 0.0388
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v2_human",
+    "study_id": "study_012",
+    "average_bas": 0.0424,
+    "ecs": "N/A",
+    "total_output_tokens": 58552,
+    "total_cost": 0.0319
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_001",
+    "average_bas": 0.0492,
+    "ecs": 0.4403,
+    "total_output_tokens": 465026,
+    "total_cost": 0.3591
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_002",
+    "average_bas": 0.0962,
+    "ecs": 0.0271,
+    "total_output_tokens": 756985,
+    "total_cost": 0.6653
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_003",
+    "average_bas": 0.9998,
+    "ecs": 0.0105,
+    "total_output_tokens": 272381,
+    "total_cost": 0.1512
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_004",
+    "average_bas": 0.7974,
+    "ecs": -0.0267,
+    "total_output_tokens": 1127679,
+    "total_cost": 0.8803
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_005",
+    "average_bas": 0.9995,
+    "ecs": "N/A",
+    "total_output_tokens": 58434,
+    "total_cost": 0.0321
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_006",
+    "average_bas": 0.0377,
+    "ecs": 0.0428,
+    "total_output_tokens": 369502,
+    "total_cost": 0.2393
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_007",
+    "average_bas": 0.369,
+    "ecs": "N/A",
+    "total_output_tokens": 102837,
+    "total_cost": 0.0539
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_008",
+    "average_bas": 0.9894,
+    "ecs": 0.6456,
+    "total_output_tokens": 123070,
+    "total_cost": 0.0796
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_009",
+    "average_bas": 0.9058,
+    "ecs": 0.2072,
+    "total_output_tokens": 376107,
+    "total_cost": 0.1973
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_010",
+    "average_bas": 0.4086,
+    "ecs": 0.0868,
+    "total_output_tokens": 81348,
+    "total_cost": 0.0452
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_011",
+    "average_bas": 0.2837,
+    "ecs": 0.0,
+    "total_output_tokens": 82978,
+    "total_cost": 0.0451
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_012",
+    "average_bas": 0.0294,
+    "ecs": "N/A",
+    "total_output_tokens": 75159,
+    "total_cost": 0.0399
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v4_background",
+    "study_id": "study_001",
+    "average_bas": 0.5985,
+    "ecs": 0.3726,
+    "total_output_tokens": 1085214,
+    "total_cost": 0.7951
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v4_background",
+    "study_id": "study_002",
+    "average_bas": 0.0974,
+    "ecs": 0.0675,
+    "total_output_tokens": 794683,
+    "total_cost": 0.6957
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v4_background",
+    "study_id": "study_003",
+    "average_bas": 0.9998,
+    "ecs": 0.1617,
+    "total_output_tokens": 936248,
+    "total_cost": 0.4963
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v4_background",
+    "study_id": "study_004",
+    "average_bas": 0.3343,
+    "ecs": 0.033,
+    "total_output_tokens": 2886928,
+    "total_cost": 2.0944
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v4_background",
+    "study_id": "study_005",
+    "average_bas": 0.9995,
+    "ecs": "N/A",
+    "total_output_tokens": 176242,
+    "total_cost": 0.0937
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v4_background",
+    "study_id": "study_006",
+    "average_bas": 0.0636,
+    "ecs": 0.0742,
+    "total_output_tokens": 982374,
+    "total_cost": 0.6001
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v4_background",
+    "study_id": "study_007",
+    "average_bas": 0.0053,
+    "ecs": -0.7707,
+    "total_output_tokens": 114075,
+    "total_cost": 0.0592
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v4_background",
+    "study_id": "study_008",
+    "average_bas": 0.9132,
+    "ecs": 0.5577,
+    "total_output_tokens": 194655,
+    "total_cost": 0.1145
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v4_background",
+    "study_id": "study_009",
+    "average_bas": 0.9077,
+    "ecs": 0.024,
+    "total_output_tokens": 387802,
+    "total_cost": 0.2033
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v4_background",
+    "study_id": "study_010",
+    "average_bas": 0.0024,
+    "ecs": -0.2613,
+    "total_output_tokens": 111810,
+    "total_cost": 0.0603
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v4_background",
+    "study_id": "study_011",
+    "average_bas": 0.2837,
+    "ecs": 0.0,
+    "total_output_tokens": 116408,
+    "total_cost": 0.0616
+  },
+  {
+    "model": "google/gemini-3-flash-preview",
+    "variant": "v4_background",
+    "study_id": "study_012",
+    "average_bas": 0.3746,
+    "ecs": -0.1752,
+    "total_output_tokens": 0,
+    "total_cost": 0.0
+  },
+  {
+    "model": "mistralai_mistral_nemo_example-v4",
+    "variant": "unknown",
+    "study_id": "study_001",
+    "average_bas": 0.6772,
+    "ecs": -0.0415,
+    "total_output_tokens": 536219,
+    "total_cost": 0.0354
+  },
+  {
+    "model": "mistralai_mistral_nemo_example-v4",
+    "variant": "unknown",
+    "study_id": "study_002",
+    "average_bas": 0.4245,
+    "ecs": -0.0448,
+    "total_output_tokens": 771260,
+    "total_cost": 0.0568
+  },
+  {
+    "model": "mistralai_mistral_nemo_example-v4",
+    "variant": "unknown",
+    "study_id": "study_003",
+    "average_bas": 0.2977,
+    "ecs": 0.7861,
+    "total_output_tokens": 468475,
+    "total_cost": 0.0265
+  },
+  {
+    "model": "mistralai_mistral_nemo_example-v4",
+    "variant": "unknown",
+    "study_id": "study_004",
+    "average_bas": 0.4392,
+    "ecs": 0.2144,
+    "total_output_tokens": 1441804,
+    "total_cost": 0.0965
+  },
+  {
+    "model": "mistralai_mistral_nemo_example-v4",
+    "variant": "unknown",
+    "study_id": "study_005",
+    "average_bas": 0.9995,
+    "ecs": 0.0376,
+    "total_output_tokens": 86575,
+    "total_cost": 0.0048
+  },
+  {
+    "model": "mistralai_mistral_nemo_example-v4",
+    "variant": "unknown",
+    "study_id": "study_006",
+    "average_bas": 0.0691,
+    "ecs": 0.0424,
+    "total_output_tokens": 487645,
+    "total_cost": 0.0288
+  },
+  {
+    "model": "mistralai_mistral_nemo_example-v4",
+    "variant": "unknown",
+    "study_id": "study_007",
+    "average_bas": 0.0129,
+    "ecs": 0.0782,
+    "total_output_tokens": 112484,
+    "total_cost": 0.006
+  },
+  {
+    "model": "mistralai_mistral_nemo_example-v4",
+    "variant": "unknown",
+    "study_id": "study_008",
+    "average_bas": 0.236,
+    "ecs": 0.0388,
+    "total_output_tokens": 193007,
+    "total_cost": 0.0118
+  },
+  {
+    "model": "mistralai_mistral_nemo_example-v4",
+    "variant": "unknown",
+    "study_id": "study_009",
+    "average_bas": 0.9351,
+    "ecs": 0.1807,
+    "total_output_tokens": 482627,
+    "total_cost": 0.0271
+  },
+  {
+    "model": "mistralai_mistral_nemo_example-v4",
+    "variant": "unknown",
+    "study_id": "study_010",
+    "average_bas": 0.0001,
+    "ecs": -0.4846,
+    "total_output_tokens": 110372,
+    "total_cost": 0.0068
+  },
+  {
+    "model": "mistralai_mistral_nemo_example-v4",
+    "variant": "unknown",
+    "study_id": "study_011",
+    "average_bas": 0.1655,
+    "ecs": -0.4609,
+    "total_output_tokens": 116621,
+    "total_cost": 0.0068
+  },
+  {
+    "model": "mistralai_mistral_nemo_example-v4",
+    "variant": "unknown",
+    "study_id": "study_012",
+    "average_bas": 0.3326,
+    "ecs": -0.3435,
+    "total_output_tokens": 106766,
+    "total_cost": 0.0057
+  },
+  {
+    "model": "mistralai/mistral-nemo",
+    "variant": "v4_background",
+    "study_id": "study_001",
+    "average_bas": 0.9077,
+    "ecs": 0.2118,
+    "total_output_tokens": 545517,
+    "total_cost": 0.0157
+  },
+  {
+    "model": "mistralai/mistral-nemo",
+    "variant": "v4_background",
+    "study_id": "study_002",
+    "average_bas": 0.3203,
+    "ecs": -0.0397,
+    "total_output_tokens": 1545848,
+    "total_cost": 0.0466
+  },
+  {
+    "model": "mistralai/mistral-nemo",
+    "variant": "v4_background",
+    "study_id": "study_003",
+    "average_bas": 0.8945,
+    "ecs": 0.1945,
+    "total_output_tokens": 472172,
+    "total_cost": 0.0124
+  },
+  {
+    "model": "mistralai/mistral-nemo",
+    "variant": "v4_background",
+    "study_id": "study_004",
+    "average_bas": 0.3264,
+    "ecs": 0.2045,
+    "total_output_tokens": 2887808,
+    "total_cost": 0.085
+  },
+  {
+    "model": "mistralai/mistral-nemo",
+    "variant": "v4_background",
+    "study_id": "study_005",
+    "average_bas": 0.9995,
+    "ecs": 0.0871,
+    "total_output_tokens": 87222,
+    "total_cost": 0.0021
+  },
+  {
+    "model": "mistralai/mistral-nemo",
+    "variant": "v4_background",
+    "study_id": "study_006",
+    "average_bas": 0.0328,
+    "ecs": 0.0978,
+    "total_output_tokens": 498738,
+    "total_cost": 0.0134
+  },
+  {
+    "model": "mistralai/mistral-nemo",
+    "variant": "v4_background",
+    "study_id": "study_007",
+    "average_bas": 0.007,
+    "ecs": -0.2427,
+    "total_output_tokens": 113399,
+    "total_cost": 0.0028
+  },
+  {
+    "model": "mistralai/mistral-nemo",
+    "variant": "v4_background",
+    "study_id": "study_008",
+    "average_bas": 0.3279,
+    "ecs": 0.4369,
+    "total_output_tokens": 197628,
+    "total_cost": 0.0057
+  },
+  {
+    "model": "mistralai/mistral-nemo",
+    "variant": "v4_background",
+    "study_id": "study_009",
+    "average_bas": 0.9309,
+    "ecs": 0.0898,
+    "total_output_tokens": 394775,
+    "total_cost": 0.0105
+  },
+  {
+    "model": "mistralai/mistral-nemo",
+    "variant": "v4_background",
+    "study_id": "study_010",
+    "average_bas": 0.0006,
+    "ecs": -0.3082,
+    "total_output_tokens": 112757,
+    "total_cost": 0.0028
+  },
+  {
+    "model": "mistralai/mistral-nemo",
+    "variant": "v4_background",
+    "study_id": "study_011",
+    "average_bas": 0.0636,
+    "ecs": -0.0902,
+    "total_output_tokens": 117972,
+    "total_cost": 0.0033
+  },
+  {
+    "model": "mistralai/mistral-nemo",
+    "variant": "v4_background",
+    "study_id": "study_012",
+    "average_bas": 0.3746,
+    "ecs": -0.1752,
+    "total_output_tokens": 0,
+    "total_cost": 0.0
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v1_empty",
+    "study_id": "study_001",
+    "average_bas": 0.0043,
+    "ecs": 0.1642,
+    "total_output_tokens": 435172,
+    "total_cost": 0.054
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v1_empty",
+    "study_id": "study_002",
+    "average_bas": 0.1205,
+    "ecs": 0.0515,
+    "total_output_tokens": 716612,
+    "total_cost": 0.095
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v1_empty",
+    "study_id": "study_003",
+    "average_bas": 0.7738,
+    "ecs": 0.3092,
+    "total_output_tokens": 203867,
+    "total_cost": 0.0255
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v1_empty",
+    "study_id": "study_004",
+    "average_bas": 0.0227,
+    "ecs": 0.152,
+    "total_output_tokens": 969066,
+    "total_cost": 0.1222
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v1_empty",
+    "study_id": "study_005",
+    "average_bas": 0.0012,
+    "ecs": 0.0842,
+    "total_output_tokens": 44418,
+    "total_cost": 0.0048
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v1_empty",
+    "study_id": "study_006",
+    "average_bas": 0.0597,
+    "ecs": 0.0693,
+    "total_output_tokens": 323943,
+    "total_cost": 0.0371
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v1_empty",
+    "study_id": "study_007",
+    "average_bas": 0.0007,
+    "ecs": "N/A",
+    "total_output_tokens": 96668,
+    "total_cost": 0.0098
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v1_empty",
+    "study_id": "study_008",
+    "average_bas": 0.0003,
+    "ecs": 0.3484,
+    "total_output_tokens": 341683,
+    "total_cost": 0.0848
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v1_empty",
+    "study_id": "study_009",
+    "average_bas": 0.9485,
+    "ecs": 0.4267,
+    "total_output_tokens": 1062659,
+    "total_cost": 0.1617
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v1_empty",
+    "study_id": "study_010",
+    "average_bas": 0.0007,
+    "ecs": -0.6236,
+    "total_output_tokens": 143875,
+    "total_cost": 0.0296
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v1_empty",
+    "study_id": "study_011",
+    "average_bas": 0.8723,
+    "ecs": -0.0239,
+    "total_output_tokens": 88186,
+    "total_cost": 0.013
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v1_empty",
+    "study_id": "study_012",
+    "average_bas": 0.3034,
+    "ecs": -0.3258,
+    "total_output_tokens": 52912,
+    "total_cost": 0.0055
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v2_human",
+    "study_id": "study_001",
+    "average_bas": 0.002,
+    "ecs": 0.0487,
+    "total_output_tokens": 463761,
+    "total_cost": 0.0611
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v2_human",
+    "study_id": "study_002",
+    "average_bas": 0.0791,
+    "ecs": 0.0764,
+    "total_output_tokens": 719056,
+    "total_cost": 0.095
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v2_human",
+    "study_id": "study_003",
+    "average_bas": 0.0003,
+    "ecs": -0.3137,
+    "total_output_tokens": 256320,
+    "total_cost": 0.0373
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v2_human",
+    "study_id": "study_004",
+    "average_bas": 0.0093,
+    "ecs": 0.1363,
+    "total_output_tokens": 1002716,
+    "total_cost": 0.1261
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v2_human",
+    "study_id": "study_005",
+    "average_bas": 0.0015,
+    "ecs": 0.1066,
+    "total_output_tokens": 47865,
+    "total_cost": 0.0052
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v2_human",
+    "study_id": "study_006",
+    "average_bas": 0.0843,
+    "ecs": 0.0408,
+    "total_output_tokens": 335237,
+    "total_cost": 0.0382
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v2_human",
+    "study_id": "study_007",
+    "average_bas": 0.0007,
+    "ecs": "N/A",
+    "total_output_tokens": 97694,
+    "total_cost": 0.0099
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v2_human",
+    "study_id": "study_008",
+    "average_bas": 0.0022,
+    "ecs": -0.2215,
+    "total_output_tokens": 316173,
+    "total_cost": 0.0759
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v2_human",
+    "study_id": "study_009",
+    "average_bas": 0.9394,
+    "ecs": 0.3625,
+    "total_output_tokens": 945334,
+    "total_cost": 0.1436
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v2_human",
+    "study_id": "study_010",
+    "average_bas": 0.0005,
+    "ecs": -0.6197,
+    "total_output_tokens": 145963,
+    "total_cost": 0.0297
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v2_human",
+    "study_id": "study_011",
+    "average_bas": 0.1413,
+    "ecs": 0.0756,
+    "total_output_tokens": 105516,
+    "total_cost": 0.0175
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v2_human",
+    "study_id": "study_012",
+    "average_bas": 0.2187,
+    "ecs": "N/A",
+    "total_output_tokens": 56256,
+    "total_cost": 0.0058
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_001",
+    "average_bas": 0.0019,
+    "ecs": 0.0188,
+    "total_output_tokens": 463591,
+    "total_cost": 0.0559
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_002",
+    "average_bas": 0.1192,
+    "ecs": 0.061,
+    "total_output_tokens": 733154,
+    "total_cost": 0.0964
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_003",
+    "average_bas": 0.7499,
+    "ecs": 0.0341,
+    "total_output_tokens": 275292,
+    "total_cost": 0.0288
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_004",
+    "average_bas": 0.0726,
+    "ecs": 0.1444,
+    "total_output_tokens": 1125163,
+    "total_cost": 0.1374
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_005",
+    "average_bas": 0.9973,
+    "ecs": 0.0235,
+    "total_output_tokens": 57444,
+    "total_cost": 0.006
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_006",
+    "average_bas": 0.0481,
+    "ecs": 0.0955,
+    "total_output_tokens": 375222,
+    "total_cost": 0.0419
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_007",
+    "average_bas": 0.0007,
+    "ecs": "N/A",
+    "total_output_tokens": 101819,
+    "total_cost": 0.0103
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_008",
+    "average_bas": 0.7106,
+    "ecs": 0.5035,
+    "total_output_tokens": 122717,
+    "total_cost": 0.0137
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_009",
+    "average_bas": 0.9361,
+    "ecs": 0.0731,
+    "total_output_tokens": 375538,
+    "total_cost": 0.038
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_010",
+    "average_bas": 0.0024,
+    "ecs": -0.353,
+    "total_output_tokens": 81196,
+    "total_cost": 0.0084
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_011",
+    "average_bas": 0.6302,
+    "ecs": -0.1052,
+    "total_output_tokens": 83950,
+    "total_cost": 0.0087
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_012",
+    "average_bas": 0.3189,
+    "ecs": -0.2484,
+    "total_output_tokens": 72345,
+    "total_cost": 0.0074
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v4_background",
+    "study_id": "study_001",
+    "average_bas": 0.1274,
+    "ecs": -0.0822,
+    "total_output_tokens": 542623,
+    "total_cost": 0.0637
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v4_background",
+    "study_id": "study_002",
+    "average_bas": 0.1064,
+    "ecs": 0.0865,
+    "total_output_tokens": 770594,
+    "total_cost": 0.1
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v4_background",
+    "study_id": "study_003",
+    "average_bas": 0.6744,
+    "ecs": 0.4202,
+    "total_output_tokens": 471148,
+    "total_cost": 0.0482
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v4_background",
+    "study_id": "study_004",
+    "average_bas": 0.0632,
+    "ecs": 0.1446,
+    "total_output_tokens": 1437825,
+    "total_cost": 0.1683
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v4_background",
+    "study_id": "study_005",
+    "average_bas": 0.9937,
+    "ecs": 0.0805,
+    "total_output_tokens": 87199,
+    "total_cost": 0.0089
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v4_background",
+    "study_id": "study_006",
+    "average_bas": 0.0913,
+    "ecs": 0.2196,
+    "total_output_tokens": 499513,
+    "total_cost": 0.0543
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v4_background",
+    "study_id": "study_007",
+    "average_bas": 0.0137,
+    "ecs": "N/A",
+    "total_output_tokens": 113302,
+    "total_cost": 0.0114
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v4_background",
+    "study_id": "study_008",
+    "average_bas": 0.8666,
+    "ecs": 0.4736,
+    "total_output_tokens": 196081,
+    "total_cost": 0.021
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v4_background",
+    "study_id": "study_009",
+    "average_bas": 0.9454,
+    "ecs": 0.1453,
+    "total_output_tokens": 388180,
+    "total_cost": 0.0392
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v4_background",
+    "study_id": "study_010",
+    "average_bas": 0.0024,
+    "ecs": -0.3284,
+    "total_output_tokens": 112467,
+    "total_cost": 0.0116
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v4_background",
+    "study_id": "study_011",
+    "average_bas": 0.0268,
+    "ecs": -0.0169,
+    "total_output_tokens": 117732,
+    "total_cost": 0.012
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.1",
+    "variant": "v4_background",
+    "study_id": "study_012",
+    "average_bas": 0.3746,
+    "ecs": -0.1752,
+    "total_output_tokens": 0,
+    "total_cost": 0.0
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v1_empty",
+    "study_id": "study_001",
+    "average_bas": 0.0047,
+    "ecs": 0.1666,
+    "total_output_tokens": 433995,
+    "total_cost": 0.0536
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v1_empty",
+    "study_id": "study_002",
+    "average_bas": 0.1436,
+    "ecs": 0.079,
+    "total_output_tokens": 716657,
+    "total_cost": 0.095
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v1_empty",
+    "study_id": "study_003",
+    "average_bas": 0.7738,
+    "ecs": 0.2491,
+    "total_output_tokens": 205078,
+    "total_cost": 0.0259
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v1_empty",
+    "study_id": "study_004",
+    "average_bas": 0.0229,
+    "ecs": 0.1351,
+    "total_output_tokens": 1938826,
+    "total_cost": 0.2445
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v1_empty",
+    "study_id": "study_005",
+    "average_bas": 0.0279,
+    "ecs": 0.1277,
+    "total_output_tokens": 44342,
+    "total_cost": 0.0048
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v1_empty",
+    "study_id": "study_006",
+    "average_bas": 0.0666,
+    "ecs": 0.0671,
+    "total_output_tokens": 323878,
+    "total_cost": 0.0371
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v1_empty",
+    "study_id": "study_007",
+    "average_bas": 0.0036,
+    "ecs": "N/A",
+    "total_output_tokens": 96692,
+    "total_cost": 0.0098
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v1_empty",
+    "study_id": "study_008",
+    "average_bas": 0.0002,
+    "ecs": 0.2257,
+    "total_output_tokens": 347345,
+    "total_cost": 0.0864
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v1_empty",
+    "study_id": "study_009",
+    "average_bas": 0.9464,
+    "ecs": 0.3916,
+    "total_output_tokens": 1085993,
+    "total_cost": 0.1668
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v1_empty",
+    "study_id": "study_010",
+    "average_bas": 0.0004,
+    "ecs": -0.6603,
+    "total_output_tokens": 149967,
+    "total_cost": 0.0314
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v1_empty",
+    "study_id": "study_011",
+    "average_bas": 0.8774,
+    "ecs": -0.1275,
+    "total_output_tokens": 95884,
+    "total_cost": 0.0153
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v1_empty",
+    "study_id": "study_012",
+    "average_bas": 0.3034,
+    "ecs": -0.3258,
+    "total_output_tokens": 52912,
+    "total_cost": 0.0055
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v2_human",
+    "study_id": "study_001",
+    "average_bas": 0.0029,
+    "ecs": 0.0762,
+    "total_output_tokens": 454319,
+    "total_cost": 0.0583
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v2_human",
+    "study_id": "study_002",
+    "average_bas": 0.0613,
+    "ecs": 0.1042,
+    "total_output_tokens": 718044,
+    "total_cost": 0.0948
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v2_human",
+    "study_id": "study_003",
+    "average_bas": 0.0065,
+    "ecs": -0.2576,
+    "total_output_tokens": 254497,
+    "total_cost": 0.0368
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v2_human",
+    "study_id": "study_004",
+    "average_bas": 0.0093,
+    "ecs": 0.1664,
+    "total_output_tokens": 1001411,
+    "total_cost": 0.1257
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v2_human",
+    "study_id": "study_005",
+    "average_bas": 0.0019,
+    "ecs": 0.0893,
+    "total_output_tokens": 96312,
+    "total_cost": 0.0107
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v2_human",
+    "study_id": "study_006",
+    "average_bas": 0.0908,
+    "ecs": 0.0403,
+    "total_output_tokens": 335241,
+    "total_cost": 0.0383
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v2_human",
+    "study_id": "study_007",
+    "average_bas": 0.0007,
+    "ecs": "N/A",
+    "total_output_tokens": 97694,
+    "total_cost": 0.0099
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v2_human",
+    "study_id": "study_008",
+    "average_bas": 0.0358,
+    "ecs": 0.1599,
+    "total_output_tokens": 310694,
+    "total_cost": 0.0743
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v2_human",
+    "study_id": "study_009",
+    "average_bas": 0.9431,
+    "ecs": 0.3085,
+    "total_output_tokens": 922100,
+    "total_cost": 0.1394
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v2_human",
+    "study_id": "study_010",
+    "average_bas": 0.0005,
+    "ecs": -0.6284,
+    "total_output_tokens": 141406,
+    "total_cost": 0.0284
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v2_human",
+    "study_id": "study_011",
+    "average_bas": 0.224,
+    "ecs": -0.0551,
+    "total_output_tokens": 105883,
+    "total_cost": 0.0176
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v2_human",
+    "study_id": "study_012",
+    "average_bas": 0.2174,
+    "ecs": "N/A",
+    "total_output_tokens": 56254,
+    "total_cost": 0.0058
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_001",
+    "average_bas": 0.0019,
+    "ecs": 0.0001,
+    "total_output_tokens": 463605,
+    "total_cost": 0.056
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_002",
+    "average_bas": 0.1186,
+    "ecs": 0.06,
+    "total_output_tokens": 731761,
+    "total_cost": 0.0961
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_003",
+    "average_bas": 0.3105,
+    "ecs": 0.0287,
+    "total_output_tokens": 275220,
+    "total_cost": 0.0288
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_004",
+    "average_bas": 0.0767,
+    "ecs": 0.1446,
+    "total_output_tokens": 1125154,
+    "total_cost": 0.1374
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_005",
+    "average_bas": 0.9982,
+    "ecs": 0.0227,
+    "total_output_tokens": 57454,
+    "total_cost": 0.006
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_006",
+    "average_bas": 0.0527,
+    "ecs": 0.0788,
+    "total_output_tokens": 375087,
+    "total_cost": 0.0419
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_007",
+    "average_bas": 0.0007,
+    "ecs": "N/A",
+    "total_output_tokens": 101819,
+    "total_cost": 0.0103
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_008",
+    "average_bas": 0.0355,
+    "ecs": 0.509,
+    "total_output_tokens": 122714,
+    "total_cost": 0.0137
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_009",
+    "average_bas": 0.9373,
+    "ecs": -0.0378,
+    "total_output_tokens": 375575,
+    "total_cost": 0.038
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_010",
+    "average_bas": 0.0024,
+    "ecs": -0.255,
+    "total_output_tokens": 81197,
+    "total_cost": 0.0084
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_011",
+    "average_bas": 0.7716,
+    "ecs": -0.0969,
+    "total_output_tokens": 83950,
+    "total_cost": 0.0087
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_012",
+    "average_bas": 0.278,
+    "ecs": -0.0608,
+    "total_output_tokens": 72346,
+    "total_cost": 0.0074
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v4_background",
+    "study_id": "study_001",
+    "average_bas": 0.0112,
+    "ecs": -0.0325,
+    "total_output_tokens": 542627,
+    "total_cost": 0.0637
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v4_background",
+    "study_id": "study_002",
+    "average_bas": 0.1163,
+    "ecs": 0.077,
+    "total_output_tokens": 770696,
+    "total_cost": 0.1
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v4_background",
+    "study_id": "study_003",
+    "average_bas": 0.5481,
+    "ecs": 0.4156,
+    "total_output_tokens": 471148,
+    "total_cost": 0.0482
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v4_background",
+    "study_id": "study_004",
+    "average_bas": 0.0573,
+    "ecs": 0.1576,
+    "total_output_tokens": 1437939,
+    "total_cost": 0.1683
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v4_background",
+    "study_id": "study_005",
+    "average_bas": 0.9937,
+    "ecs": 0.0677,
+    "total_output_tokens": 87185,
+    "total_cost": 0.0089
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v4_background",
+    "study_id": "study_006",
+    "average_bas": 0.0992,
+    "ecs": 0.2342,
+    "total_output_tokens": 499520,
+    "total_cost": 0.0543
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v4_background",
+    "study_id": "study_007",
+    "average_bas": 0.0046,
+    "ecs": "N/A",
+    "total_output_tokens": 113302,
+    "total_cost": 0.0114
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v4_background",
+    "study_id": "study_008",
+    "average_bas": 0.8699,
+    "ecs": 0.472,
+    "total_output_tokens": 196036,
+    "total_cost": 0.021
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v4_background",
+    "study_id": "study_009",
+    "average_bas": 0.9538,
+    "ecs": 0.074,
+    "total_output_tokens": 388158,
+    "total_cost": 0.0392
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v4_background",
+    "study_id": "study_010",
+    "average_bas": 0.0024,
+    "ecs": -0.353,
+    "total_output_tokens": 112472,
+    "total_cost": 0.0116
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v4_background",
+    "study_id": "study_011",
+    "average_bas": 0.0477,
+    "ecs": -0.0521,
+    "total_output_tokens": 117732,
+    "total_cost": 0.012
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.3",
+    "variant": "v4_background",
+    "study_id": "study_012",
+    "average_bas": 0.3746,
+    "ecs": -0.1752,
+    "total_output_tokens": 0,
+    "total_cost": 0.0
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v1_empty",
+    "study_id": "study_001",
+    "average_bas": 0.0032,
+    "ecs": 0.0765,
+    "total_output_tokens": 434448,
+    "total_cost": 0.0538
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v1_empty",
+    "study_id": "study_002",
+    "average_bas": 0.1266,
+    "ecs": 0.1192,
+    "total_output_tokens": 716931,
+    "total_cost": 0.0951
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v1_empty",
+    "study_id": "study_003",
+    "average_bas": 0.7738,
+    "ecs": 0.26,
+    "total_output_tokens": 204221,
+    "total_cost": 0.0256
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v1_empty",
+    "study_id": "study_004",
+    "average_bas": 0.0195,
+    "ecs": 0.1572,
+    "total_output_tokens": 969126,
+    "total_cost": 0.1222
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v1_empty",
+    "study_id": "study_005",
+    "average_bas": 0.0011,
+    "ecs": 0.0541,
+    "total_output_tokens": 44490,
+    "total_cost": 0.0048
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v1_empty",
+    "study_id": "study_006",
+    "average_bas": 0.0724,
+    "ecs": 0.0608,
+    "total_output_tokens": 323889,
+    "total_cost": 0.0371
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v1_empty",
+    "study_id": "study_007",
+    "average_bas": 0.0061,
+    "ecs": "N/A",
+    "total_output_tokens": 96656,
+    "total_cost": 0.0098
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v1_empty",
+    "study_id": "study_008",
+    "average_bas": 0.0001,
+    "ecs": 0.2342,
+    "total_output_tokens": 338839,
+    "total_cost": 0.0839
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v1_empty",
+    "study_id": "study_009",
+    "average_bas": 0.9509,
+    "ecs": 0.4046,
+    "total_output_tokens": 1146290,
+    "total_cost": 0.1763
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v1_empty",
+    "study_id": "study_010",
+    "average_bas": 0.0005,
+    "ecs": -0.6441,
+    "total_output_tokens": 145492,
+    "total_cost": 0.0301
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v1_empty",
+    "study_id": "study_011",
+    "average_bas": 0.8832,
+    "ecs": -0.0326,
+    "total_output_tokens": 93677,
+    "total_cost": 0.0146
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v1_empty",
+    "study_id": "study_012",
+    "average_bas": 0.3034,
+    "ecs": -0.3258,
+    "total_output_tokens": 52910,
+    "total_cost": 0.0055
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v2_human",
+    "study_id": "study_001",
+    "average_bas": 0.0019,
+    "ecs": 0.0462,
+    "total_output_tokens": 458607,
+    "total_cost": 0.0596
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v2_human",
+    "study_id": "study_002",
+    "average_bas": 0.0685,
+    "ecs": 0.1534,
+    "total_output_tokens": 719447,
+    "total_cost": 0.0951
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v2_human",
+    "study_id": "study_003",
+    "average_bas": 0.0042,
+    "ecs": -0.158,
+    "total_output_tokens": 255275,
+    "total_cost": 0.037
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v2_human",
+    "study_id": "study_004",
+    "average_bas": 0.0111,
+    "ecs": 0.1574,
+    "total_output_tokens": 1002600,
+    "total_cost": 0.1261
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v2_human",
+    "study_id": "study_005",
+    "average_bas": 0.0019,
+    "ecs": 0.0926,
+    "total_output_tokens": 47898,
+    "total_cost": 0.0053
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v2_human",
+    "study_id": "study_006",
+    "average_bas": 0.0766,
+    "ecs": 0.0399,
+    "total_output_tokens": 335046,
+    "total_cost": 0.0382
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v2_human",
+    "study_id": "study_007",
+    "average_bas": 0.0007,
+    "ecs": "N/A",
+    "total_output_tokens": 97694,
+    "total_cost": 0.0099
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v2_human",
+    "study_id": "study_008",
+    "average_bas": 0.0048,
+    "ecs": 0.1167,
+    "total_output_tokens": 312922,
+    "total_cost": 0.0749
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v2_human",
+    "study_id": "study_009",
+    "average_bas": 0.9369,
+    "ecs": 0.5224,
+    "total_output_tokens": 944399,
+    "total_cost": 0.1437
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v2_human",
+    "study_id": "study_010",
+    "average_bas": 0.0007,
+    "ecs": -0.5769,
+    "total_output_tokens": 141493,
+    "total_cost": 0.0284
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v2_human",
+    "study_id": "study_011",
+    "average_bas": 0.0385,
+    "ecs": -0.0631,
+    "total_output_tokens": 104978,
+    "total_cost": 0.0173
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v2_human",
+    "study_id": "study_012",
+    "average_bas": 0.2189,
+    "ecs": "N/A",
+    "total_output_tokens": 56258,
+    "total_cost": 0.0058
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_001",
+    "average_bas": 0.002,
+    "ecs": 0.0063,
+    "total_output_tokens": 463605,
+    "total_cost": 0.056
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_002",
+    "average_bas": 0.1176,
+    "ecs": 0.0555,
+    "total_output_tokens": 733194,
+    "total_cost": 0.0964
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_003",
+    "average_bas": 0.7024,
+    "ecs": 0.0288,
+    "total_output_tokens": 275212,
+    "total_cost": 0.0288
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_004",
+    "average_bas": 0.0868,
+    "ecs": 0.1445,
+    "total_output_tokens": 1125094,
+    "total_cost": 0.1373
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_005",
+    "average_bas": 0.9979,
+    "ecs": 0.0207,
+    "total_output_tokens": 57464,
+    "total_cost": 0.006
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_006",
+    "average_bas": 0.0589,
+    "ecs": 0.0916,
+    "total_output_tokens": 375274,
+    "total_cost": 0.0419
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_007",
+    "average_bas": 0.0007,
+    "ecs": "N/A",
+    "total_output_tokens": 101819,
+    "total_cost": 0.0103
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_008",
+    "average_bas": 0.7605,
+    "ecs": 0.4875,
+    "total_output_tokens": 122717,
+    "total_cost": 0.0137
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_009",
+    "average_bas": 0.9497,
+    "ecs": -0.0301,
+    "total_output_tokens": 375761,
+    "total_cost": 0.038
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_010",
+    "average_bas": 0.0024,
+    "ecs": -0.353,
+    "total_output_tokens": 81196,
+    "total_cost": 0.0084
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_011",
+    "average_bas": 0.7502,
+    "ecs": -0.098,
+    "total_output_tokens": 83950,
+    "total_cost": 0.0087
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_012",
+    "average_bas": 0.3034,
+    "ecs": -0.3258,
+    "total_output_tokens": 72340,
+    "total_cost": 0.0074
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v4_background",
+    "study_id": "study_001",
+    "average_bas": 0.0716,
+    "ecs": -0.0502,
+    "total_output_tokens": 542625,
+    "total_cost": 0.0637
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v4_background",
+    "study_id": "study_002",
+    "average_bas": 0.1106,
+    "ecs": 0.0868,
+    "total_output_tokens": 770510,
+    "total_cost": 0.1
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v4_background",
+    "study_id": "study_003",
+    "average_bas": 0.6744,
+    "ecs": 0.4091,
+    "total_output_tokens": 471148,
+    "total_cost": 0.0482
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v4_background",
+    "study_id": "study_004",
+    "average_bas": 0.0767,
+    "ecs": 0.1445,
+    "total_output_tokens": 1437776,
+    "total_cost": 0.1683
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v4_background",
+    "study_id": "study_005",
+    "average_bas": 0.9937,
+    "ecs": 0.061,
+    "total_output_tokens": 87195,
+    "total_cost": 0.0089
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v4_background",
+    "study_id": "study_006",
+    "average_bas": 0.0781,
+    "ecs": 0.2332,
+    "total_output_tokens": 499717,
+    "total_cost": 0.0544
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v4_background",
+    "study_id": "study_007",
+    "average_bas": 0.0061,
+    "ecs": "N/A",
+    "total_output_tokens": 113302,
+    "total_cost": 0.0114
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v4_background",
+    "study_id": "study_008",
+    "average_bas": 0.8422,
+    "ecs": 0.4858,
+    "total_output_tokens": 195978,
+    "total_cost": 0.021
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v4_background",
+    "study_id": "study_009",
+    "average_bas": 0.9489,
+    "ecs": 0.1437,
+    "total_output_tokens": 388032,
+    "total_cost": 0.0392
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v4_background",
+    "study_id": "study_010",
+    "average_bas": 0.0024,
+    "ecs": -0.29,
+    "total_output_tokens": 112471,
+    "total_cost": 0.0116
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v4_background",
+    "study_id": "study_011",
+    "average_bas": 0.0191,
+    "ecs": -0.0145,
+    "total_output_tokens": 117732,
+    "total_cost": 0.012
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.5",
+    "variant": "v4_background",
+    "study_id": "study_012",
+    "average_bas": 0.3746,
+    "ecs": -0.1752,
+    "total_output_tokens": 0,
+    "total_cost": 0.0
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v1_empty",
+    "study_id": "study_001",
+    "average_bas": 0.0041,
+    "ecs": 0.0005,
+    "total_output_tokens": 437425,
+    "total_cost": 0.0547
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v1_empty",
+    "study_id": "study_002",
+    "average_bas": 0.1488,
+    "ecs": 0.133,
+    "total_output_tokens": 1433796,
+    "total_cost": 0.1901
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v1_empty",
+    "study_id": "study_003",
+    "average_bas": 0.7738,
+    "ecs": 0.2794,
+    "total_output_tokens": 205217,
+    "total_cost": 0.0259
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v1_empty",
+    "study_id": "study_004",
+    "average_bas": 0.0228,
+    "ecs": 0.1525,
+    "total_output_tokens": 968973,
+    "total_cost": 0.1221
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v1_empty",
+    "study_id": "study_005",
+    "average_bas": 0.0009,
+    "ecs": 0.1046,
+    "total_output_tokens": 44410,
+    "total_cost": 0.0048
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v1_empty",
+    "study_id": "study_006",
+    "average_bas": 0.064,
+    "ecs": 0.0715,
+    "total_output_tokens": 323909,
+    "total_cost": 0.0371
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v1_empty",
+    "study_id": "study_007",
+    "average_bas": 0.0053,
+    "ecs": "N/A",
+    "total_output_tokens": 96668,
+    "total_cost": 0.0098
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v1_empty",
+    "study_id": "study_008",
+    "average_bas": 0.0002,
+    "ecs": 0.297,
+    "total_output_tokens": 345448,
+    "total_cost": 0.0859
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v1_empty",
+    "study_id": "study_009",
+    "average_bas": 0.9539,
+    "ecs": 0.476,
+    "total_output_tokens": 1085464,
+    "total_cost": 0.1667
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v1_empty",
+    "study_id": "study_010",
+    "average_bas": 0.0008,
+    "ecs": -0.6043,
+    "total_output_tokens": 145020,
+    "total_cost": 0.03
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v1_empty",
+    "study_id": "study_011",
+    "average_bas": 0.8333,
+    "ecs": 0.0047,
+    "total_output_tokens": 92578,
+    "total_cost": 0.0143
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v1_empty",
+    "study_id": "study_012",
+    "average_bas": 0.3034,
+    "ecs": -0.3258,
+    "total_output_tokens": 52912,
+    "total_cost": 0.0055
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v2_human",
+    "study_id": "study_001",
+    "average_bas": 0.002,
+    "ecs": 0.0548,
+    "total_output_tokens": 458333,
+    "total_cost": 0.0595
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v2_human",
+    "study_id": "study_002",
+    "average_bas": 0.0565,
+    "ecs": 0.0485,
+    "total_output_tokens": 1438206,
+    "total_cost": 0.1901
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v2_human",
+    "study_id": "study_003",
+    "average_bas": 0.0027,
+    "ecs": -0.1661,
+    "total_output_tokens": 255293,
+    "total_cost": 0.037
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v2_human",
+    "study_id": "study_004",
+    "average_bas": 0.0079,
+    "ecs": 0.1503,
+    "total_output_tokens": 1002211,
+    "total_cost": 0.126
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v2_human",
+    "study_id": "study_005",
+    "average_bas": 0.0332,
+    "ecs": 0.0548,
+    "total_output_tokens": 47944,
+    "total_cost": 0.0053
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v2_human",
+    "study_id": "study_006",
+    "average_bas": 0.1055,
+    "ecs": 0.0437,
+    "total_output_tokens": 335160,
+    "total_cost": 0.0382
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v2_human",
+    "study_id": "study_007",
+    "average_bas": 0.0007,
+    "ecs": "N/A",
+    "total_output_tokens": 97694,
+    "total_cost": 0.0099
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v2_human",
+    "study_id": "study_008",
+    "average_bas": 0.0109,
+    "ecs": -0.0198,
+    "total_output_tokens": 313538,
+    "total_cost": 0.0751
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v2_human",
+    "study_id": "study_009",
+    "average_bas": 0.9504,
+    "ecs": 0.3305,
+    "total_output_tokens": 969159,
+    "total_cost": 0.1488
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v2_human",
+    "study_id": "study_010",
+    "average_bas": 0.0009,
+    "ecs": -0.5941,
+    "total_output_tokens": 144744,
+    "total_cost": 0.0293
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v2_human",
+    "study_id": "study_011",
+    "average_bas": 0.0418,
+    "ecs": 0.1514,
+    "total_output_tokens": 103482,
+    "total_cost": 0.0169
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v2_human",
+    "study_id": "study_012",
+    "average_bas": 0.2806,
+    "ecs": -0.0577,
+    "total_output_tokens": 56253,
+    "total_cost": 0.0058
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_001",
+    "average_bas": 0.002,
+    "ecs": -0.0156,
+    "total_output_tokens": 463607,
+    "total_cost": 0.056
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_002",
+    "average_bas": 0.1157,
+    "ecs": 0.0243,
+    "total_output_tokens": 732186,
+    "total_cost": 0.0962
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_003",
+    "average_bas": 0.2768,
+    "ecs": 0.0232,
+    "total_output_tokens": 275249,
+    "total_cost": 0.0288
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_004",
+    "average_bas": 0.1499,
+    "ecs": 0.144,
+    "total_output_tokens": 1125124,
+    "total_cost": 0.1373
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_005",
+    "average_bas": 0.9993,
+    "ecs": 0.0216,
+    "total_output_tokens": 57437,
+    "total_cost": 0.006
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_006",
+    "average_bas": 0.0576,
+    "ecs": 0.0987,
+    "total_output_tokens": 375229,
+    "total_cost": 0.0419
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_007",
+    "average_bas": 0.0007,
+    "ecs": "N/A",
+    "total_output_tokens": 101819,
+    "total_cost": 0.0103
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_008",
+    "average_bas": 0.0345,
+    "ecs": 0.3199,
+    "total_output_tokens": 122726,
+    "total_cost": 0.0137
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_009",
+    "average_bas": 0.9419,
+    "ecs": 0.0413,
+    "total_output_tokens": 375605,
+    "total_cost": 0.038
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_010",
+    "average_bas": 0.0026,
+    "ecs": -0.2365,
+    "total_output_tokens": 162410,
+    "total_cost": 0.0169
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_011",
+    "average_bas": 0.7728,
+    "ecs": -0.0765,
+    "total_output_tokens": 83950,
+    "total_cost": 0.0087
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_012",
+    "average_bas": 0.3034,
+    "ecs": -0.3258,
+    "total_output_tokens": 72350,
+    "total_cost": 0.0074
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v4_background",
+    "study_id": "study_001",
+    "average_bas": 0.0818,
+    "ecs": -0.0919,
+    "total_output_tokens": 542602,
+    "total_cost": 0.0637
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v4_background",
+    "study_id": "study_002",
+    "average_bas": 0.109,
+    "ecs": 0.0991,
+    "total_output_tokens": 770750,
+    "total_cost": 0.1
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v4_background",
+    "study_id": "study_003",
+    "average_bas": 0.4712,
+    "ecs": 0.4329,
+    "total_output_tokens": 471151,
+    "total_cost": 0.0482
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v4_background",
+    "study_id": "study_004",
+    "average_bas": 0.069,
+    "ecs": 0.1527,
+    "total_output_tokens": 1437970,
+    "total_cost": 0.1683
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v4_background",
+    "study_id": "study_005",
+    "average_bas": 0.9971,
+    "ecs": 0.0537,
+    "total_output_tokens": 87186,
+    "total_cost": 0.0089
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v4_background",
+    "study_id": "study_006",
+    "average_bas": 0.0828,
+    "ecs": 0.2159,
+    "total_output_tokens": 499691,
+    "total_cost": 0.0544
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v4_background",
+    "study_id": "study_007",
+    "average_bas": 0.0083,
+    "ecs": "N/A",
+    "total_output_tokens": 113302,
+    "total_cost": 0.0114
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v4_background",
+    "study_id": "study_008",
+    "average_bas": 0.8971,
+    "ecs": 0.4816,
+    "total_output_tokens": 196128,
+    "total_cost": 0.021
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v4_background",
+    "study_id": "study_009",
+    "average_bas": 0.9575,
+    "ecs": 0.1265,
+    "total_output_tokens": 387913,
+    "total_cost": 0.0392
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v4_background",
+    "study_id": "study_010",
+    "average_bas": 0.0024,
+    "ecs": -0.353,
+    "total_output_tokens": 112451,
+    "total_cost": 0.0116
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v4_background",
+    "study_id": "study_011",
+    "average_bas": 0.0239,
+    "ecs": -0.0354,
+    "total_output_tokens": 117732,
+    "total_cost": 0.012
+  },
+  {
+    "model": "mistralai/mistral-small-creative-temp0.7",
+    "variant": "v4_background",
+    "study_id": "study_012",
+    "average_bas": 0.3746,
+    "ecs": -0.1752,
+    "total_output_tokens": 0,
+    "total_cost": 0.0
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v1_empty",
+    "study_id": "study_001",
+    "average_bas": 0.0044,
+    "ecs": 0.0607,
+    "total_output_tokens": 432272,
+    "total_cost": 0.053
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v1_empty",
+    "study_id": "study_002",
+    "average_bas": 0.117,
+    "ecs": 0.1957,
+    "total_output_tokens": 717131,
+    "total_cost": 0.0951
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v1_empty",
+    "study_id": "study_003",
+    "average_bas": 0.7616,
+    "ecs": 0.2271,
+    "total_output_tokens": 612265,
+    "total_cost": 0.0767
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v1_empty",
+    "study_id": "study_004",
+    "average_bas": 0.0229,
+    "ecs": 0.1605,
+    "total_output_tokens": 969092,
+    "total_cost": 0.1222
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v1_empty",
+    "study_id": "study_005",
+    "average_bas": 0.0009,
+    "ecs": 0.0883,
+    "total_output_tokens": 44440,
+    "total_cost": 0.0048
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v1_empty",
+    "study_id": "study_006",
+    "average_bas": 0.0644,
+    "ecs": 0.0705,
+    "total_output_tokens": 323949,
+    "total_cost": 0.0371
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v1_empty",
+    "study_id": "study_007",
+    "average_bas": 0.0041,
+    "ecs": "N/A",
+    "total_output_tokens": 96656,
+    "total_cost": 0.0098
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v1_empty",
+    "study_id": "study_008",
+    "average_bas": 0.0004,
+    "ecs": 0.2281,
+    "total_output_tokens": 338134,
+    "total_cost": 0.0837
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v1_empty",
+    "study_id": "study_009",
+    "average_bas": 0.9421,
+    "ecs": 0.5392,
+    "total_output_tokens": 1085323,
+    "total_cost": 0.1666
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v1_empty",
+    "study_id": "study_010",
+    "average_bas": 0.0009,
+    "ecs": -0.5914,
+    "total_output_tokens": 146322,
+    "total_cost": 0.0304
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v1_empty",
+    "study_id": "study_011",
+    "average_bas": 0.8892,
+    "ecs": -0.1629,
+    "total_output_tokens": 87053,
+    "total_cost": 0.0126
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v1_empty",
+    "study_id": "study_012",
+    "average_bas": 0.3034,
+    "ecs": -0.3258,
+    "total_output_tokens": 52912,
+    "total_cost": 0.0055
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v2_human",
+    "study_id": "study_001",
+    "average_bas": 0.0032,
+    "ecs": 0.1763,
+    "total_output_tokens": 458030,
+    "total_cost": 0.0593
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v2_human",
+    "study_id": "study_002",
+    "average_bas": 0.0942,
+    "ecs": 0.0501,
+    "total_output_tokens": 719323,
+    "total_cost": 0.0951
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v2_human",
+    "study_id": "study_003",
+    "average_bas": 0.0005,
+    "ecs": -0.262,
+    "total_output_tokens": 255476,
+    "total_cost": 0.0371
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v2_human",
+    "study_id": "study_004",
+    "average_bas": 0.0009,
+    "ecs": 0.1364,
+    "total_output_tokens": 1001160,
+    "total_cost": 0.1257
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v2_human",
+    "study_id": "study_005",
+    "average_bas": 0.0869,
+    "ecs": 0.0655,
+    "total_output_tokens": 48143,
+    "total_cost": 0.0053
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v2_human",
+    "study_id": "study_006",
+    "average_bas": 0.0646,
+    "ecs": 0.0362,
+    "total_output_tokens": 335253,
+    "total_cost": 0.0382
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v2_human",
+    "study_id": "study_007",
+    "average_bas": 0.0007,
+    "ecs": "N/A",
+    "total_output_tokens": 97694,
+    "total_cost": 0.0099
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v2_human",
+    "study_id": "study_008",
+    "average_bas": 0.0003,
+    "ecs": "N/A",
+    "total_output_tokens": 313005,
+    "total_cost": 0.0749
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v2_human",
+    "study_id": "study_009",
+    "average_bas": 0.9438,
+    "ecs": 0.3271,
+    "total_output_tokens": 950523,
+    "total_cost": 0.1447
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v2_human",
+    "study_id": "study_010",
+    "average_bas": 0.0009,
+    "ecs": -0.5979,
+    "total_output_tokens": 144718,
+    "total_cost": 0.0293
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v2_human",
+    "study_id": "study_011",
+    "average_bas": 0.0851,
+    "ecs": 0.0553,
+    "total_output_tokens": 103222,
+    "total_cost": 0.0168
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v2_human",
+    "study_id": "study_012",
+    "average_bas": 0.2367,
+    "ecs": -0.0182,
+    "total_output_tokens": 56253,
+    "total_cost": 0.0058
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_001",
+    "average_bas": 0.0019,
+    "ecs": 0.0046,
+    "total_output_tokens": 464153,
+    "total_cost": 0.056
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_002",
+    "average_bas": 0.1195,
+    "ecs": 0.0281,
+    "total_output_tokens": 732927,
+    "total_cost": 0.0963
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_003",
+    "average_bas": 0.7171,
+    "ecs": 0.0245,
+    "total_output_tokens": 275231,
+    "total_cost": 0.0288
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_004",
+    "average_bas": 0.0767,
+    "ecs": 0.1486,
+    "total_output_tokens": 1125118,
+    "total_cost": 0.1373
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_005",
+    "average_bas": 0.9984,
+    "ecs": 0.0217,
+    "total_output_tokens": 57437,
+    "total_cost": 0.006
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_006",
+    "average_bas": 0.0402,
+    "ecs": 0.1106,
+    "total_output_tokens": 375169,
+    "total_cost": 0.0419
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_007",
+    "average_bas": 0.0007,
+    "ecs": "N/A",
+    "total_output_tokens": 101819,
+    "total_cost": 0.0103
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_008",
+    "average_bas": 0.7534,
+    "ecs": 0.5447,
+    "total_output_tokens": 122648,
+    "total_cost": 0.0137
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_009",
+    "average_bas": 0.911,
+    "ecs": -0.0582,
+    "total_output_tokens": 375560,
+    "total_cost": 0.038
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_010",
+    "average_bas": 0.0024,
+    "ecs": -0.3284,
+    "total_output_tokens": 81198,
+    "total_cost": 0.0085
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_011",
+    "average_bas": 0.7928,
+    "ecs": -0.0334,
+    "total_output_tokens": 83950,
+    "total_cost": 0.0087
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_012",
+    "average_bas": 0.3034,
+    "ecs": -0.3258,
+    "total_output_tokens": 72346,
+    "total_cost": 0.0074
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v4_background",
+    "study_id": "study_001",
+    "average_bas": 0.0885,
+    "ecs": -0.0399,
+    "total_output_tokens": 542608,
+    "total_cost": 0.0637
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v4_background",
+    "study_id": "study_002",
+    "average_bas": 0.1038,
+    "ecs": 0.0224,
+    "total_output_tokens": 769879,
+    "total_cost": 0.0999
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v4_background",
+    "study_id": "study_003",
+    "average_bas": 0.7818,
+    "ecs": 0.4137,
+    "total_output_tokens": 1413415,
+    "total_cost": 0.1445
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v4_background",
+    "study_id": "study_004",
+    "average_bas": 0.0659,
+    "ecs": 0.1527,
+    "total_output_tokens": 1437664,
+    "total_cost": 0.1682
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v4_background",
+    "study_id": "study_005",
+    "average_bas": 0.9937,
+    "ecs": 0.0494,
+    "total_output_tokens": 87198,
+    "total_cost": 0.0089
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v4_background",
+    "study_id": "study_006",
+    "average_bas": 0.0841,
+    "ecs": 0.2353,
+    "total_output_tokens": 499795,
+    "total_cost": 0.0544
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v4_background",
+    "study_id": "study_007",
+    "average_bas": 0.0036,
+    "ecs": "N/A",
+    "total_output_tokens": 113302,
+    "total_cost": 0.0114
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v4_background",
+    "study_id": "study_008",
+    "average_bas": 0.8154,
+    "ecs": 0.4771,
+    "total_output_tokens": 195979,
+    "total_cost": 0.021
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v4_background",
+    "study_id": "study_009",
+    "average_bas": 0.9563,
+    "ecs": 0.1223,
+    "total_output_tokens": 388104,
+    "total_cost": 0.0392
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v4_background",
+    "study_id": "study_010",
+    "average_bas": 0.0024,
+    "ecs": -0.3284,
+    "total_output_tokens": 112431,
+    "total_cost": 0.0116
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v4_background",
+    "study_id": "study_011",
+    "average_bas": 0.042,
+    "ecs": -0.0141,
+    "total_output_tokens": 117732,
+    "total_cost": 0.012
+  },
+  {
+    "model": "mistralai/mistral-small-creative",
+    "variant": "v4_background",
+    "study_id": "study_012",
+    "average_bas": 0.3746,
+    "ecs": -0.1752,
+    "total_output_tokens": 0,
+    "total_cost": 0.0
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v1",
+    "study_id": "study_001",
+    "average_bas": 0.1205,
+    "ecs": 0.1584,
+    "total_output_tokens": 518434,
+    "total_cost": 0.1863
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v1",
+    "study_id": "study_002",
+    "average_bas": 0.0216,
+    "ecs": "N/A",
+    "total_output_tokens": 859821,
+    "total_cost": 0.3752
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v1",
+    "study_id": "study_003",
+    "average_bas": 0.0001,
+    "ecs": "N/A",
+    "total_output_tokens": 425531,
+    "total_cost": 0.2792
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v1",
+    "study_id": "study_004",
+    "average_bas": 0.003,
+    "ecs": "N/A",
+    "total_output_tokens": 2296125,
+    "total_cost": 0.9051
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v1",
+    "study_id": "study_005",
+    "average_bas": 0.9984,
+    "ecs": 0.1076,
+    "total_output_tokens": 82190,
+    "total_cost": 0.0457
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v1",
+    "study_id": "study_006",
+    "average_bas": 0.1555,
+    "ecs": "N/A",
+    "total_output_tokens": 477384,
+    "total_cost": 0.1591
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v1",
+    "study_id": "study_007",
+    "average_bas": 0.1346,
+    "ecs": "N/A",
+    "total_output_tokens": 125600,
+    "total_cost": 0.036
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v1",
+    "study_id": "study_008",
+    "average_bas": 0.0343,
+    "ecs": "N/A",
+    "total_output_tokens": 231864,
+    "total_cost": 0.1118
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v1",
+    "study_id": "study_009",
+    "average_bas": 0.7217,
+    "ecs": 0.4905,
+    "total_output_tokens": 937304,
+    "total_cost": 0.5293
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v1",
+    "study_id": "study_010",
+    "average_bas": 0.25,
+    "ecs": "N/A",
+    "total_output_tokens": 107798,
+    "total_cost": 0.0648
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v1",
+    "study_id": "study_011",
+    "average_bas": 0.3349,
+    "ecs": "N/A",
+    "total_output_tokens": 116290,
+    "total_cost": 0.0689
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v1",
+    "study_id": "study_012",
+    "average_bas": 0.3581,
+    "ecs": -0.0579,
+    "total_output_tokens": 63670,
+    "total_cost": 0.0362
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v2",
+    "study_id": "study_001",
+    "average_bas": 0.0265,
+    "ecs": "N/A",
+    "total_output_tokens": 594523,
+    "total_cost": 0.2246
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v2",
+    "study_id": "study_002",
+    "average_bas": 0.0216,
+    "ecs": "N/A",
+    "total_output_tokens": 961811,
+    "total_cost": 0.4026
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v2",
+    "study_id": "study_003",
+    "average_bas": 0.0001,
+    "ecs": "N/A",
+    "total_output_tokens": 445520,
+    "total_cost": 0.3114
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v2",
+    "study_id": "study_004",
+    "average_bas": 0.003,
+    "ecs": "N/A",
+    "total_output_tokens": 1331991,
+    "total_cost": 0.5053
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v2",
+    "study_id": "study_005",
+    "average_bas": 0.9984,
+    "ecs": 0.0823,
+    "total_output_tokens": 93603,
+    "total_cost": 0.0649
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v2",
+    "study_id": "study_006",
+    "average_bas": 0.1555,
+    "ecs": "N/A",
+    "total_output_tokens": 401287,
+    "total_cost": 0.1443
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v2",
+    "study_id": "study_007",
+    "average_bas": 0.1346,
+    "ecs": "N/A",
+    "total_output_tokens": 118923,
+    "total_cost": 0.0548
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v2",
+    "study_id": "study_008",
+    "average_bas": 0.0343,
+    "ecs": "N/A",
+    "total_output_tokens": 207847,
+    "total_cost": 0.1114
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v2",
+    "study_id": "study_009",
+    "average_bas": 0.7376,
+    "ecs": 0.5525,
+    "total_output_tokens": 841936,
+    "total_cost": 0.4005
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v2",
+    "study_id": "study_010",
+    "average_bas": 0.25,
+    "ecs": "N/A",
+    "total_output_tokens": 131876,
+    "total_cost": 0.0667
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v2",
+    "study_id": "study_011",
+    "average_bas": 0.3349,
+    "ecs": "N/A",
+    "total_output_tokens": 126040,
+    "total_cost": 0.069
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v2",
+    "study_id": "study_012",
+    "average_bas": 0.3589,
+    "ecs": 0.5547,
+    "total_output_tokens": 64473,
+    "total_cost": 0.0481
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v3",
+    "study_id": "study_001",
+    "average_bas": 0.0265,
+    "ecs": "N/A",
+    "total_output_tokens": 624911,
+    "total_cost": 0.2374
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v3",
+    "study_id": "study_002",
+    "average_bas": 0.0216,
+    "ecs": "N/A",
+    "total_output_tokens": 948211,
+    "total_cost": 0.3949
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v3",
+    "study_id": "study_003",
+    "average_bas": 0.0001,
+    "ecs": "N/A",
+    "total_output_tokens": 447986,
+    "total_cost": 0.1475
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v3",
+    "study_id": "study_004",
+    "average_bas": 0.003,
+    "ecs": "N/A",
+    "total_output_tokens": 1373980,
+    "total_cost": 0.5057
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v3",
+    "study_id": "study_005",
+    "average_bas": 0.9984,
+    "ecs": 0.0894,
+    "total_output_tokens": 82684,
+    "total_cost": 0.0237
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v3",
+    "study_id": "study_006",
+    "average_bas": 0.1555,
+    "ecs": "N/A",
+    "total_output_tokens": 524189,
+    "total_cost": 0.177
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v3",
+    "study_id": "study_007",
+    "average_bas": 0.1346,
+    "ecs": "N/A",
+    "total_output_tokens": 122852,
+    "total_cost": 0.0314
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v3",
+    "study_id": "study_008",
+    "average_bas": 0.0343,
+    "ecs": "N/A",
+    "total_output_tokens": 184286,
+    "total_cost": 0.0682
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v3",
+    "study_id": "study_009",
+    "average_bas": 0.7046,
+    "ecs": 0.4928,
+    "total_output_tokens": 716597,
+    "total_cost": 0.3039
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v3",
+    "study_id": "study_010",
+    "average_bas": 0.25,
+    "ecs": "N/A",
+    "total_output_tokens": 94750,
+    "total_cost": 0.0247
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v3",
+    "study_id": "study_011",
+    "average_bas": 0.3349,
+    "ecs": "N/A",
+    "total_output_tokens": 113466,
+    "total_cost": 0.0389
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v3",
+    "study_id": "study_012",
+    "average_bas": 0.4386,
+    "ecs": 0.5233,
+    "total_output_tokens": 57744,
+    "total_cost": 0.02
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v4",
+    "study_id": "study_001",
+    "average_bas": 0.0265,
+    "ecs": "N/A",
+    "total_output_tokens": 605519,
+    "total_cost": 0.1687
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v4",
+    "study_id": "study_002",
+    "average_bas": 0.0216,
+    "ecs": "N/A",
+    "total_output_tokens": 844575,
+    "total_cost": 0.2988
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v4",
+    "study_id": "study_003",
+    "average_bas": 0.0001,
+    "ecs": "N/A",
+    "total_output_tokens": 541019,
+    "total_cost": 0.1398
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v4",
+    "study_id": "study_004",
+    "average_bas": 0.003,
+    "ecs": "N/A",
+    "total_output_tokens": 1841984,
+    "total_cost": 0.57
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v4",
+    "study_id": "study_005",
+    "average_bas": 0.9984,
+    "ecs": 0.0653,
+    "total_output_tokens": 99931,
+    "total_cost": 0.0229
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v4",
+    "study_id": "study_006",
+    "average_bas": 0.1555,
+    "ecs": "N/A",
+    "total_output_tokens": 570023,
+    "total_cost": 0.1628
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v4",
+    "study_id": "study_007",
+    "average_bas": 0.1346,
+    "ecs": "N/A",
+    "total_output_tokens": 123335,
+    "total_cost": 0.0337
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v4",
+    "study_id": "study_008",
+    "average_bas": 0.0343,
+    "ecs": "N/A",
+    "total_output_tokens": 231102,
+    "total_cost": 0.0772
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v4",
+    "study_id": "study_009",
+    "average_bas": 0.7383,
+    "ecs": 0.4443,
+    "total_output_tokens": 496786,
+    "total_cost": 0.2223
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v4",
+    "study_id": "study_010",
+    "average_bas": 0.25,
+    "ecs": "N/A",
+    "total_output_tokens": 124053,
+    "total_cost": 0.0356
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v4",
+    "study_id": "study_011",
+    "average_bas": 0.3349,
+    "ecs": "N/A",
+    "total_output_tokens": 125600,
+    "total_cost": 0.0332
+  },
+  {
+    "model": "mixed/models",
+    "variant": "v4",
+    "study_id": "study_012",
+    "average_bas": 0.4509,
+    "ecs": -0.1747,
+    "total_output_tokens": 0,
+    "total_cost": 0.0
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v1_empty",
+    "study_id": "study_001",
+    "average_bas": 0.1229,
+    "ecs": -0.0184,
+    "total_output_tokens": 1431175,
+    "total_cost": 0.4412
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v1_empty",
+    "study_id": "study_002",
+    "average_bas": 0.7973,
+    "ecs": 0.122,
+    "total_output_tokens": 1838897,
+    "total_cost": 0.5145
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v1_empty",
+    "study_id": "study_003",
+    "average_bas": 0.3997,
+    "ecs": 0.3121,
+    "total_output_tokens": 1446132,
+    "total_cost": 0.5117
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v1_empty",
+    "study_id": "study_004",
+    "average_bas": 0.009,
+    "ecs": 0.2034,
+    "total_output_tokens": 9633390,
+    "total_cost": 3.5479
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v1_empty",
+    "study_id": "study_005",
+    "average_bas": 0.9995,
+    "ecs": 0.094,
+    "total_output_tokens": 282106,
+    "total_cost": 0.0967
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v1_empty",
+    "study_id": "study_006",
+    "average_bas": 0.1892,
+    "ecs": 0.069,
+    "total_output_tokens": 1133668,
+    "total_cost": 0.3487
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v1_empty",
+    "study_id": "study_007",
+    "average_bas": 0.0484,
+    "ecs": -0.7028,
+    "total_output_tokens": 240840,
+    "total_cost": 0.0635
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v1_empty",
+    "study_id": "study_008",
+    "average_bas": 0.0032,
+    "ecs": -0.1084,
+    "total_output_tokens": 718564,
+    "total_cost": 0.2546
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v1_empty",
+    "study_id": "study_009",
+    "average_bas": 0.8364,
+    "ecs": 0.6949,
+    "total_output_tokens": 2111888,
+    "total_cost": 0.5141
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v1_empty",
+    "study_id": "study_010",
+    "average_bas": 0.1986,
+    "ecs": 0.0691,
+    "total_output_tokens": 67626,
+    "total_cost": 0.0043
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v1_empty",
+    "study_id": "study_011",
+    "average_bas": 0.318,
+    "ecs": -0.2232,
+    "total_output_tokens": 330295,
+    "total_cost": 0.1076
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v1_empty",
+    "study_id": "study_012",
+    "average_bas": 0.3494,
+    "ecs": 0.2678,
+    "total_output_tokens": 283770,
+    "total_cost": 0.0997
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v2_human",
+    "study_id": "study_001",
+    "average_bas": 0.2298,
+    "ecs": -0.2818,
+    "total_output_tokens": 1448154,
+    "total_cost": 0.4459
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v2_human",
+    "study_id": "study_002",
+    "average_bas": 0.6986,
+    "ecs": 0.1578,
+    "total_output_tokens": 1836135,
+    "total_cost": 0.5124
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v2_human",
+    "study_id": "study_003",
+    "average_bas": 0.1119,
+    "ecs": 0.3105,
+    "total_output_tokens": 1429228,
+    "total_cost": 0.4994
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v2_human",
+    "study_id": "study_004",
+    "average_bas": 0.8619,
+    "ecs": 0.1565,
+    "total_output_tokens": 1861768,
+    "total_cost": 0.1845
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v2_human",
+    "study_id": "study_005",
+    "average_bas": 0.9995,
+    "ecs": 0.1266,
+    "total_output_tokens": 275783,
+    "total_cost": 0.0933
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v2_human",
+    "study_id": "study_006",
+    "average_bas": 0.0186,
+    "ecs": 0.1068,
+    "total_output_tokens": 643902,
+    "total_cost": 0.0478
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v2_human",
+    "study_id": "study_007",
+    "average_bas": 0.3992,
+    "ecs": -0.6795,
+    "total_output_tokens": 230657,
+    "total_cost": 0.0587
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v2_human",
+    "study_id": "study_008",
+    "average_bas": 0.064,
+    "ecs": 0.0435,
+    "total_output_tokens": 541621,
+    "total_cost": 0.1829
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v2_human",
+    "study_id": "study_009",
+    "average_bas": 0.8021,
+    "ecs": 0.7566,
+    "total_output_tokens": 2140213,
+    "total_cost": 0.5241
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v2_human",
+    "study_id": "study_010",
+    "average_bas": 0.0234,
+    "ecs": -0.1564,
+    "total_output_tokens": 352210,
+    "total_cost": 0.1162
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v2_human",
+    "study_id": "study_011",
+    "average_bas": 0.025,
+    "ecs": -0.0873,
+    "total_output_tokens": 293952,
+    "total_cost": 0.0922
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v2_human",
+    "study_id": "study_012",
+    "average_bas": 0.291,
+    "ecs": -0.3602,
+    "total_output_tokens": 346492,
+    "total_cost": 0.1223
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_001",
+    "average_bas": 0.5829,
+    "ecs": -0.282,
+    "total_output_tokens": 1343240,
+    "total_cost": 0.3984
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_002",
+    "average_bas": 0.5449,
+    "ecs": 0.0682,
+    "total_output_tokens": 1821671,
+    "total_cost": 0.5191
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_003",
+    "average_bas": 0.3997,
+    "ecs": 0.3427,
+    "total_output_tokens": 1228311,
+    "total_cost": 0.3969
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_004",
+    "average_bas": 0.2812,
+    "ecs": 0.01,
+    "total_output_tokens": 1049766,
+    "total_cost": 0.0977
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_005",
+    "average_bas": 0.9995,
+    "ecs": 0.1074,
+    "total_output_tokens": 216408,
+    "total_cost": 0.0664
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_006",
+    "average_bas": 0.1922,
+    "ecs": 0.0732,
+    "total_output_tokens": 1102430,
+    "total_cost": 0.3194
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_007",
+    "average_bas": 0.3497,
+    "ecs": -0.6447,
+    "total_output_tokens": 225649,
+    "total_cost": 0.0567
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_008",
+    "average_bas": 0.0582,
+    "ecs": 0.1662,
+    "total_output_tokens": 469872,
+    "total_cost": 0.1467
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_009",
+    "average_bas": 0.8251,
+    "ecs": 0.7185,
+    "total_output_tokens": 1859678,
+    "total_cost": 0.4197
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_010",
+    "average_bas": 0.2435,
+    "ecs": 0.0953,
+    "total_output_tokens": 79600,
+    "total_cost": 0.0049
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_011",
+    "average_bas": 0.0315,
+    "ecs": -0.0596,
+    "total_output_tokens": 292383,
+    "total_cost": 0.0876
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_012",
+    "average_bas": 0.3019,
+    "ecs": -0.2543,
+    "total_output_tokens": 299184,
+    "total_cost": 0.1
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v4_background",
+    "study_id": "study_001",
+    "average_bas": 0.1426,
+    "ecs": -0.5097,
+    "total_output_tokens": 1002350,
+    "total_cost": 0.0786
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v4_background",
+    "study_id": "study_002",
+    "average_bas": 0.9856,
+    "ecs": 0.2463,
+    "total_output_tokens": 712712,
+    "total_cost": 0.0694
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v4_background",
+    "study_id": "study_003",
+    "average_bas": 0.6036,
+    "ecs": 0.2215,
+    "total_output_tokens": 464017,
+    "total_cost": 0.0278
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v4_background",
+    "study_id": "study_004",
+    "average_bas": 0.8108,
+    "ecs": 0.1085,
+    "total_output_tokens": 1355108,
+    "total_cost": 0.1132
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v4_background",
+    "study_id": "study_005",
+    "average_bas": 0.9995,
+    "ecs": 0.1298,
+    "total_output_tokens": 87308,
+    "total_cost": 0.0052
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v4_background",
+    "study_id": "study_006",
+    "average_bas": 0.0334,
+    "ecs": 0.1205,
+    "total_output_tokens": 480365,
+    "total_cost": 0.0317
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v4_background",
+    "study_id": "study_007",
+    "average_bas": 0.0034,
+    "ecs": "N/A",
+    "total_output_tokens": 107001,
+    "total_cost": 0.0058
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v4_background",
+    "study_id": "study_008",
+    "average_bas": 0.1806,
+    "ecs": -0.196,
+    "total_output_tokens": 388458,
+    "total_cost": 0.0262
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v4_background",
+    "study_id": "study_009",
+    "average_bas": 0.947,
+    "ecs": 0.6423,
+    "total_output_tokens": 373712,
+    "total_cost": 0.0208
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v4_background",
+    "study_id": "study_010",
+    "average_bas": 0.3531,
+    "ecs": -0.0408,
+    "total_output_tokens": 109603,
+    "total_cost": 0.0064
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v4_background",
+    "study_id": "study_011",
+    "average_bas": 0.0697,
+    "ecs": 0.0006,
+    "total_output_tokens": 116629,
+    "total_cost": 0.0067
+  },
+  {
+    "model": "openai/gpt-5-nano",
+    "variant": "v4_background",
+    "study_id": "study_012",
+    "average_bas": 0.3746,
+    "ecs": -0.1752,
+    "total_output_tokens": 0,
+    "total_cost": 0.0
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v1_empty",
+    "study_id": "study_001",
+    "average_bas": 0.5469,
+    "ecs": 0.2098,
+    "total_output_tokens": 598599,
+    "total_cost": 0.1284
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v1_empty",
+    "study_id": "study_002",
+    "average_bas": 0.2546,
+    "ecs": -0.1948,
+    "total_output_tokens": 1039424,
+    "total_cost": 0.3002
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v1_empty",
+    "study_id": "study_003",
+    "average_bas": 0.2186,
+    "ecs": 0.0395,
+    "total_output_tokens": 421805,
+    "total_cost": 0.1175
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v1_empty",
+    "study_id": "study_004",
+    "average_bas": 0.0199,
+    "ecs": 0.1011,
+    "total_output_tokens": 2053196,
+    "total_cost": 0.7244
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v1_empty",
+    "study_id": "study_005",
+    "average_bas": 0.9995,
+    "ecs": 0.0418,
+    "total_output_tokens": 88109,
+    "total_cost": 0.0195
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v1_empty",
+    "study_id": "study_006",
+    "average_bas": 0.1673,
+    "ecs": 0.0646,
+    "total_output_tokens": 573282,
+    "total_cost": 0.1671
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v1_empty",
+    "study_id": "study_007",
+    "average_bas": 0.1667,
+    "ecs": -0.7426,
+    "total_output_tokens": 127515,
+    "total_cost": 0.0296
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v1_empty",
+    "study_id": "study_008",
+    "average_bas": 0.0293,
+    "ecs": 0.2674,
+    "total_output_tokens": 202859,
+    "total_cost": 0.029
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v1_empty",
+    "study_id": "study_009",
+    "average_bas": 0.8635,
+    "ecs": 0.6251,
+    "total_output_tokens": 625593,
+    "total_cost": 0.0985
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v1_empty",
+    "study_id": "study_010",
+    "average_bas": 0.0072,
+    "ecs": -0.4255,
+    "total_output_tokens": 105972,
+    "total_cost": 0.0232
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v1_empty",
+    "study_id": "study_011",
+    "average_bas": 0.0292,
+    "ecs": -0.1593,
+    "total_output_tokens": 108260,
+    "total_cost": 0.0228
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v1_empty",
+    "study_id": "study_012",
+    "average_bas": 0.121,
+    "ecs": 0.0095,
+    "total_output_tokens": 105114,
+    "total_cost": 0.0337
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v2_human",
+    "study_id": "study_001",
+    "average_bas": 0.6808,
+    "ecs": 0.2998,
+    "total_output_tokens": 595737,
+    "total_cost": 0.1314
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v2_human",
+    "study_id": "study_002",
+    "average_bas": 0.3329,
+    "ecs": -0.0599,
+    "total_output_tokens": 1014445,
+    "total_cost": 0.3066
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v2_human",
+    "study_id": "study_003",
+    "average_bas": 0.5212,
+    "ecs": 0.2448,
+    "total_output_tokens": 422463,
+    "total_cost": 0.1051
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v2_human",
+    "study_id": "study_004",
+    "average_bas": 0.0262,
+    "ecs": 0.0577,
+    "total_output_tokens": 2068336,
+    "total_cost": 0.7108
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v2_human",
+    "study_id": "study_005",
+    "average_bas": 0.9995,
+    "ecs": 0.0384,
+    "total_output_tokens": 91007,
+    "total_cost": 0.0201
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v2_human",
+    "study_id": "study_006",
+    "average_bas": 0.1548,
+    "ecs": 0.0572,
+    "total_output_tokens": 579772,
+    "total_cost": 0.1645
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v2_human",
+    "study_id": "study_007",
+    "average_bas": 0.1607,
+    "ecs": -0.7469,
+    "total_output_tokens": 132188,
+    "total_cost": 0.0323
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v2_human",
+    "study_id": "study_008",
+    "average_bas": 0.117,
+    "ecs": 0.2685,
+    "total_output_tokens": 206686,
+    "total_cost": 0.0283
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v2_human",
+    "study_id": "study_009",
+    "average_bas": 0.8516,
+    "ecs": 0.5211,
+    "total_output_tokens": 690084,
+    "total_cost": 0.1075
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v2_human",
+    "study_id": "study_010",
+    "average_bas": 0.0011,
+    "ecs": -0.3922,
+    "total_output_tokens": 103875,
+    "total_cost": 0.0208
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v2_human",
+    "study_id": "study_011",
+    "average_bas": 0.0072,
+    "ecs": -0.05,
+    "total_output_tokens": 112423,
+    "total_cost": 0.0241
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v2_human",
+    "study_id": "study_012",
+    "average_bas": 0.1376,
+    "ecs": -0.0179,
+    "total_output_tokens": 113759,
+    "total_cost": 0.0347
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_001",
+    "average_bas": 0.4613,
+    "ecs": 0.1784,
+    "total_output_tokens": 646979,
+    "total_cost": 0.1614
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_002",
+    "average_bas": 0.2414,
+    "ecs": -0.1543,
+    "total_output_tokens": 1028708,
+    "total_cost": 0.3325
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_003",
+    "average_bas": 0.852,
+    "ecs": 0.2489,
+    "total_output_tokens": 487795,
+    "total_cost": 0.1171
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_004",
+    "average_bas": 0.0193,
+    "ecs": 0.0734,
+    "total_output_tokens": 2060836,
+    "total_cost": 0.7159
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_005",
+    "average_bas": 0.9995,
+    "ecs": 0.0364,
+    "total_output_tokens": 95734,
+    "total_cost": 0.0243
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_006",
+    "average_bas": 0.1211,
+    "ecs": 0.0639,
+    "total_output_tokens": 594024,
+    "total_cost": 0.1636
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_007",
+    "average_bas": 0.4938,
+    "ecs": -0.5735,
+    "total_output_tokens": 133873,
+    "total_cost": 0.0349
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_008",
+    "average_bas": 0.0533,
+    "ecs": 0.4457,
+    "total_output_tokens": 211961,
+    "total_cost": 0.0253
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_009",
+    "average_bas": 0.9022,
+    "ecs": 0.6081,
+    "total_output_tokens": 612532,
+    "total_cost": 0.0894
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_010",
+    "average_bas": 0.0016,
+    "ecs": -0.4677,
+    "total_output_tokens": 112834,
+    "total_cost": 0.023
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_011",
+    "average_bas": 0.1302,
+    "ecs": 0.3222,
+    "total_output_tokens": 117742,
+    "total_cost": 0.0239
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_012",
+    "average_bas": 0.1914,
+    "ecs": -0.1132,
+    "total_output_tokens": 118277,
+    "total_cost": 0.0295
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v4_background",
+    "study_id": "study_001",
+    "average_bas": 0.3437,
+    "ecs": -0.1325,
+    "total_output_tokens": 781492,
+    "total_cost": 0.0982
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v4_background",
+    "study_id": "study_002",
+    "average_bas": 0.282,
+    "ecs": -0.0114,
+    "total_output_tokens": 1085048,
+    "total_cost": 0.1451
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v4_background",
+    "study_id": "study_003",
+    "average_bas": 0.9438,
+    "ecs": 0.3014,
+    "total_output_tokens": 1418118,
+    "total_cost": 0.1481
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v4_background",
+    "study_id": "study_004",
+    "average_bas": 0.0242,
+    "ecs": 0.0622,
+    "total_output_tokens": 2548756,
+    "total_cost": 0.3679
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v4_background",
+    "study_id": "study_005",
+    "average_bas": 0.9995,
+    "ecs": 0.0398,
+    "total_output_tokens": 124626,
+    "total_cost": 0.0121
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v4_background",
+    "study_id": "study_006",
+    "average_bas": 0.1347,
+    "ecs": 0.1018,
+    "total_output_tokens": 731283,
+    "total_cost": 0.0827
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v4_background",
+    "study_id": "study_007",
+    "average_bas": 0.0079,
+    "ecs": -0.5441,
+    "total_output_tokens": 158467,
+    "total_cost": 0.0176
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v4_background",
+    "study_id": "study_008",
+    "average_bas": 0.0383,
+    "ecs": 0.3866,
+    "total_output_tokens": 307242,
+    "total_cost": 0.035
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v4_background",
+    "study_id": "study_009",
+    "average_bas": 0.8447,
+    "ecs": 0.4454,
+    "total_output_tokens": 692640,
+    "total_cost": 0.0577
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v4_background",
+    "study_id": "study_010",
+    "average_bas": 0.0024,
+    "ecs": -0.3631,
+    "total_output_tokens": 150613,
+    "total_cost": 0.0141
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v4_background",
+    "study_id": "study_011",
+    "average_bas": 0.0496,
+    "ecs": -0.0228,
+    "total_output_tokens": 151624,
+    "total_cost": 0.0126
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "variant": "v4_background",
+    "study_id": "study_012",
+    "average_bas": 0.3746,
+    "ecs": -0.1752,
+    "total_output_tokens": 0,
+    "total_cost": 0.0
+  },
+  {
+    "model": "openai/gpt-oss-20b",
+    "variant": "v4_background",
+    "study_id": "study_001",
+    "average_bas": 0.4766,
+    "ecs": 0.1233,
+    "total_output_tokens": 838712,
+    "total_cost": 0.0776
+  },
+  {
+    "model": "openai/gpt-oss-20b",
+    "variant": "v4_background",
+    "study_id": "study_002",
+    "average_bas": 0.4805,
+    "ecs": 0.2408,
+    "total_output_tokens": 1093714,
+    "total_cost": 0.1063
+  },
+  {
+    "model": "openai/gpt-oss-20b",
+    "variant": "v4_background",
+    "study_id": "study_003",
+    "average_bas": 0.5846,
+    "ecs": 0.5282,
+    "total_output_tokens": 759747,
+    "total_cost": 0.0605
+  },
+  {
+    "model": "openai/gpt-oss-20b",
+    "variant": "v4_background",
+    "study_id": "study_004",
+    "average_bas": 0.4589,
+    "ecs": 0.1941,
+    "total_output_tokens": 6273768,
+    "total_cost": 0.725
+  },
+  {
+    "model": "openai/gpt-oss-20b",
+    "variant": "v4_background",
+    "study_id": "study_005",
+    "average_bas": 0.9995,
+    "ecs": 0.0916,
+    "total_output_tokens": 127414,
+    "total_cost": 0.0096
+  },
+  {
+    "model": "openai/gpt-oss-20b",
+    "variant": "v4_background",
+    "study_id": "study_006",
+    "average_bas": 0.1372,
+    "ecs": 0.1148,
+    "total_output_tokens": 762053,
+    "total_cost": 0.0679
+  },
+  {
+    "model": "openai/gpt-oss-20b",
+    "variant": "v4_background",
+    "study_id": "study_007",
+    "average_bas": 0.0348,
+    "ecs": -0.7167,
+    "total_output_tokens": 172015,
+    "total_cost": 0.017
+  },
+  {
+    "model": "openai/gpt-oss-20b",
+    "variant": "v4_background",
+    "study_id": "study_008",
+    "average_bas": 0.0923,
+    "ecs": 0.3573,
+    "total_output_tokens": 350555,
+    "total_cost": 0.0328
+  },
+  {
+    "model": "openai/gpt-oss-20b",
+    "variant": "v4_background",
+    "study_id": "study_009",
+    "average_bas": 0.9509,
+    "ecs": 0.4005,
+    "total_output_tokens": 881331,
+    "total_cost": 0.0869
+  },
+  {
+    "model": "openai/gpt-oss-20b",
+    "variant": "v4_background",
+    "study_id": "study_010",
+    "average_bas": 0.0013,
+    "ecs": -0.224,
+    "total_output_tokens": 206988,
+    "total_cost": 0.0303
+  },
+  {
+    "model": "openai/gpt-oss-20b",
+    "variant": "v4_background",
+    "study_id": "study_011",
+    "average_bas": 0.0601,
+    "ecs": -0.1265,
+    "total_output_tokens": 162647,
+    "total_cost": 0.0182
+  },
+  {
+    "model": "openai/gpt-oss-20b",
+    "variant": "v4_background",
+    "study_id": "study_012",
+    "average_bas": 0.3746,
+    "ecs": -0.1752,
+    "total_output_tokens": 0,
+    "total_cost": 0.0
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v1_empty",
+    "study_id": "study_001",
+    "average_bas": 0.5453,
+    "ecs": 0.0384,
+    "total_output_tokens": 425602,
+    "total_cost": 0.1085
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v1_empty",
+    "study_id": "study_002",
+    "average_bas": 0.0562,
+    "ecs": -0.1413,
+    "total_output_tokens": 711679,
+    "total_cost": 0.2179
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v1_empty",
+    "study_id": "study_003",
+    "average_bas": 0.6047,
+    "ecs": 0.3924,
+    "total_output_tokens": 195347,
+    "total_cost": 0.0325
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v1_empty",
+    "study_id": "study_004",
+    "average_bas": 0.0188,
+    "ecs": 0.0824,
+    "total_output_tokens": 967163,
+    "total_cost": 0.27
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v1_empty",
+    "study_id": "study_005",
+    "average_bas": 0.9995,
+    "ecs": "N/A",
+    "total_output_tokens": 45723,
+    "total_cost": 0.0076
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v1_empty",
+    "study_id": "study_006",
+    "average_bas": 0.181,
+    "ecs": 0.1385,
+    "total_output_tokens": 316331,
+    "total_cost": 0.0627
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v1_empty",
+    "study_id": "study_007",
+    "average_bas": 0.0007,
+    "ecs": "N/A",
+    "total_output_tokens": 96116,
+    "total_cost": 0.013
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v1_empty",
+    "study_id": "study_008",
+    "average_bas": 0.0774,
+    "ecs": -0.3513,
+    "total_output_tokens": 95788,
+    "total_cost": 0.0209
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v1_empty",
+    "study_id": "study_009",
+    "average_bas": 0.8839,
+    "ecs": 0.0502,
+    "total_output_tokens": 338251,
+    "total_cost": 0.0467
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v1_empty",
+    "study_id": "study_010",
+    "average_bas": 0.4086,
+    "ecs": 0.0652,
+    "total_output_tokens": 69038,
+    "total_cost": 0.0104
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v1_empty",
+    "study_id": "study_011",
+    "average_bas": 0.2837,
+    "ecs": 0.0,
+    "total_output_tokens": 69782,
+    "total_cost": 0.0104
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v1_empty",
+    "study_id": "study_012",
+    "average_bas": 0.1253,
+    "ecs": 0.8635,
+    "total_output_tokens": 55601,
+    "total_cost": 0.0084
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v2_human",
+    "study_id": "study_001",
+    "average_bas": 0.4539,
+    "ecs": 0.0324,
+    "total_output_tokens": 431610,
+    "total_cost": 0.1093
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v2_human",
+    "study_id": "study_002",
+    "average_bas": 0.0625,
+    "ecs": -0.058,
+    "total_output_tokens": 715337,
+    "total_cost": 0.2273
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v2_human",
+    "study_id": "study_003",
+    "average_bas": 0.1975,
+    "ecs": 0.4951,
+    "total_output_tokens": 210776,
+    "total_cost": 0.0338
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v2_human",
+    "study_id": "study_004",
+    "average_bas": 0.2659,
+    "ecs": 0.079,
+    "total_output_tokens": 991898,
+    "total_cost": 0.2721
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v2_human",
+    "study_id": "study_005",
+    "average_bas": 0.9995,
+    "ecs": "N/A",
+    "total_output_tokens": 47834,
+    "total_cost": 0.0076
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v2_human",
+    "study_id": "study_006",
+    "average_bas": 0.21,
+    "ecs": 0.1573,
+    "total_output_tokens": 324257,
+    "total_cost": 0.0625
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v2_human",
+    "study_id": "study_007",
+    "average_bas": 0.0007,
+    "ecs": "N/A",
+    "total_output_tokens": 97018,
+    "total_cost": 0.0129
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v2_human",
+    "study_id": "study_008",
+    "average_bas": 0.0026,
+    "ecs": -0.1452,
+    "total_output_tokens": 101518,
+    "total_cost": 0.0214
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v2_human",
+    "study_id": "study_009",
+    "average_bas": 0.9583,
+    "ecs": 0.2076,
+    "total_output_tokens": 351823,
+    "total_cost": 0.0495
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v2_human",
+    "study_id": "study_010",
+    "average_bas": 0.4086,
+    "ecs": 0.0652,
+    "total_output_tokens": 71418,
+    "total_cost": 0.0108
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v2_human",
+    "study_id": "study_011",
+    "average_bas": 0.2837,
+    "ecs": 0.0,
+    "total_output_tokens": 72917,
+    "total_cost": 0.0114
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v2_human",
+    "study_id": "study_012",
+    "average_bas": 0.1262,
+    "ecs": 0.9648,
+    "total_output_tokens": 58427,
+    "total_cost": 0.0086
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_001",
+    "average_bas": 0.0378,
+    "ecs": 0.0034,
+    "total_output_tokens": 457364,
+    "total_cost": 0.1104
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_002",
+    "average_bas": 0.5115,
+    "ecs": 0.0779,
+    "total_output_tokens": 729322,
+    "total_cost": 0.2215
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_003",
+    "average_bas": 0.2693,
+    "ecs": 0.4383,
+    "total_output_tokens": 281167,
+    "total_cost": 0.0425
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_004",
+    "average_bas": 0.2095,
+    "ecs": 0.075,
+    "total_output_tokens": 1114841,
+    "total_cost": 0.2861
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_005",
+    "average_bas": 0.9995,
+    "ecs": "N/A",
+    "total_output_tokens": 58434,
+    "total_cost": 0.009
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_006",
+    "average_bas": 0.104,
+    "ecs": 0.0885,
+    "total_output_tokens": 365735,
+    "total_cost": 0.0672
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_007",
+    "average_bas": 0.0007,
+    "ecs": "N/A",
+    "total_output_tokens": 101146,
+    "total_cost": 0.0138
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_008",
+    "average_bas": 0.1909,
+    "ecs": 0.5637,
+    "total_output_tokens": 125140,
+    "total_cost": 0.0241
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_009",
+    "average_bas": 0.9583,
+    "ecs": 0.1776,
+    "total_output_tokens": 383564,
+    "total_cost": 0.0514
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_010",
+    "average_bas": 0.4086,
+    "ecs": 0.0377,
+    "total_output_tokens": 81625,
+    "total_cost": 0.0119
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_011",
+    "average_bas": 0.2837,
+    "ecs": 0.0,
+    "total_output_tokens": 84723,
+    "total_cost": 0.0127
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_012",
+    "average_bas": 0.2383,
+    "ecs": -0.0169,
+    "total_output_tokens": 60805,
+    "total_cost": 0.0085
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v4_background",
+    "study_id": "study_001",
+    "average_bas": 0.1346,
+    "ecs": 0.0864,
+    "total_output_tokens": 533831,
+    "total_cost": 0.1175
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v4_background",
+    "study_id": "study_002",
+    "average_bas": 0.4875,
+    "ecs": 0.0896,
+    "total_output_tokens": 765569,
+    "total_cost": 0.2191
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v4_background",
+    "study_id": "study_003",
+    "average_bas": 0.608,
+    "ecs": 0.0952,
+    "total_output_tokens": 472458,
+    "total_cost": 0.0654
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v4_background",
+    "study_id": "study_004",
+    "average_bas": 0.2095,
+    "ecs": 0.0749,
+    "total_output_tokens": 1418912,
+    "total_cost": 0.3236
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v4_background",
+    "study_id": "study_005",
+    "average_bas": 0.9995,
+    "ecs": "N/A",
+    "total_output_tokens": 87583,
+    "total_cost": 0.0124
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v4_background",
+    "study_id": "study_006",
+    "average_bas": 0.073,
+    "ecs": 0.1785,
+    "total_output_tokens": 485068,
+    "total_cost": 0.0835
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v4_background",
+    "study_id": "study_007",
+    "average_bas": 0.0007,
+    "ecs": "N/A",
+    "total_output_tokens": 112270,
+    "total_cost": 0.0141
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v4_background",
+    "study_id": "study_008",
+    "average_bas": 0.8479,
+    "ecs": 0.5304,
+    "total_output_tokens": 195682,
+    "total_cost": 0.0328
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v4_background",
+    "study_id": "study_009",
+    "average_bas": 0.9654,
+    "ecs": 0.3761,
+    "total_output_tokens": 395183,
+    "total_cost": 0.0519
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v4_background",
+    "study_id": "study_010",
+    "average_bas": 0.2205,
+    "ecs": -0.114,
+    "total_output_tokens": 111610,
+    "total_cost": 0.0159
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v4_background",
+    "study_id": "study_011",
+    "average_bas": 0.2837,
+    "ecs": 0.0,
+    "total_output_tokens": 117429,
+    "total_cost": 0.0166
+  },
+  {
+    "model": "qwen/qwen3-next-80b-a3b-instruct",
+    "variant": "v4_background",
+    "study_id": "study_012",
+    "average_bas": 0.3746,
+    "ecs": -0.1752,
+    "total_output_tokens": 0,
+    "total_cost": 0.0
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v1_empty",
+    "study_id": "study_001",
+    "average_bas": 0.4586,
+    "ecs": 0.0345,
+    "total_output_tokens": 942504,
+    "total_cost": 0.0868
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v1_empty",
+    "study_id": "study_002",
+    "average_bas": 0.2079,
+    "ecs": 0.0567,
+    "total_output_tokens": 742818,
+    "total_cost": 0.1086
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v1_empty",
+    "study_id": "study_003",
+    "average_bas": 0.0677,
+    "ecs": -0.1683,
+    "total_output_tokens": 400360,
+    "total_cost": 0.0262
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v1_empty",
+    "study_id": "study_004",
+    "average_bas": 0.006,
+    "ecs": -0.0127,
+    "total_output_tokens": 1247039,
+    "total_cost": 0.1251
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v1_empty",
+    "study_id": "study_005",
+    "average_bas": 0.9995,
+    "ecs": "N/A",
+    "total_output_tokens": 166960,
+    "total_cost": 0.0175
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v1_empty",
+    "study_id": "study_006",
+    "average_bas": 0.0693,
+    "ecs": 0.0501,
+    "total_output_tokens": 434366,
+    "total_cost": 0.0331
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v1_empty",
+    "study_id": "study_007",
+    "average_bas": 0.7869,
+    "ecs": "N/A",
+    "total_output_tokens": 102462,
+    "total_cost": 0.0105
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v1_empty",
+    "study_id": "study_008",
+    "average_bas": 0.0299,
+    "ecs": 0.1298,
+    "total_output_tokens": 166662,
+    "total_cost": 0.0126
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v1_empty",
+    "study_id": "study_009",
+    "average_bas": 0.9653,
+    "ecs": 0.5119,
+    "total_output_tokens": 803261,
+    "total_cost": 0.1401
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v1_empty",
+    "study_id": "study_010",
+    "average_bas": 0.0024,
+    "ecs": -0.2472,
+    "total_output_tokens": 97600,
+    "total_cost": 0.0061
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v1_empty",
+    "study_id": "study_011",
+    "average_bas": 0.0035,
+    "ecs": 0.4454,
+    "total_output_tokens": 104694,
+    "total_cost": 0.0066
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v1_empty",
+    "study_id": "study_012",
+    "average_bas": 0.2263,
+    "ecs": -0.0826,
+    "total_output_tokens": 82545,
+    "total_cost": 0.0051
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v2_human",
+    "study_id": "study_001",
+    "average_bas": 0.0675,
+    "ecs": 0.127,
+    "total_output_tokens": 475721,
+    "total_cost": 0.0453
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v2_human",
+    "study_id": "study_002",
+    "average_bas": 0.2323,
+    "ecs": 0.0431,
+    "total_output_tokens": 738041,
+    "total_cost": 0.1038
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v2_human",
+    "study_id": "study_003",
+    "average_bas": 0.0877,
+    "ecs": -0.2158,
+    "total_output_tokens": 824388,
+    "total_cost": 0.0499
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v2_human",
+    "study_id": "study_004",
+    "average_bas": 0.0848,
+    "ecs": -0.0252,
+    "total_output_tokens": 1261878,
+    "total_cost": 0.1211
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v2_human",
+    "study_id": "study_005",
+    "average_bas": 0.9995,
+    "ecs": -0.0093,
+    "total_output_tokens": 84431,
+    "total_cost": 0.008
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v2_human",
+    "study_id": "study_006",
+    "average_bas": 0.0416,
+    "ecs": 0.0492,
+    "total_output_tokens": 444765,
+    "total_cost": 0.0336
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v2_human",
+    "study_id": "study_007",
+    "average_bas": 0.8239,
+    "ecs": -0.0904,
+    "total_output_tokens": 103362,
+    "total_cost": 0.0104
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v2_human",
+    "study_id": "study_008",
+    "average_bas": 0.004,
+    "ecs": 0.1807,
+    "total_output_tokens": 172272,
+    "total_cost": 0.0122
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v2_human",
+    "study_id": "study_009",
+    "average_bas": 0.9567,
+    "ecs": 0.5264,
+    "total_output_tokens": 627947,
+    "total_cost": 0.0909
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v2_human",
+    "study_id": "study_010",
+    "average_bas": 0.0024,
+    "ecs": -0.2472,
+    "total_output_tokens": 100000,
+    "total_cost": 0.0068
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v2_human",
+    "study_id": "study_011",
+    "average_bas": 0.0912,
+    "ecs": 0.0553,
+    "total_output_tokens": 214912,
+    "total_cost": 0.0135
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v2_human",
+    "study_id": "study_012",
+    "average_bas": 0.2021,
+    "ecs": -0.3258,
+    "total_output_tokens": 92528,
+    "total_cost": 0.0055
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_001",
+    "average_bas": 0.1158,
+    "ecs": 0.075,
+    "total_output_tokens": 996188,
+    "total_cost": 0.1332
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_002",
+    "average_bas": 0.2176,
+    "ecs": 0.0466,
+    "total_output_tokens": 723444,
+    "total_cost": 0.1523
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_003",
+    "average_bas": 0.944,
+    "ecs": -0.1706,
+    "total_output_tokens": 475862,
+    "total_cost": 0.0331
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_004",
+    "average_bas": 0.0291,
+    "ecs": -0.0195,
+    "total_output_tokens": 2758480,
+    "total_cost": 0.3186
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_005",
+    "average_bas": 0.9995,
+    "ecs": "N/A",
+    "total_output_tokens": 87920,
+    "total_cost": 0.0111
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_006",
+    "average_bas": 0.0809,
+    "ecs": 0.0565,
+    "total_output_tokens": 479862,
+    "total_cost": 0.0498
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_007",
+    "average_bas": 0.6298,
+    "ecs": -0.5371,
+    "total_output_tokens": 214374,
+    "total_cost": 0.0381
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_008",
+    "average_bas": 0.718,
+    "ecs": 0.3181,
+    "total_output_tokens": 388536,
+    "total_cost": 0.0349
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_009",
+    "average_bas": 0.942,
+    "ecs": 0.42,
+    "total_output_tokens": 462012,
+    "total_cost": 0.0346
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_010",
+    "average_bas": 0.0024,
+    "ecs": -0.255,
+    "total_output_tokens": 109402,
+    "total_cost": 0.01
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_011",
+    "average_bas": 0.0035,
+    "ecs": 0.0415,
+    "total_output_tokens": 237452,
+    "total_cost": 0.0247
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v3_human_plus_demo",
+    "study_id": "study_012",
+    "average_bas": 0.2381,
+    "ecs": 0.0575,
+    "total_output_tokens": 103680,
+    "total_cost": 0.0094
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v4_background",
+    "study_id": "study_001",
+    "average_bas": 0.247,
+    "ecs": 0.2059,
+    "total_output_tokens": 574473,
+    "total_cost": 0.1121
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v4_background",
+    "study_id": "study_002",
+    "average_bas": 0.2244,
+    "ecs": 0.0465,
+    "total_output_tokens": 763734,
+    "total_cost": 0.1771
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v4_background",
+    "study_id": "study_003",
+    "average_bas": 0.9635,
+    "ecs": -0.2196,
+    "total_output_tokens": 666759,
+    "total_cost": 0.098
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v4_background",
+    "study_id": "study_004",
+    "average_bas": 0.0847,
+    "ecs": -0.0257,
+    "total_output_tokens": 3363308,
+    "total_cost": 0.6208
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v4_background",
+    "study_id": "study_005",
+    "average_bas": 0.9995,
+    "ecs": 0.0242,
+    "total_output_tokens": 116550,
+    "total_cost": 0.0181
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v4_background",
+    "study_id": "study_006",
+    "average_bas": 0.0597,
+    "ecs": 0.0565,
+    "total_output_tokens": 599767,
+    "total_cost": 0.1028
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v4_background",
+    "study_id": "study_007",
+    "average_bas": 0.0493,
+    "ecs": -0.6165,
+    "total_output_tokens": 118272,
+    "total_cost": 0.0218
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v4_background",
+    "study_id": "study_008",
+    "average_bas": 0.0514,
+    "ecs": 0.8955,
+    "total_output_tokens": 264656,
+    "total_cost": 0.0421
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v4_background",
+    "study_id": "study_009",
+    "average_bas": 0.9501,
+    "ecs": 0.2737,
+    "total_output_tokens": 474780,
+    "total_cost": 0.0336
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v4_background",
+    "study_id": "study_010",
+    "average_bas": 0.0024,
+    "ecs": -0.255,
+    "total_output_tokens": 139302,
+    "total_cost": 0.0228
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v4_background",
+    "study_id": "study_011",
+    "average_bas": 0.0032,
+    "ecs": -0.5451,
+    "total_output_tokens": 151282,
+    "total_cost": 0.0243
+  },
+  {
+    "model": "x/ai-grok-4.1-fast-none",
+    "variant": "v4_background",
+    "study_id": "study_012",
+    "average_bas": 0.3746,
+    "ecs": -0.1752,
+    "total_output_tokens": 0,
+    "total_cost": 0.0
+  },
+  {
+    "model": "x/ai-grok-4.1-fast",
+    "variant": "v1_empty",
+    "study_id": "study_001",
+    "average_bas": 0.0,
+    "ecs": "N/A",
+    "total_output_tokens": 0,
+    "total_cost": 0.0
   }
 ]
