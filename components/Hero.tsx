@@ -11,10 +11,10 @@ export default function Hero() {
             </div>
           </div>
           <h1 className="max-w-lg text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl font-serif">
-            HS-Bench: <span className="text-blue-600">Replicating</span> Human Psych Studies with LLMs
+            HumanStudy-Bench: Towards AI <span className="text-blue-600">Agent Design</span> for Participant Simulation
           </h1>
-          <p className="mt-6 text-lg leading-8 text-gray-600 sans">
-            A semi-automated pipeline for converting psychological research papers into replicable benchmarks, evaluating whether AI models exhibit human-like cognitive biases.
+          <p className="mt-6 text-lg leading-8 text-gray-600">
+            A reusable platform converting human study research papers into standardized testbed for AI agents to replay human-subject experiments end-to-end, evaluating agent alignment with human participants at the level of scientific inference.
           </p>
           <div className="mt-10 flex items-center gap-x-6">
             <Link
@@ -39,19 +39,23 @@ export default function Hero() {
             <pre className="overflow-x-auto">
 {`{
   "study_id": "ross_1977_false_consensus",
-  "pipeline": {
-    "extraction": {
-        "source": "pdf",
-        "method": "agentic_parser"
+  "agent_specification": {
+    "base_model": "claude-haiku-4.5",
+    "variant": "A4",
+    "demographics": {
+      "age": 25,
+      "gender": "non-binary"
     },
-    "simulation": {
-        "participants": 100,
-        "demographics": "matched_population"
-    },
-    "evaluation": {
-        "metric": "correlation_coefficient",
-        "ground_truth": "human_data_v1"
-    }
+    "backstory": "contextualized"
+  },
+  "execution": {
+    "participants": 100,
+    "conditions": ["control", "treatment"],
+    "trials": 10
+  },
+  "evaluation": {
+    "metrics": ["PAS", "ECS"],
+    "ground_truth": "human_data_v1"
   }
 }`}
             </pre>

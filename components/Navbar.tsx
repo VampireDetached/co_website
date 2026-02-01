@@ -16,7 +16,7 @@ export default function Navbar() {
           <div className="flex">
             <Link href="/" className="flex flex-shrink-0 items-center font-bold text-xl text-black no-underline hover:no-underline group">
                <span className="mr-2 text-2xl group-hover:animate-pulse">🧬</span>
-               <span className="font-serif tracking-tight">HS-Bench</span>
+               <span className="font-serif tracking-tight">HumanStudy-Bench</span>
             </Link>
           </div>
           <div className="hidden sm:ml-6 sm:flex sm:space-x-8">

@@ -16,8 +16,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "HS-Bench: Human Psych Studies with LLMs",
-  description: "A benchmark for evaluating LLMs on human psychological studies.",
+  title: "HumanStudy-Bench: Towards AI Agent Design for Participant Simulation",
+  description: "A reusable platform for replaying human-subject experiments end-to-end, evaluating agent design alignment with human ground-truth outcomes at the level of scientific inference.",
 };
 
 export default function RootLayout({
