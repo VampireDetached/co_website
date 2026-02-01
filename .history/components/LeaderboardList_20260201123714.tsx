@@ -207,35 +207,31 @@ export default function LeaderboardList({ rawData }: { rawData: RawLeaderboardEn
                           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                             {row.raw_data.sort((a,b) => a.study_id.localeCompare(b.study_id)).map(studyData => (
                                 <div key={studyData.study_id} className="bg-white p-3 rounded shadow-sm border border-gray-200">
-                                    <h4 className="border-b pb-2 mb-2">
-                                        <div className="flex justify-between items-baseline">
-                                            <span className="font-bold text-xs uppercase text-gray-500">{studyData.study_id}</span>
-                                        </div>
-                                        <div className="text-sm font-medium text-gray-900 leading-tight pt-1" title={studyData.title}>
-                                            {studyData.title || 'Untitled Study'}
+                                    <h4 className="font-semibold text-xs uppercase text-gray-500 mb-2 border-b pb-1 flex justify-between">
+                                        {studyData.study_id}
+                                        <div className="flex gap-3">
+                                            {studyData.ecs !== undefined && (
+                                                <span className="text-gray-900">ECS: {studyData.ecs}</span>
+                                            )}
+                                            <span className={studyData.average_bas > 0.7 ? "text-green-600" : "text-gray-900"}>
+                                                PAS: {(studyData.average_bas * 100).toFixed(1)}%
+                                            </span>
                                         </div>
                                     </h4>
-                                    
-                                    <div className="grid grid-cols-2 gap-x-4 gap-y-2 text-xs">
-                                        <div className="text-gray-500">ECS</div>
-                                        <div className="text-right font-mono text-gray-900">
-                                            {typeof studyData.ecs === 'number' ? studyData.ecs.toPrecision(4) : studyData.ecs || 'N/A'}
-                                        </div>
-                                        
-                                        <div className="text-gray-500">PAS</div>
-                                        <div className={`text-right font-mono ${studyData.average_bas > 0.8 ? "text-green-600" : "text-gray-900"}`}>
-                                            {studyData.average_bas.toPrecision(4)}
-                                        </div>
-
-                                        <div className="text-gray-500">Cost</div>
-                                        <div className="text-right font-mono text-gray-500">
-                                            ${studyData.total_cost.toPrecision(4)}
-                                        </div>
-
-                                        <div className="text-gray-500">Tokens</div>
-                                        <div className="text-right font-mono text-gray-500">
-                                            {formatInteger(studyData.total_output_tokens)}
-                                        </div>
+                                    <div className="space-y-1">
+                                        {studyData.findings_breakdown && Object.entries(studyData.findings_breakdown).map(([finding, val]) => (
+                                            <div key={finding} className="flex items-center text-xs">
+                                                <span className="w-8 text-gray-400">{finding}</span>
+                                                <div className="flex-1 h-1.5 bg-gray-100 rounded-full mx-2">
+                                                    <div className="h-1.5 bg-blue-500 rounded-full" style={{width: `${val * 100}%`}}></div>
+                                                </div>
+                                                <span className="w-8 text-right tabular-nums">{(val * 100).toFixed(0)}</span>
+                                            </div>
+                                        ))}
+                                    </div>
+                                    <div className="mt-2 pt-2 border-t border-gray-50 flex justify-between text-[10px] text-gray-400">
+                                        <span>C: {formatCost(studyData.total_cost)}</span>
+                                        <span>T: {formatInteger(studyData.total_output_tokens)}</span>
                                     </div>
                                 </div>
                             ))}
