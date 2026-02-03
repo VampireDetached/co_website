@@ -26,6 +26,62 @@ const datasets = [
     tags: ["Cognitive Psychology", "Medium"],
     phenomenon: "Representativeness heuristic",
      color: "bg-orange-50 text-orange-700 border-orange-200"
+  },
+  {
+    title: "Intentional Action",
+    authors: "Knobe, 2003",
+    tags: ["Experimental Philosophy", "Easy"],
+    phenomenon: "Knobe effect",
+    color: "bg-red-50 text-red-700 border-red-200"
+  },
+  {
+    title: "Forming Impressions",
+    authors: "Asch, 1946",
+    tags: ["Social Psychology", "Medium"],
+    phenomenon: "Primacy effect",
+    color: "bg-indigo-50 text-indigo-700 border-indigo-200"
+  },
+  {
+    title: "Social Categorization",
+    authors: "Billig & Tajfel, 1973",
+    tags: ["Social Psychology", "Hard"],
+    phenomenon: "Minimal group paradigm",
+     color: "bg-pink-50 text-pink-700 border-pink-200"
+  },
+  {
+    title: "Pluralistic Ignorance",
+    authors: "Prentice & Miller, 1993",
+    tags: ["Social Psychology", "Medium"],
+    phenomenon: "Pluralistic ignorance",
+     color: "bg-teal-50 text-teal-700 border-teal-200"
+  },
+  {
+    title: "Guessing Games",
+    authors: "Nagel, 1995",
+    tags: ["Behavioral Economics", "Hard"],
+    phenomenon: "Keynesian beauty contest",
+     color: "bg-cyan-50 text-cyan-700 border-cyan-200"
+  },
+  {
+    title: "Thinking through Uncertainty",
+    authors: "Shafir & Tversky, 1992",
+    tags: ["Cognitive Psychology", "Medium"],
+    phenomenon: "Disjunction effect",
+     color: "bg-yellow-50 text-yellow-700 border-yellow-200"
+  },
+  {
+    title: "Fairness in Bargaining",
+    authors: "Forsythe et al., 1994",
+    tags: ["Behavioral Economics", "Easy"],
+    phenomenon: "Dictator game giving",
+     color: "bg-rose-50 text-rose-700 border-rose-200"
+  },
+  {
+    title: "Trust and Reciprocity",
+    authors: "Berg et al., 1995",
+    tags: ["Behavioral Economics", "Medium"],
+    phenomenon: "Trust game",
+     color: "bg-sky-50 text-sky-700 border-sky-200"
   }
 ];
 
