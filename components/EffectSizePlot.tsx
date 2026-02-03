@@ -209,7 +209,7 @@ export default function EffectSizePlot() {
       : []),
   ];
 
-  const shapes: Plotly.Shape[] = [
+  const shapes: Partial<Plotly.Shape>[] = [
     { type: "line", x0: xMin, x1: xMax, y0: xMin, y1: xMax, line: { color: "#999", width: 1.5, dash: "solid" } },
     { type: "line", x0: 0, x1: 0, y0: yMin, y1: yMax, line: { color: "#999", width: 1, dash: "dot" } },
     { type: "line", x0: xMin, x1: xMax, y0: 0, y1: 0, line: { color: "#999", width: 1, dash: "dot" } },
