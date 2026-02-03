@@ -218,23 +218,21 @@ export default function EffectSizePlot() {
   const layout: Partial<Plotly.Layout> = {
     title: { text: "Gemini 3 Flash: Human vs Agent Effect Size", font: { size: 14 }, xref: "paper", x: 0.5 },
     xaxis: { 
-      title: AXIS_HUMAN, 
+      title: { text: AXIS_HUMAN, font: { size: 12 } }, 
       range: [xMin, xMax], 
       constrain: "domain", 
       fixedrange: true, 
-      titlefont: { size: 12 }, 
       tickfont: { size: 10 },
       automargin: true,
       gridcolor: '#f3f4f6',
       zerolinecolor: '#9ca3af'
     },
     yaxis: { 
-      title: AXIS_AGENT, 
+      title: { text: AXIS_AGENT, font: { size: 12 } }, 
       range: [yMin, yMax], 
       scaleanchor: "x", 
       scaleratio: 1, 
       fixedrange: true, 
-      titlefont: { size: 12 }, 
       tickfont: { size: 10 },
       automargin: true,
       gridcolor: '#f3f4f6',
