@@ -23,7 +23,7 @@ export default function Hero() {
             >
               View Leaderboard
             </Link>
-            <a href="#" className="text-sm font-semibold leading-6 text-gray-900 flex items-center">
+            <a href="https://arxiv.org/abs/2602.00685" target="_blank" rel="noopener noreferrer" className="text-sm font-semibold leading-6 text-gray-900 flex items-center">
               Read the Paper <span aria-hidden="true" className="ml-1">→</span>
             </a>
           </div>
