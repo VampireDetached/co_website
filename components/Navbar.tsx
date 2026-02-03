@@ -14,8 +14,7 @@ export default function Navbar() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 justify-between items-center">
           <div className="flex">
-            <Link href="/" className="flex flex-shrink-0 items-center font-bold text-xl text-black no-underline hover:no-underline group">
-               <span className="mr-2 text-2xl group-hover:animate-pulse">🧬</span>
+            <Link href="/" className="flex flex-shrink-0 items-center font-bold text-xl text-black no-underline hover:no-underline">
                <span className="font-serif tracking-tight">HumanStudy-Bench</span>
             </Link>
           </div>
