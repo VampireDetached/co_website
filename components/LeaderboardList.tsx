@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from 'react';
+import React, { useState, useMemo } from 'react';
 
 type RawLeaderboardEntry = {
   model: string;
@@ -149,8 +149,8 @@ export default function LeaderboardList({ rawData }: { rawData: RawLeaderboardEn
           </thead>
           <tbody className="divide-y divide-gray-200 bg-white">
             {filteredData.map((row, index) => (
-              <>
-              <tr key={row.id} className="hover:bg-gray-50 cursor-pointer" onClick={() => toggleExpand(row.id)}>
+              <React.Fragment key={row.id}>
+              <tr className="hover:bg-gray-50 cursor-pointer" onClick={() => toggleExpand(row.id)}>
                 <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm text-center font-medium text-gray-900 sm:pl-6">
                   {index + 1}
                 </td>
@@ -205,8 +205,26 @@ export default function LeaderboardList({ rawData }: { rawData: RawLeaderboardEn
                   <tr className="bg-gray-50">
                       <td colSpan={8} className="p-4 sm:px-6">
                           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                            {row.raw_data.sort((a,b) => a.study_id.localeCompare(b.study_id)).map(studyData => (
-                                <div key={studyData.study_id} className="bg-white p-3 rounded shadow-sm border border-gray-200">
+                            {row.raw_data.sort((a,b) => a.study_id.localeCompare(b.study_id)).map(studyData => {
+                                const findingsStr = studyData.findings_breakdown 
+                                    ? Object.entries(studyData.findings_breakdown)
+                                        .map(([k, v]) => `${k} (${v})`)
+                                        .join(', ')
+                                    : '';
+                                return (
+                                <div 
+                                    key={studyData.study_id} 
+                                    className="bg-white p-3 rounded shadow-sm border border-gray-200 group relative"
+                                >
+                                    <div className="absolute inset-0 z-10 opacity-0 group-hover:opacity-100 bg-black/80 text-white p-3 text-xs rounded transition-opacity pointer-events-none flex flex-col justify-center">
+                                        <div className="font-bold mb-1">{studyData.study_id}</div>
+                                        <div className="mb-2 line-clamp-2">{studyData.title}</div>
+                                        {findingsStr && (
+                                            <div className="border-t border-white/20 pt-1">
+                                                <span className="opacity-70">Findings:</span> {findingsStr}
+                                            </div>
+                                        )}
+                                    </div>
                                     <h4 className="border-b pb-2 mb-2">
                                         <div className="flex justify-between items-baseline">
                                             <span className="font-bold text-xs uppercase text-gray-500">{studyData.study_id}</span>
@@ -238,12 +256,13 @@ export default function LeaderboardList({ rawData }: { rawData: RawLeaderboardEn
                                         </div>
                                     </div>
                                 </div>
-                            ))}
+                                );
+                            })}
                           </div>
                       </td>
                   </tr>
               )}
-              </>
+              </React.Fragment>
             ))}
           </tbody>
         </table>

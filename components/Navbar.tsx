@@ -2,6 +2,7 @@ import Link from "next/link";
 
 const navLinks = [
   { name: "Overview", href: "#overview", icon: false },
+  { name: "Effect Sizes", href: "#effects", icon: false },
   { name: "Paper", href: "#", icon: true },
   { name: "GitHub", href: "https://github.com/XuanL17/HS_bench", icon: true},
   { name: "Dataset", href: "#dataset", icon: false },

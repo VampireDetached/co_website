@@ -18,6 +18,15 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
+### Refreshing the effect-size plot data
+
+The interactive Human vs Agent effect-size scatter on the homepage loads data from `public/data/effects/gemini_flash_v4_effect_data.json`. To update it from the HS_bench repo:
+
+1. From the **HS_bench** repo root: `python scripts/plot_single_fig3_effects.py --export-data /path/to/co_website/public/data/effects/gemini_flash_v4_effect_data.json`
+2. Or export to a file in the plot package, then copy that file into `co_website/public/data/effects/`.
+
+Rebuild/redeploy the site so the new JSON is served.
+
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 ## Learn More

@@ -1,9 +1,10 @@
 import Link from "next/link";
+import EffectSizePlot from "@/components/EffectSizePlot";
 
 export default function Hero() {
   return (
     <div className="relative isolate pt-14 px-6 lg:px-8 border-b border-gray-100 bg-white">
-      <div className="mx-auto max-w-6xl py-16 sm:py-24 lg:flex lg:items-center lg:gap-x-10 lg:py-32">
+      <div className="mx-auto max-w-7xl py-16 sm:py-24 lg:flex lg:items-start lg:gap-x-10 lg:py-32">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:flex-auto">
           <div className="mb-8 flex justify-start">
             <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
@@ -26,6 +27,13 @@ export default function Hero() {
             <a href="#" className="text-sm font-semibold leading-6 text-gray-900 flex items-center">
               Read the Paper <span aria-hidden="true" className="ml-1">→</span>
             </a>
+          </div>
+        </div>
+        <div className="mt-16 sm:mt-24 lg:mt-0 lg:flex-shrink-0 lg:w-1/2">
+          <div className="bg-white rounded-2xl shadow-xl ring-1 ring-gray-200 p-2 h-[600px] flex flex-col">
+            <div className="flex-grow min-h-0">
+              <EffectSizePlot />
+            </div>
           </div>
         </div>
       </div>
