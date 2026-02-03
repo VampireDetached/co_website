@@ -3,7 +3,7 @@ import Link from "next/link";
 const navLinks = [
   { name: "Overview", href: "#overview", icon: false },
   { name: "Paper", href: "https://arxiv.org/abs/2602.00685", icon: true },
-  { name: "GitHub", href: "https://github.com/XuanL17/HS_bench", icon: true},
+  { name: "GitHub", href: "https://github.com/XuanL17/HumanStudy-Bench", icon: true},
   { name: "Dataset", href: "#dataset", icon: false },
   { name: "Leaderboard", href: "#leaderboard", icon: false },
 ];
